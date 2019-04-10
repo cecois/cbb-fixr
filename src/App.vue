@@ -33,7 +33,9 @@ export default {
   height: 100%;
   position: relative;
   top: 20%;
+  z-index: -1;
 }
+
 #app {
   height: 20%;
   top: 0;

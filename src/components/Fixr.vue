@@ -1,110 +1,69 @@
 <template>
   <div class="">
-    <!--     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <level>
-          <level-item class="">
-            <span class="navbar-item" v-for="project in projects">
-              {{ msg }}
-            </span>
-          </level-item>
-          <level-item class="">
-            {{ active.carto.type }}:{{ active.carto.cartodb_id }}
-          </level-item>
-        </level>
-      </div>
-    </nav> -->
-
-    <nav id="fxr-level-nav-top" class="level">
-      <!-- Left side -->
-      <div class="level-left">
-        <div class="level-item">
-          <span class="navbar-item" v-for="project in projects">
-            {{ msg }}
-          </span>
-        </div>
-        <div class="level-item">
-          <div class="field has-addons"></div>
+    <nav id="fxr-console" class="breadcrumb is-right" aria-label="breadcrumbs">
+      <ul>
+        <li v-for="msg in console.msgs">{{msg}}</li>
+      </ul>
+    </nav>
+    <nav class="level" id="fxr-level-nav-top">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">incoming</p>
+          <input style="" v-on:keyup.enter="jeakod" v-model="incoming" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="lk" />
         </div>
       </div>
-
-      <!-- Right side -->
-      <div class="level-right has-text-right">
-        <p class="level-item">
-          <span v-if="active.carto">
-            <!-- <strong>{{ active.carto.type }}:{{ active.carto.cartodb_id }}</strong -->
-            {{ active.carto.cartodb_id }}
-          </span>
-        </p>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">trns</p>
+          <input style="" v-model="OBJ.properties.anno" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="" />
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">fixed type</p>
+          <p class="title"><span v-if="active.type">{{active.type}}</span><span v-else>&nbsp;</span></p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">fixed id</p>
+          <p class="title"><span v-if="active.id">{{active.id}}</span><span v-else>&nbsp;</span></p>
+        </div>
       </div>
     </nav>
-
-    <nav class="navbar">
-      <div class="field navbar-item">
-        <div class="control has-icons-left has-icons-right">
-          <input
-            v-on:keyup.enter="jeakod"
-            v-model="incoming"
-            class="input is-large"
-            type="text"
-            placeholder=""
-          />
+    <nav class="level" id="fxr-level-nav-top">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">name</p>
+          <input style="" v-model="OBJ.properties.name" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="lk" />
         </div>
       </div>
-      <!-- /field -->
-
-      <div class="field navbar-item">
-        <input
-          class="input is-large"
-          v-model="OBJ.properties.name"
-          placeholder="name"
-        />
-        <input
-          class="input is-large"
-          v-model="OBJ.properties.anno"
-          placeholder="anno"
-        />
-        <span v-on:click="taketh" class="icon is-right">
-          <i class="fas fa-3x fa-play-circle bt fxr-bt"></i>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">anno</p>
+          <input style="" v-model="OBJ.properties.anno" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="" />
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">result type</p>
+          <p class="title"><span v-if="OBJ.geometry.type">{{OBJ.geometry.type}}</span><span v-else>&nbsp;</span></p>
+        </div>
+      </div>
+    </nav>
+    <section class="">
+      <span v-on:click="taketh" class="icon is-right fxr-bt
+">
+          <i class="fas fa-3x fa-play-circle bt "></i>
         </span>
-      </div>
-
-      <div v-model="OBJ" class="navbar-item">
-        <table class="table is-fullwidth">
-          <tr>
-            <pre>{{ OBJ.properties.name }}</pre>
-          </tr>
-          <tr>
-            <pre>{{ OBJ.properties.anno }}</pre>
-          </tr>
-        </table>
-      </div>
-
-      <div class="modal" v-bind:class="{ 'is-active': modalClass }">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-          <pre>{{ result }}</pre>
-        </div>
-        <button
-          class="modal-close is-large"
-          aria-label="close"
-          @click="modalClass = false"
-        ></button>
-      </div>
-    </nav>
+    </section>
     <div class="columns">
       <div id="missings-list">
         <ul>
           <!-- <li v-for="missing in missings">{{ missing.instance }}</li> -->
           <li v-for="missing in missings">
             <div v-for="gitem in missing">
-              {{ gitem.instance }} (<span
-                class="fxr-trigger-activator"
-                :id="gitem._id"
-                :data-target-id="gitem.carto.cartodb_id"
-                :data-target-type="gitem.carto.type"
-                @click="setActive"
-                >{{ gitem.group_key }}</span
+              {{ gitem.instance }} (<span class="fxr-trigger-activator" :id="gitem._id" :data-target-id="gitem.carto.cartodb_id" :data-target-type="gitem.carto.type" @click="setActive">{{ gitem.group_key }}</span
               >)
             </div>
           </li>
@@ -112,6 +71,15 @@
       </div>
     </div>
     <!-- /columns -->
+
+    <div class="modal" v-bind:class="{ 'is-active': modalClass }">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <pre>{{ result }}</pre>
+        </div>
+        <button class="modal-close is-large" aria-label="close" @click="modalClass = false"></button>
+      </div>
+
   </div>
 </template>
 
@@ -123,14 +91,15 @@ export default {
     this.msg = mess.toUpperCase();
   },
   mounted: function() {
+    this.console.msgs.push("mounted")
     this.missings = this.getMissings();
   },
   data() {
     return {
       missings: null,
+      console:{msgs:[]},
       modalClass: false,
       result: null,
-      msg: "This is yr stupid FIXR",
       active: { id: null, type: null },
       OBJ: {
         type: "Feature",
@@ -143,13 +112,13 @@ export default {
           anno: null,
           confidence: null,
           scnotes: "nominatim via milleria geocoder",
-          created_at: "2018-01-17T21:42:38Z",
-          updated_at: "2018-01-17T21:42:38Z",
+          created_at: "2019-04-10T21:42:38Z",
+          updated_at: "2019-04-10T21:42:38Z",
           cartodb_id: null
         }
       },
       incoming: null,
-      projects: [{ nom: "CBB", active: "is-active" }]
+      project: { shorthand: "CbBFiXR"}
     };
   },
   methods: {
@@ -163,11 +132,6 @@ export default {
       // console.log("o:", o);
       this.active = o[0];
 
-      // this.active = {
-      //   id: e.target.attributes["data-target-id"],
-      //   type: e.target.attributes["data-target-type"],
-      //   _id: e.target.attributes.id
-      // };
     },
     jeakod: function() {
       $(event.target.parentElement).addClass("is-loading");
@@ -201,9 +165,6 @@ export default {
       }); //.get
     }, //jeakod
     getMissings: function() {
-      // var el = $(event.target)
-      // $(el).addClass("has-text-danger")
-      // var self = this;
 
       $.ajax({
         type: "GET",
@@ -216,6 +177,7 @@ export default {
             o.group_key = mi.carto.type + ":" + mi.carto.cartodb_id;
             return o;
           });
+          this.console.msgs.push("found "+data.length+" missings")
           let missingsGroups = this.$_.groupBy(missingsMap, "group_key");
           this.missings = this.$_.sortBy(
             missingsGroups,
@@ -231,6 +193,58 @@ export default {
         });
     },
     taketh: function() {
+      var el = $(event.target);
+      $(el).addClass("has-text-danger");
+
+      $.ajax({
+        type: "POST",
+        url: "http://localhost:8080/geocode/submit/cbb",
+        data: this.OBJ,
+        dataType: "json",
+        beforeSend: (el)=>{
+          $(".bt").addClass("has-text-danger");
+        },
+        success: (data)=>{
+          var pat = null;
+          switch (data.response[0].geometry.type.toLowerCase()) {
+            case "point":
+              pat = "point";
+              break;
+            case "polygon":
+              pat = "poly";
+              break;
+            case "multipolygon":
+              pat = "poly";
+              break;
+            case "linestring":
+              pat = "line";
+              break;
+            case "multilinestring":
+              pat = "line";
+              break;
+            default:
+              pat = null;
+              break;
+          }
+
+          var paste =
+            '"location_type": "' +
+            pat +
+            '","location_id": "' +
+            data.response[0].properties.cartodb_id +
+            '",';
+          this.result = paste;
+
+          this.modalClass = true;
+        }
+      })
+        .fail((err, el) => {
+          $(el).removeClass("has-text-danger");
+        })
+        .done((unk, el) => {
+          $(el).removeClass("has-text-danger");
+        });
+    },takethOG: function() {
       var el = $(event.target);
       $(el).addClass("has-text-danger");
       var self = this;
@@ -297,14 +311,18 @@ export default {
 nav {
   z-index: 1;
 }
+.fxr-input-camo{
+  font-weight:800;box-shadow:none;border:none;border-color:transparent;
+}
+#fxr-console{margin-bottom:0;background-color:rgba(255,255,255,.8);font-size:.5em;color:black;}
 #fxr-level-nav-top {
   background-color: rgba(255, 255, 255, 1);
   color: orange;
   font-weight: 800;
 }
-.navbar-item {
+/*.navbar-item {
   color: inherit;
-}
+}*/
 #missings-list {
   font-size: 0.7em;
   background-color: white;
@@ -330,9 +348,9 @@ nav {
   z-index: 2;
 }
 
-.bt:hover {
+/*.bt:hover {
   cursor: pointer;
-}
+}*/
 
 h1,
 h2 {
@@ -346,9 +364,11 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-.fxr-bt {
+.fxr-bt{
   color: orange;
 }
+.fxr-bt:hover{cursor:pointer;color:black;}
+.fxr-bt:active{color:white;}
 a {
   color: orange;
 }
