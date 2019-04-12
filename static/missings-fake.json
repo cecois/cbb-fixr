@@ -1,0 +1,49 @@
+[{
+		"_id": {
+			"$oid": "5caa6966e803cb16c4bc520d"
+		}
+		, "carto": {
+			"cartodb_id": "9999"
+			, "type": "poly"
+		}
+		, "tstart": "1:38:30"
+		, "instance": "There are 22 of 'em and I welded 'em together."
+		, "tags": "Gary Urbanksy,Chris Matthews,Mayor Junius Bobbledoonary"
+		, "episode": {
+			"$numberInt": "525"
+		}
+		, "slug": "2017-holiday-spectacular"
+	}
+	, {
+		"_id": {
+			"$oid": "5caa6966e803cb16c4bc51ff"
+		}
+		, "carto": {
+			"cartodb_id": ""
+			, "type": ""
+		}
+		, "tstart": "1:21:52"
+		, "instance": "The best one? Zebra."
+		, "tags": "Chip Gardner,Tell Me What You Want (song),Zebra (musical combination)"
+		, "episode": {
+			"$numberInt": "300"
+		}
+		, "slug": "oh-golly-you-devil"
+	}
+	, {
+		"_id": {
+			"$oid": "5caa6966e803cb16c4bc5211"
+		}
+		, "carto": {
+			"cartodb_id": ""
+			, "type": ""
+		}
+		, "tstart": "1:00:55"
+		, "instance": "What about something, you know, a little more old-school?"
+		, "tags": "Victor Diamond,Tiny,Welcome to the Jungle (song),Guns N' Roses (musical combination)"
+		, "episode": {
+			"$numberInt": "418"
+		}
+		, "slug": "paul-reiser-apple-tree"
+	}
+]

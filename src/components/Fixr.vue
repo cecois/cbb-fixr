@@ -1,5 +1,6 @@
 <template>
   <div class="">
+    <vue-headful :title="page.title" description="fxsxxxrrrre" />
     <nav id="fxr-console" class="breadcrumb is-right" aria-label="breadcrumbs">
       <ul>
         <li v-for="msg in console.msgs">{{msg}}</li>
@@ -8,26 +9,26 @@
     <nav class="level" id="fxr-level-nav-top">
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">incoming</p>
-          <input style="" v-on:keyup.enter="jeakod" v-model="incoming" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="lk" />
+          <p class="heading">incoming {{dropzone.msg}}</p>
+          <input id="dropzone" style="" v-on:keyup.enter="jeakod" v-model="incoming" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="lk" />
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">trns</p>
-          <input style="" v-model="OBJ.properties.anno" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="" />
+          <p class="heading"></p>
+          <input style="" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder=" " />
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">fixed type</p>
-          <p class="title"><span v-if="active.type">{{active.type}}</span><span v-else>&nbsp;</span></p>
+          <p class="heading">fix type</p>
+          <p class="title"><span v-if="active.carto.type">{{active.carto.type}}</span><span v-else>&nbsp;</span></p>
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">fixed id</p>
-          <p class="title"><span v-if="active.id">{{active.id}}</span><span v-else>&nbsp;</span></p>
+          <p class="heading">fix id</p>
+          <p class="title"><span v-if="active.carto.cartodb_id">{{active.carto.cartodb_id}}</span><span v-else>&nbsp;</span></p>
         </div>
       </div>
     </nav>
@@ -35,7 +36,7 @@
       <div class="level-item has-text-centered">
         <div>
           <p class="heading">name</p>
-          <input style="" v-model="OBJ.properties.name" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="lk" />
+          <input style="" v-model="OBJ.properties.name" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="" />
         </div>
       </div>
       <div class="level-item has-text-centered">
@@ -44,23 +45,24 @@
           <input style="" v-model="OBJ.properties.anno" class="input is-medium has-text-centered fxr-input-camo" type="text" placeholder="" />
         </div>
       </div>
-      <div class="level-item has-text-centered">
+      <!--       <div class="level-item has-text-centered">
         <div>
           <p class="heading">result type</p>
           <p class="title"><span v-if="OBJ.geometry.type">{{OBJ.geometry.type}}</span><span v-else>&nbsp;</span></p>
         </div>
-      </div>
-    </nav>
-    <section class="">
-      <span v-on:click="taketh" class="icon is-right fxr-bt
+      </div> -->
+      <div class="level-item has-text-centered">
+        <div>
+          <p v-bind:class="[project.loading ? 'is-loading' : '']" class="heading"><span v-on:click="taketh" class="icon is-right fxr-bt
 ">
           <i class="fas fa-3x fa-play-circle bt "></i>
-        </span>
-    </section>
+        </span></p>
+        </div>
+      </div>
+    </nav>
     <div class="columns">
       <div id="missings-list">
         <ul>
-          <!-- <li v-for="missing in missings">{{ missing.instance }}</li> -->
           <li v-for="missing in missings">
             <div v-for="gitem in missing">
               {{ gitem.instance }} (<span class="fxr-trigger-activator" :id="gitem._id" :data-target-id="gitem.carto.cartodb_id" :data-target-type="gitem.carto.type" @click="setActive">{{ gitem.group_key }}</span
@@ -93,14 +95,62 @@ export default {
   mounted: function() {
     this.console.msgs.push("mounted")
     this.missings = this.getMissings();
+
+        /* ++++++++++++++++++++++++++++++++++++++++++ dropzone */
+    window.addEventListener("dragenter", (e) => {
+      console.log("in dragenter, e:",e  );
+      this.dropzone.state = 'drag'
+      this.dropzone.msg = 'drop fil'
+    });
+
+    window.addEventListener("dragleave", (e) => {
+      e.preventDefault();
+      this.dropzone.state = 'idle'
+      this.dropzone.msg = 'fil drop'
+
+    });
+
+    window.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      this.dropzone.state = 'drag'
+      this.dropzone.msg = 'drop fil'
+
+    });
+
+    window.addEventListener("drop", (e) => {
+      e.preventDefault();
+      this.dropzone.state = 'idle'
+      this.dropzone.msg = 'tnx'
+
+      let filxml = e.dataTransfer.files;
+      this.acceptFile(fil);
+    });
+
+    /* ++++++++++++++++++++++++++++++++++++++++++ /dropzone */
   },
   data() {
     return {
+      page:{title:'cbbfixr'},
+      dropzone:{state:'idle',msg:null},
+      config:{mode:'T'},
       missings: null,
       console:{msgs:[]},
       modalClass: false,
       result: null,
-      active: { id: null, type: null },
+      active: {
+        _id: null
+, carto: {
+cartodb_id: null
+, type: null
+}
+, tstart: null
+, instance: null
+, tags: null
+, episode: {
+$numberInt: null
+}
+, slug:null
+      },
       OBJ: {
         type: "Feature",
         geometry: {
@@ -118,23 +168,46 @@ export default {
         }
       },
       incoming: null,
-      project: { shorthand: "CbBFiXR"}
+      project: { loading:false,shorthand: "CbBFiXR"}
     };
   },
   methods: {
     setActive: function(e) {
       let t = e.target.innerText.split(":");
-      // console.log(t);
       let o = this.$_.find(this.missings, mi => {
         console.log("mi:", mi[0].carto);
         return mi[0].carto.type == t[0] && mi[0].carto.cartodb_id == t[1];
       });
-      // console.log("o:", o);
       this.active = o[0];
 
     },
+    loadDrop: function (fil) {
+
+      const reader = new FileReader()
+      reader.loadend = (e) => {
+        delete e.target.result
+      }
+
+      reader.onload = (e) => {
+        if (e.target.result.indexOf("<?xml") < 0) {
+          this.dropzone.msg = 'izzat xml, really?!'
+        } else {
+          this.console.log = []
+          // this.postXML(e.target.result)
+        }
+      }
+
+      reader.readAsText(fil, "UTF-8")
+
+    },
+    acceptDrop: function (fil) {
+
+      // bookkeeping and prep func, if necessary
+      this.loadDrop(fil[0])
+
+    },
     jeakod: function() {
-      $(event.target.parentElement).addClass("is-loading");
+      this.project.loading=true
 
       if (typeof JkGroup == "undefined") {
         var JkGroup = new L.featureGroup().addTo(map);
@@ -143,32 +216,31 @@ export default {
       }
       var style = this.STYLE();
 
-      var self = this;
-      $.get("http://localhost:8080/geocode/" + this.incoming, function(data) {
-        $(event.target.parentElement).removeClass("is-loading");
+      let uri = (this.config.mode=='T')?'http://localhost:8000/spokane-fake.json':'http://localhost:8080/geocode'+ this.incoming
+      $.get(uri, (data)=>{
+        
+        this.project.loading=false
 
         L.geoJSON(data, {
           style: style
         })
-          .bindPopup(function(layer) {
+          .bindPopup((layer)=>{
             return "<div>name: " + layer.feature.properties.name + "</div>";
           })
-          .on("popupopen", function(layer) {
-            console.log("layer:");
-            console.log(layer);
+          .on("popupopen", (layer)=>{
 
-            self.OBJ.properties = layer.layer.feature.properties;
-            self.OBJ.geometry = layer.layer.feature.geometry;
+            this.OBJ.properties = layer.layer.feature.properties;
+            this.OBJ.geometry = layer.layer.feature.geometry;
           })
           .addTo(JkGroup);
         map.fitBounds(JkGroup.getBounds());
       }); //.get
     }, //jeakod
     getMissings: function() {
-
+    this.console.msgs.push("loading problems")
       $.ajax({
         type: "GET",
-        url: "http://localhost:8080/missings/all",
+        url: (this.config.mode=='T')?"http://localhost:8000/missings-fake.json":"http://localhost:8080/missings/all",
         dataType: "json",
         beforeSend: () => {},
         success: data => {
@@ -186,65 +258,86 @@ export default {
         } //success
       }) //ajax
         .fail((err, el) => {
-          // $(el).removeClass("has-text-danger")
         })
         .done((unk, el) => {
-          // $(el).removeClass("has-text-danger")
         });
     },
-    taketh: function() {
-      var el = $(event.target);
-      $(el).addClass("has-text-danger");
+    updateth: function () {
 
-      $.ajax({
-        type: "POST",
-        url: "http://localhost:8080/geocode/submit/cbb",
-        data: this.OBJ,
-        dataType: "json",
-        beforeSend: (el)=>{
-          $(".bt").addClass("has-text-danger");
-        },
-        success: (data)=>{
-          var pat = null;
-          switch (data.response[0].geometry.type.toLowerCase()) {
-            case "point":
-              pat = "point";
-              break;
-            case "polygon":
-              pat = "poly";
-              break;
-            case "multipolygon":
-              pat = "poly";
-              break;
-            case "linestring":
-              pat = "line";
-              break;
-            case "multilinestring":
-              pat = "line";
-              break;
-            default:
-              pat = null;
-              break;
-          }
+let id2up = this.active._id.$oid
+      this.console.msgs.push("updating the missing "+this.active.carto.type+':'+this.active.carto.cartodb_id)
 
-          var paste =
-            '"location_type": "' +
-            pat +
-            '","location_id": "' +
-            data.response[0].properties.cartodb_id +
-            '",';
-          this.result = paste;
+$.ajax({
+   type: "POST"
+   , url: "http://localhost:8080/geocode/fix/once"
+   , data: {id:id2up}
+   , dataType: "json"
+   , beforeSend: (el) => {
+     this.project.loading=true;
+   }
+   , success: (data) => {
+    this.console.msgs.push("update success -- done")
+    this.getMissings()
+  }
+})
+.fail((err, el) => {
+   console.err("update of "+id2up+" failed")
+  }).done((unk, el) => {
+   
+    this.project.loading=false;
+  });
 
-          this.modalClass = true;
-        }
-      })
-        .fail((err, el) => {
-          $(el).removeClass("has-text-danger");
-        })
-        .done((unk, el) => {
-          $(el).removeClass("has-text-danger");
-        });
-    },takethOG: function() {
+    },
+ taketh: function() {
+      this.console.msgs.push("submitting OBJ.properties.cartodb_id")
+  // var el = $(event.target);
+  this.OBJ.properties.cartodb_id=(this.active.id)?this.active.id:null
+  $.ajax({
+   type: "POST"
+   , url: "http://localhost:8080/geocode/submit/cbb"
+   , data: this.OBJ
+   , dataType: "json"
+   , beforeSend: (el) => {
+     this.project.loading=true;
+   }
+   , success: (data) => {
+    this.project.loading=false;
+    this.console.msgs.push("POST success, updating...")
+           let pat = null;
+           switch (data.response[0].geometry.type.toLowerCase()) {
+             case "point":
+               pat = "point";
+               break;
+             case "polygon":
+               pat = "poly";
+               break;
+             case "multipolygon":
+               pat = "poly";
+               break;
+             case "linestring":
+               pat = "line";
+               break;
+             case "multilinestring":
+               pat = "line";
+               break;
+             default:
+               pat = null;
+               break;
+           } 
+           if(!active.carto.id){
+                var paste = '"location_type": "' + pat + '","location_id": "' + data.response[0].properties.cartodb_id + '",';
+                this.result = paste;}
+     this.modalClass = true;
+  this.updateth();
+   }
+  }).fail((err, el) => {
+   $(el).removeClass("has-text-danger");
+  }).done((unk, el) => {
+   $(el).removeClass("has-text-danger");
+  });
+},
+
+takethOG: function() {
       var el = $(event.target);
       $(el).addClass("has-text-danger");
       var self = this;
@@ -319,6 +412,7 @@ nav {
   background-color: rgba(255, 255, 255, 1);
   color: orange;
   font-weight: 800;
+  margin-bottom:1px;
 }
 /*.navbar-item {
   color: inherit;
@@ -375,4 +469,22 @@ a {
 a.is-active {
   font-weight: 800;
 }
+
+.is-loading {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  border: 2px solid rgba(0,0,0,.2);
+  border-radius: 50%;
+  border-top-color: rgba(0,0,0,.3);
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
 </style>
