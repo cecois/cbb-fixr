@@ -17,7 +17,7 @@ window.map = new L.Map("map", {
 
 // var baseLayer = new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png")
 var baseLayer = new L.TileLayer(
-  "https://cartocdn_a.global.ssl.fastly.net/base-flatblue/{z}/{x}/{y}@2x.png"
+  "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png"
 );
 
 map.addLayer(baseLayer);
