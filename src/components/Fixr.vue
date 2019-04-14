@@ -108,20 +108,20 @@
       >
         <ul>
           <li v-for="missing in missings">
-            <div v-for="gitem in missing">
-              <a
-                target="_blank"
-                v-bind:href="'https://www.earwolf.com/episode/' + gitem.slug"
-                >{{ gitem.episode }}</a
-              >.{{ gitem.tstart }}.{{ gitem.instance }} (<span
-                class="fxr-trigger-activator"
-                :id="gitem._id"
-                :data-target-id="gitem.carto.cartodb_id"
-                :data-target-type="gitem.carto.type"
-                @click="setActive"
-                >{{ gitem.group_key }}</span
-              >)
-            </div>
+            <!-- <div v-for="gitem in missing"> -->
+            <a
+              target="_blank"
+              v-bind:href="'https://www.earwolf.com/episode/' + missing.slug"
+              >{{ missing.episode }}</a
+            >.{{ missing.tstart }}.{{ missing.instance }} (<span
+              class="fxr-trigger-activator"
+              :id="missing._id"
+              :data-target-id="missing.cartodb_id"
+              :data-target-type="missing.type"
+              @click="setActive"
+              >{{ missing.group_key }}</span
+            >)
+            <!-- </div> -->
           </li>
         </ul>
       </div>
@@ -155,7 +155,7 @@ export default {
 
     /* ++++++++++++++++++++++++++++++++++++++++++ dropzone */
     window.addEventListener("dragenter", e => {
-      console.log("in dragenter, e:", e);
+      // console.log("in dragenter, e:", e);
       this.dropzone.state = "drag";
       this.dropzone.msg = "drop fil";
     });
@@ -169,7 +169,6 @@ export default {
     window.addEventListener("dragover", e => {
       e.preventDefault();
       this.dropzone.state = "drag";
-      this.dropzone.msg = "drop fil";
     });
 
     window.addEventListener("drop", e => {
@@ -177,8 +176,8 @@ export default {
       this.dropzone.state = "idle";
       this.dropzone.msg = "tnx";
 
-      let filxml = e.dataTransfer.files;
-      this.acceptFile(fil);
+      let fil = e.dataTransfer.files;
+      this.acceptDrop(fil);
     });
 
     /* ++++++++++++++++++++++++++++++++++++++++++ /dropzone */
@@ -236,28 +235,72 @@ export default {
     setActive: function(e) {
       let t = e.target.innerText.split(":");
       let o = this.$_.find(this.missings, mi => {
-        return mi[0].carto.type == t[0] && mi[0].carto.cartodb_id == t[1];
+        // console.log("mi:", mi);
+        return mi.carto.type == t[0] && mi.carto.cartodb_id == t[1];
       });
-      this.active = o[0];
+      // console.log("o", o);
+      this.active = o;
     },
     loadDrop: function(fil) {
+      this.project.loading = true;
       const reader = new FileReader();
       reader.loadend = e => {
         delete e.target.result;
       };
 
       reader.onload = e => {
-        if (e.target.result.indexOf("<?xml") < 0) {
-          this.dropzone.msg = "izzat xml, really?!";
+        if (JSON.parse(e.target.result).length <= 0) {
+          this.dropzone.msg = "izzat json, really?!";
         } else {
-          this.console.log = [];
-          // this.postXML(e.target.result)
+          if (typeof JkGroup == "undefined") {
+            var JkGroup = new L.featureGroup().addTo(map);
+          } else {
+            JkGroup.clearLayers();
+          }
+          var style = this.STYLE();
+          // console.log("e.target.result:", e.target.result);
+
+          this.project.loading = false;
+
+          let go = {
+            type: "FeatureCollection",
+            name: "geojson",
+            crs: {
+              type: "name",
+              properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" }
+            },
+            features: [
+              {
+                type: "Feature",
+                properties: { name: "geojsonfromfil", cartodb_id: null },
+                geometry: {
+                  type: "LineString",
+                  coordinates: JSON.parse(e.target.result).geometry.coordinates
+                }
+              }
+            ]
+          };
+
+          console.log("go", go);
+          L.geoJSON(go, {
+            style: style
+          })
+            .bindPopup(layer => {
+              return "<div>name: " + layer.feature.properties.name + "</div>";
+            })
+            .on("popupopen", layer => {
+              this.OBJ.properties = layer.layer.feature.properties;
+              this.OBJ.geometry = layer.layer.feature.geometry;
+            })
+            .addTo(JkGroup);
+          map.fitBounds(JkGroup.getBounds());
         }
       };
 
       reader.readAsText(fil, "UTF-8");
     },
     acceptDrop: function(fil) {
+      console.log("fil in acceptDrop:", fil);
       // bookkeeping and prep func, if necessary
       this.loadDrop(fil[0]);
     },
@@ -309,11 +352,14 @@ export default {
             return o;
           });
           this.console.msgs.push("found " + data.length + " missings");
-          let missingsGroups = this.$_.groupBy(missingsMap, "group_key");
-          this.missings = this.$_.sortBy(
-            missingsGroups,
-            "carto.cartodb_id"
-          ).reverse();
+          this.missings = this.$_.sortBy(data, "episode");
+          // let missingsGroups = this.$_.groupBy(missingsMap, "group_key");
+          // this.missings = this.$_.sortBy(
+          // missingsGroups,
+          // "carto.cartodb_id"
+          // "episode"
+          // );
+          // .reverse();
         } //success
       }) //ajax
         .fail((err, el) => {})
