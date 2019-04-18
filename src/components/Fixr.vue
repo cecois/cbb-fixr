@@ -381,6 +381,9 @@ export default {
         },
         success: data => {
           this.console.msgs.push("update success -- done");
+          this.incoming = null;
+          this.OBJ.properties.name = null;
+          this.OBJ.properties.anno = null;
           this.getMissings();
         }
       })
@@ -397,6 +400,7 @@ export default {
       this.OBJ.properties.cartodb_id = this.active.carto.cartodb_id
         ? this.active.carto.cartodb_id
         : null;
+      this.OBJ.properties.nb = this.incoming;
       $.ajax({
         type: "POST",
         url: "http://localhost:8080/geocode/submit/cbb",
