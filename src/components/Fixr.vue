@@ -262,7 +262,12 @@ export default {
 
           this.project.loading = false;
 
-          let go = {
+          console.log(JSON.parse(e.target.result));
+
+          let go = JSON.parse(e.target.result);
+
+          console.log("GO:", go);
+          let goo = {
             type: "FeatureCollection",
             name: "geojson",
             crs: {
@@ -274,8 +279,10 @@ export default {
                 type: "Feature",
                 properties: { name: "geojsonfromfil", cartodb_id: null },
                 geometry: {
+                  // type: "MultiPolygon",
                   type: "LineString",
-                  coordinates: JSON.parse(e.target.result).geometry.coordinates
+                  coordinates: JSON.parse(e.target.result).features.geometry
+                    .coordinates
                 }
               }
             ]

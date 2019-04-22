@@ -1283,107 +1283,12 @@
 		"episode": 529,
 		"slug": "am-i-the-what"
 	},
-	{
-		"_id": "5caa6966e803cb16c4bc5233",
-		"carto": {
-			"cartodb_id": "876",
-			"type": "point"
-		},
-		"tstart": "38:55",
-		"instance": "My boss...is really riding my ass.",
-		"tags": "Josh Fox",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5236",
-		"carto": {
-			"cartodb_id": "876",
-			"type": "point"
-		},
-		"tstart": "1:03:38",
-		"instance": "I showed up, I said 'Whoo, what a day before work.'",
-		"tags": "Josh Fox",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5239",
-		"carto": {
-			"cartodb_id": "875",
-			"type": "point"
-		},
-		"tstart": "42:05",
-		"instance": "So I went and took a big piss on their shrimp scampi.",
-		"tags": "Josh Fox",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5231",
-		"carto": {
-			"cartodb_id": "875",
-			"type": "point"
-		},
-		"tstart": "47:50",
-		"instance": "Can I ask what the moment was like when your wife discovered that you took a bit of a pee-pee in her food?",
-		"tags": "Josh Fox,Kiwi Kris",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5230",
-		"carto": {
-			"cartodb_id": "874",
-			"type": "point"
-		},
-		"tstart": "1:09:20",
-		"instance": "Has the whale ever been to the ancient city of Atlantis?",
-		"tags": "Josh Fox,Kiwi Kris",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc522e",
-		"carto": {
-			"cartodb_id": "873",
-			"type": "point"
-		},
-		"tstart": "22:53",
-		"instance": "Dos Dorodo!",
-		"tags": "Kiwi Kris",
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc522a",
-		"carto": {
-			"cartodb_id": "872",
-			"type": "point"
-		},
-		"tstart": "40:20",
-		"instance": "So you saved his life after endangering it.",
-		"tags": "Colin Powell,Whistleblower Leo Williams",
-		"episode": 527,
-		"slug": "hootie-hoo"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5227",
-		"carto": {
-			"cartodb_id": "871",
-			"type": "point"
-		},
-		"tstart": "1:15:57",
-		"instance": "You went to college and then you decided to go into fish.",
-		"tags": "Dorothy Charlessss,20-Something Will Crowe,Whistleblower Leo Williams",
-		"episode": 527,
-		"slug": "hootie-hoo"
-	},
+
 	{
 		"_id": "5caa6966e803cb16c4bc5217",
 		"carto": {
 			"cartodb_id": "861",
-			"type": "poin"
+			"type": "point"
 		},
 		"tstart": "43:12",
 		"instance": "That's the one that's shaped like a 'T,' right?",
@@ -2253,64 +2158,52 @@
 		"slug": "this-is-the-story-of-my-life"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc522c",
+		"_id": "5caa6966e803cb16c4bc5233",
 		"carto": {
-			"cartodb_id": "491",
-			"type": "poly"
+			"cartodb_id": "876",
+			"type": "point"
 		},
-		"tstart": "20:03",
-		"instance": "I fell into a hole in the Roman Forum.",
-		"tags": "Kiwi Kris",
+		"tstart": "38:55",
+		"instance": "My boss...is really riding my ass.",
+		"tags": "Josh Fox",
 		"episode": 528,
 		"slug": "this-is-the-story-of-my-life"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc522f",
+		"_id": "5caa6966e803cb16c4bc5236",
 		"carto": {
-			"cartodb_id": "490",
-			"type": "poly"
+			"cartodb_id": "876",
+			"type": "point"
 		},
-		"tstart": "16:10",
-		"instance": "Here's my thing, is that: I accidentally discover ancient things a lot.",
-		"tags": "Kiwi Kris",
+		"tstart": "1:03:38",
+		"instance": "I showed up, I said 'Whoo, what a day before work.'",
+		"tags": "Josh Fox",
 		"episode": 528,
 		"slug": "this-is-the-story-of-my-life"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc522b",
+		"_id": "5caa6966e803cb16c4bc5239",
 		"carto": {
-			"cartodb_id": "489",
-			"type": "poly"
+			"cartodb_id": "875",
+			"type": "point"
 		},
-		"tstart": "36:52",
-		"instance": "I'm not from Persia - I am Persian.",
-		"tags": "Dorothy Charlessss,Whistleblower Leo Williams",
-		"episode": 527,
-		"slug": "hootie-hoo"
+		"tstart": "42:05",
+		"instance": "So I went and took a big piss on their shrimp scampi.",
+		"tags": "Josh Fox",
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc5229",
+		"_id": "5caa6966e803cb16c4bc5231",
 		"carto": {
-			"cartodb_id": 488,
-			"type": "poly"
+			"cartodb_id": "875",
+			"type": "point"
 		},
-		"tstart": "1:23:31",
-		"instance": "Now William, I don't know how you are on the spectrum but I might be into possibly going on a date with you.",
-		"tags": "Dorothy Charlessss,Whistleblower Leo Williams,20-Something Will Crowe",
-		"episode": 527,
-		"slug": "hootie-hoo"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5228",
-		"carto": {
-			"cartodb_id": "487",
-			"type": "poly"
-		},
-		"tstart": "1:02:00",
-		"instance": "Where I'm from I don't get neither one of these two: Persians or Eskimos.",
-		"tags": "Dorothy Charlessss,20-Something Will Crowe,Whistleblower Leo Williams",
-		"episode": 527,
-		"slug": "hootie-hoo"
+		"tstart": "47:50",
+		"instance": "Can I ask what the moment was like when your wife discovered that you took a bit of a pee-pee in her food?",
+		"tags": "Josh Fox,Kiwi Kris",
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
 	},
 
 	{
@@ -2322,41 +2215,49 @@
 	{
 		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 507 ~49:00 GARY URBANKSY LISTS HIS OLD STORES"
 	},
-
 	{
-		"_id": "5caa6966e803cb16c4bc5208",
+		"_id": "5caa6966e803cb16c4bc5230",
 		"carto": {
-			"cartodb_id": "477",
+			"cartodb_id": "",
 			"type": "poly"
 		},
-		"tstart": "1:11:14",
-		"instance": "How many tattoos do you have, Gino?",
-		"tags": "Chris Matthews,Gino Lambardo",
+		"tstart": "1:09:20",
+		"instance": "Has the whale ever been to the ancient city of Atlantis?",
+		"tags": "Josh Fox,Kiwi Kris",
 		"nb": [
-			"Long Island, NY",
-			"home of: Gino Lombardo, his mother, his uncle, sandwiches, nothing else."
+			"Agadir, Morocco",
+			"site of: Kiwi Kris discovering Atlantis; possible site of: Atlantis (new theory)"
 		],
-		"episode": 525,
-		"slug": "2017-holiday-spectacular"
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
 	},
-
 	{
-		"_id": "5caa6966e803cb16c4bc520b",
 		"carto": {
-			"cartodb_id": "132",
-			"type": "line"
+			"cartodb_id": "",
+			"type": ""
 		},
-		"tstart": "1:12:10",
-		"instance": "I have special privileges at Amtrak.",
-		"tags": "Chris Matthews",
-		"nb": [
-			"portion of acela route over chesapeake bay",
-			"birthplace of: Chris Matthews"
-		],
-		"episode": 525,
-		"slug": "2017-holiday-spectacular"
+		"tstart": "15:45",
+		"instance": "I fell in a hole when I was there - it was kind of rough, actually.",
+		"tags": "Kiwi Kris",
+		"nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"],
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
 	},
-
+	{
+		"carto": {
+			"cartodb_id": 000000,
+			"type": ""
+		},
+		"tstart": "1:07:05",
+		"instance": "You went to college and then you decided to go into fish.",
+		"tags": "Dorothy Charlessss,Whistleblower Leo Williams,20-Something Will Crowe",
+		"episode": 527,
+		"nb": [
+			"University of Alaska - Juneau",
+			"site of: Will Crowe, majoring in Abnormal Psychology; nothing else"
+		],
+		"slug": "hootie-hoo"
+	},
 	{
 		"_id": "5caa6966e803cb16c4bc5305",
 		"carto": {
