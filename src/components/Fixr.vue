@@ -279,9 +279,9 @@ export default {
                 type: "Feature",
                 properties: { name: "geojsonfromfil", cartodb_id: null },
                 geometry: {
-                  // type: "MultiPolygon",
-                  type: "LineString",
-                  coordinates: JSON.parse(e.target.result).features.geometry
+                  type: "MultiPolygon",
+                  // type: "LineString",
+                  coordinates: JSON.parse(e.target.result).features[0].geometry
                     .coordinates
                 }
               }
