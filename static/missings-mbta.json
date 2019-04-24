@@ -1088,94 +1088,6 @@
 	, "episode": 531
 	, "slug": "atmosphere-bully"
 }, {
-	"_id": "5caa6966e803cb16c4bc5246"
-	, "carto": {
-		"cartodb_id": "886"
-		, "type": "point"
-	}
-	, "tstart": "1:30:04"
-	, "instance": "We have buy-two-get-two-free right now."
-	, "tags": "Barry Big,Danny Trejo Jr."
-	, "episode": 530
-	, "slug": "zoom-zoom"
-}, {
-	"_id": "5caa6966e803cb16c4bc523f"
-	, "carto": {
-		"cartodb_id": "885"
-		, "type": "point"
-	}
-	, "tstart": "1:18:13"
-	, "instance": "You know what I always wanna ask chefs - where they eat."
-	, "tags": "Barry Big,Danny Trejo Jr."
-	, "episode": 530
-	, "slug": "zoom-zoom"
-}, {
-	"_id": "5caa6966e803cb16c4bc5244"
-	, "carto": {
-		"cartodb_id": "884"
-		, "type": "point"
-	}
-	, "tstart": "1:03:55"
-	, "instance": "I'm a sign-twirler there."
-	, "tags": "Barry Big,Danny Trejo Jr."
-	, "episode": 530
-	, "slug": "zoom-zoom"
-}, {
-	"_id": "5caa6966e803cb16c4bc523d"
-	, "carto": {
-		"cartodb_id": "883"
-		, "type": "point"
-	}
-	, "tstart": "7:32"
-	, "instance": "They said 'take it over to ScrubHub.'"
-	, "tags": "John Lennon"
-	, "episode": 444
-	, "slug": "mind-your-please-and-questions"
-}, {
-	"_id": "5caa6966e803cb16c4bc523b"
-	, "carto": {
-		"cartodb_id": "882"
-		, "type": "point"
-	}
-	, "tstart": "1:20:38"
-	, "instance": "I don't know what I punched but it didn't like it."
-	, "tags": "Pam Tran,Dalton Wilcox"
-	, "episode": 529
-	, "slug": "am-i-the-what"
-}, {
-	"_id": "5caa6966e803cb16c4bc523a"
-	, "carto": {
-		"cartodb_id": "881"
-		, "type": "point"
-	}
-	, "tstart": "1:17:35"
-	, "instance": "You're the woman of my dreams, Pam Tran, please look on the right side of your cankle."
-	, "tags": "Pam Tran"
-	, "episode": 529
-	, "slug": "am-i-the-what"
-}, {
-	"_id": "5caa6966e803cb16c4bc5238"
-	, "carto": {
-		"cartodb_id": "880"
-		, "type": "point"
-	}
-	, "tstart": "1:16:10"
-	, "instance": "Lots of suicides there."
-	, "tags": "Pam Tran"
-	, "episode": 529
-	, "slug": "am-i-the-what"
-}, {
-	"_id": "5caa6966e803cb16c4bc523c"
-	, "carto": {
-		"cartodb_id": "879"
-		, "type": "point"
-	}
-	, "tstart": "1:16:10"
-	, "instance": "He was romantic even in the meeting of him?"
-	, "tags": "Pam Tran"
-	, "episode": 529
-	, "slug": "am-i-the-what"
-}, {
 	"_id": "5caa6966e803cb16c4bc5217"
 	, "carto": {
 		"cartodb_id": "861"
@@ -1897,6 +1809,7 @@
 	, "tstart": "53:23"
 	, "instance": "I don't get most of anything that people say."
 	, "tags": "Jergen Tavikya,Debbie Creepy"
+	, "nb": ["BRASIL OR SWITZERLAND OR PRUSSIA", "one of several home countries of: Jergen Tavikya"]
 	, "episode": 533
 	, "slug": "is-that-chocolate-or-what"
 }, {
@@ -1908,6 +1821,7 @@
 	, "tstart": "53:23"
 	, "instance": "I don't get most of anything that people say."
 	, "tags": "Jergen Tavikya,Debbie Creepy"
+	, "nb": ["BRASIL OR SWITZERLAND OR PRUSSIA", "one of several home countries of: Jergen Tavikya"]
 	, "episode": 533
 	, "slug": "is-that-chocolate-or-what"
 }, {
@@ -1919,52 +1833,9 @@
 	, "tstart": "53:23"
 	, "instance": "I don't get most of anything that people say."
 	, "tags": "Jergen Tavikya,Debbie Creepy"
+	, "nb": ["BRASIL OR SWITZERLAND OR PRUSSIA", "one of several home countries of: Jergen Tavikya"]
 	, "episode": 533
 	, "slug": "is-that-chocolate-or-what"
-}, {
-	"_id": "5caa6966e803cb16c4bc523e"
-	, "carto": {
-		"cartodb_id": "501"
-		, "type": "poly"
-	}
-	, "tstart": "31:30"
-	, "instance": "What an interesting voice, you have there."
-	, "tags": "Barry Big"
-	, "episode": 530
-	, "slug": "zoom-zoom"
-}, {
-	"_id": "5caa6966e803cb16c4bc5240"
-	, "carto": {
-		"cartodb_id": "500"
-		, "type": "poly"
-	}
-	, "tstart": "37:40"
-	, "instance": "Is that where there's no water in the springs?"
-	, "tags": "Adavid Collette"
-	, "episode": 444
-	, "slug": "mind-your-please-and-questions"
-}, {
-	"_id": "5caa6966e803cb16c4bc5235"
-	, "carto": {
-		"cartodb_id": "496"
-		, "type": "poly"
-	}
-	, "tstart": "48:45"
-	, "instance": "Prime fair territory."
-	, "tags": "Dalton Wilcox,Pam Tran"
-	, "episode": 529
-	, "slug": "am-i-the-what"
-}, {
-	"_id": "5caa6966e803cb16c4bc5234"
-	, "carto": {
-		"cartodb_id": "495"
-		, "type": "poly"
-	}
-	, "tstart": "26:40"
-	, "instance": "I was there to spread my cowboy poetry."
-	, "tags": "Dalton Wilcox"
-	, "episode": 529
-	, "slug": "am-i-the-what"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
 }, {
@@ -1997,6 +1868,150 @@
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+}, {
+	"_id": "5caa6966e803cb16c4bc5241"
+	, "carto": {
+		"cartodb_id": "886"
+		, "type": "point"
+	}
+	, "tstart": "1:26:13"
+	, "instance": "Are you, like, consolidating all of the assets or something?"
+	, "tags": "Barry Big,Danny Trejo Jr."
+	, "nb": ["Mervyns", "former workplace of: chef Danny Trejo Jr."]
+	, "episode": 530
+	, "slug": "zoom-zoom"
+}, {
+	"_id": "5caa6966e803cb16c4bc5246"
+	, "carto": {
+		"cartodb_id": "886"
+		, "type": "point"
+	}
+	, "tstart": "1:30:04"
+	, "instance": "We have buy-two-get-two-free right now."
+	, "tags": "Barry Big,Danny Trejo Jr."
+	, "nb": ["Mervyns", "former workplace of: chef Danny Trejo Jr."]
+	, "episode": 530
+	, "slug": "zoom-zoom"
+}, {
+	"_id": "5caa6966e803cb16c4bc523f"
+	, "carto": {
+		"cartodb_id": "885"
+		, "type": "point"
+	}
+	, "tstart": "1:18:13"
+	, "instance": "You know what I always wanna ask chefs - where they eat."
+	, "tags": "Barry Big,Danny Trejo Jr."
+	, "nb": ["SIzzler steakhouse on highland", "favorite restaurant of: chef Danny Trejo Jr."]
+	, "episode": 530
+	, "slug": "zoom-zoom"
+}, {
+	"_id": "5caa6966e803cb16c4bc5244"
+	, "carto": {
+		"cartodb_id": "884"
+		, "type": "point"
+	}
+	, "tstart": "1:03:55"
+	, "instance": "I'm a sign-twirler there."
+	, "tags": "Barry Big,Danny Trejo Jr."
+	, "nb": ["middle of Highland, Los Angeles", "workplace of: sign-twirler Danny Trejo Jr."]
+	, "episode": 530
+	, "slug": "zoom-zoom"
+}, {
+	"_id": "5caa6966e803cb16c4bc523e"
+	, "carto": {
+		"cartodb_id": "501"
+		, "type": "poly"
+	}
+	, "tstart": "31:30"
+	, "instance": "What an interesting voice, you have there."
+	, "tags": "Barry Big"
+	, "nb": ["Washington, USA", "home state of: Barry Big"]
+	, "episode": 530
+	, "slug": "zoom-zoom"
+}, {
+	"_id": "5caa6966e803cb16c4bc5240"
+	, "carto": {
+		"cartodb_id": "500"
+		, "type": "poly"
+	}
+	, "tstart": "37:40"
+	, "instance": "Is that where there's no water in the springs?"
+	, "tags": "Adavid Collette"
+	, "nb": ["Powder Springs", "just outside of atlanta"]
+	, "episode": 444
+	, "slug": "mind-your-please-and-questions"
+}, {
+	"_id": "5caa6966e803cb16c4bc523d"
+	, "carto": {
+		"cartodb_id": "883"
+		, "type": "point"
+	}
+	, "tstart": "7:32"
+	, "instance": "They said 'take it over to ScrubHub.'"
+	, "tags": "John Lennon"
+	, "nb": ["site of: John Lennon finding a stack of Cubs tickets", "a bar in Chicago", "Dutch and Docs", "-87.656715,41.947482"]
+	, "episode": 444
+	, "slug": "mind-your-please-and-questions"
+}, {
+	"_id": "5caa6966e803cb16c4bc523b"
+	, "carto": {
+		"cartodb_id": "882"
+		, "type": "point"
+	}
+	, "tstart": "1:20:38"
+	, "instance": "I don't know what I punched but it didn't like it."
+	, "tags": "Pam Tran,Dalton Wilcox"
+	, "nb": ["Rodeo Drive, Log Angeles"]
+	, "episode": 529
+	, "slug": "am-i-the-what"
+}, {
+	"_id": "5caa6966e803cb16c4bc523a"
+	, "carto": {
+		"cartodb_id": "881"
+		, "type": "point"
+	}
+	, "tstart": "1:17:35"
+	, "instance": "You're the woman of my dreams, Pam Tran, please look on the right side of your cankle."
+	, "tags": "Dalton Wilcox,Pam Tran,Puff Daddy,Fonzworth Bentley"
+	, "nb": ["one of: three restaurants in Elmhurst", "site of: proposal to Pam Tran"]
+	, "episode": 529
+	, "slug": "am-i-the-what"
+}, {
+	"_id": "5caa6966e803cb16c4bc5235"
+	, "carto": {
+		"cartodb_id": "496"
+		, "type": "poly"
+	}
+	, "tstart": "48:45"
+	, "instance": "Prime fair territory."
+	, "tags": "Dalton Wilcox,Pam Tran"
+	, "nb": ["a parking lot/county fair in the midwest", "site of: Pam Tran's meetcute with her physical therapist"]
+	, "episode": 529
+	, "slug": "am-i-the-what"
+}, {
+	"_id": "5caa6966e803cb16c4bc523c"
+	, "carto": {
+		"cartodb_id": "879"
+		, "type": "point"
+	}
+	, "tstart": "1:16:10"
+	, "instance": "He was romantic even in the meeting of him?"
+	, "tags": "Pam Tran"
+	, "nb": ["a bridge in Elmhurst", "site of: Pam Tran's meetcute with Kconeee"]
+	, "episode": 529
+	, "slug": "am-i-the-what"
+}, {
+	"_id": "5caa6966e803cb16c4bc5234"
+	, "carto": {
+		"cartodb_id": "495"
+		, "type": "poly"
+	}
+	, "tstart": "26:40"
+	, "instance": "I was there to spread my cowboy poetry."
+	, "tags": "Dalton Wilcox"
+	, "nb": ["Edinburgh Festival, Scotland", "site of: Dalton Wilcox, spreading his cowboy poetry"]
+	, "episode": 529
+	, "slug": "am-i-the-what"
 }, {
 	"_id": "5caa6966e803cb16c4bc522d"
 	, "carto": {
@@ -2337,12 +2352,4 @@
 	, "episode": 296
 	, "slug": "taking-the-bladder-out"
 	, "fixed": false
-}, {
-	"_id": "5caa6966e803cb16c4bc5241"
-	, "carto": {}
-	, "tstart": "1:26:13"
-	, "instance": "Are you, like, consolidating all of the assets or something?"
-	, "tags": "Barry Big,Danny Trejo Jr."
-	, "episode": 530
-	, "slug": "zoom-zoom"
 }]
