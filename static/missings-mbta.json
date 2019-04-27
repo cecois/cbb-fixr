@@ -604,50 +604,6 @@
 	, "episode": 555
 	, "slug": "what-a-wonderful-waterworld"
 }, {
-	"_id": "5caa6966e803cb16c4bc528c"
-	, "carto": {
-		"cartodb_id": "929"
-		, "type": "point"
-	}
-	, "tstart": "28:30"
-	, "instance": "If you die in a coal mine - you gonna eat your way out?"
-	, "tags": "Lyle Cummings,Peppers McGilly"
-	, "episode": 554
-	, "slug": "educainment-squad"
-}, {
-	"_id": "5caa6966e803cb16c4bc528d"
-	, "carto": {
-		"cartodb_id": "928"
-		, "type": "point"
-	}
-	, "tstart": "33:34"
-	, "instance": "Okay, so you're doing students 360."
-	, "tags": "Lyle Cummings,Peppers McGilly"
-	, "episode": 554
-	, "slug": "educainment-squad"
-}, {
-	"_id": "5caa6966e803cb16c4bc528b"
-	, "carto": {
-		"cartodb_id": "928"
-		, "type": "point"
-	}
-	, "tstart": "14:05"
-	, "instance": "These kids couldn't stop passin' out."
-	, "tags": "Lyle Cummings"
-	, "episode": 554
-	, "slug": "educainment-squad"
-}, {
-	"_id": "5caa6966e803cb16c4bc528a"
-	, "carto": {
-		"cartodb_id": "927"
-		, "type": "point"
-	}
-	, "tstart": "31:15"
-	, "instance": "If there was, like, an amusement park there or a monument of some sort...maybe I would go."
-	, "tags": "Darlington Cassel"
-	, "episode": 553
-	, "slug": "lets-write-on-the-white"
-}, {
 	"_id": "5caa6966e803cb16c4bc52a2"
 	, "carto": {
 		"cartodb_id": "926"
@@ -1493,6 +1449,28 @@
 	, "episode": 556
 	, "slug": "tips-n-tricks"
 }, {
+	"_id": "5caa6966e803cb16c4bc528c"
+	, "carto": {
+		"cartodb_id": "929"
+		, "type": "point"
+	}
+	, "tstart": "28:30"
+	, "instance": "If you die in a coal mine - you gonna eat your way out?"
+	, "tags": "Lyle Cummings,Peppers McGilly"
+	, "episode": 554
+	, "slug": "educainment-squad"
+}, {
+	"_id": "5caa6966e803cb16c4bc528d"
+	, "carto": {
+		"cartodb_id": "928"
+		, "type": "point"
+	}
+	, "tstart": "33:34"
+	, "instance": "Okay, so you're doing students 360."
+	, "tags": "Lyle Cummings,Peppers McGilly"
+	, "episode": 554
+	, "slug": "educainment-squad"
+}, {
 	"_id": "5caa6966e803cb16c4bc528f"
 	, "carto": {
 		"cartodb_id": "524"
@@ -1503,50 +1481,6 @@
 	, "tags": "Lyle Cummings,Peppers McGilly"
 	, "episode": 554
 	, "slug": "educainment-squad"
-}, {
-	"_id": "5caa6966e803cb16c4bc5294"
-	, "carto": {
-		"cartodb_id": "523"
-		, "type": "poly"
-	}
-	, "tstart": "27:30"
-	, "instance": "It appears to me that you've changed dialects."
-	, "tags": "Darlington Cassel"
-	, "episode": 553
-	, "slug": "lets-write-on-the-white"
-}, {
-	"_id": "5caa6966e803cb16c4bc5289"
-	, "carto": {
-		"cartodb_id": "523"
-		, "type": "poly"
-	}
-	, "tstart": "25:28"
-	, "instance": "She's very multi-faceted."
-	, "tags": "Darlington Cassel"
-	, "episode": 553
-	, "slug": "lets-write-on-the-white"
-}, {
-	"_id": "5caa6966e803cb16c4bc5288"
-	, "carto": {
-		"cartodb_id": "523"
-		, "type": "poly"
-	}
-	, "tstart": "30:45"
-	, "instance": "Trees, people, cars; there's a school for the children."
-	, "tags": "Darlington Cassel"
-	, "episode": 553
-	, "slug": "lets-write-on-the-white"
-}, {
-	"_id": "5caa6966e803cb16c4bc5286"
-	, "carto": {
-		"cartodb_id": "522"
-		, "type": "poly"
-	}
-	, "tstart": "1:29:32"
-	, "instance": "That's not the way to eat a hot dog - you're really supposed to savor it."
-	, "tags": "Hot Dog"
-	, "episode": 550
-	, "slug": "cheesing-out-the-wave-d-hole"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
 }, {
@@ -1581,6 +1515,54 @@
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+}, {
+	"_id": "5caa6966e803cb16c4bc528b"
+	, "carto": {
+		"cartodb_id": "928"
+		, "type": "point"
+	}
+	, "tstart": "14:05"
+	, "instance": "These kids couldn't stop passin' out."
+	, "tags": "Lyle Cummings"
+	, "nb": ["trenton downey middle school", "proxy for: Trenton Downey Middle School;former workplace of: Lyle Cummings"]
+	, "episode": 554
+	, "slug": "educainment-squad"
+}, {
+	"_id": "5cc4a26d1c9d440000eb36c1"
+	, "tstart": "13:07"
+	, "instance": "Honestly I don't give two squirts about this damn truck."
+	, "tags": "Lyle Cummings"
+	, "nb": ["north carolina coast", "site of: Lyle Cummings making grocery money"]
+	, "carto": {
+		"type": "line"
+		, "cartodb_id": "130"
+	}
+	, "slug": "educainment-squad"
+	, "episode": 554
+}, {
+	"_id": "5caa6966e803cb16c4bc5289"
+	, "carto": {
+		"cartodb_id": "523"
+		, "type": "poly"
+	}
+	, "tstart": "25:28"
+	, "instance": "She's very multi-faceted."
+	, "tags": "Darlington Cassel"
+	, "nb": ["Wheeling, WV", "home state of: Darlington Cassel"]
+	, "episode": 553
+	, "slug": "lets-write-on-the-white"
+}, {
+	"_id": "5caa6966e803cb16c4bc5286"
+	, "carto": {
+		"cartodb_id": "522"
+		, "type": "poly"
+	}
+	, "tstart": "1:29:32"
+	, "instance": "That's not the way to eat a hot dog - you're really supposed to savor it."
+	, "tags": "Hot Dog"
+	, "nb": ["Coney Island", "site of: the wrong way to eat a hot dog"]
+	, "episode": 550
+	, "slug": "cheesing-out-the-wave-d-hole"
 }, {
 	"_id": "5caa6966e803cb16c4bc5282"
 	, "carto": {
@@ -1952,7 +1934,7 @@
 	, "slug": "this-is-the-story-of-my-life"
 }, {
 	"carto": {
-		"cartodb_id": 000000
+		"cartodb_id": 99999
 		, "type": ""
 	}
 	, "tstart": "1:07:05"
