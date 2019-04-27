@@ -1548,50 +1548,6 @@
 	, "episode": 550
 	, "slug": "cheesing-out-the-wave-d-hole"
 }, {
-	"_id": "5caa6966e803cb16c4bc527e"
-	, "carto": {
-		"cartodb_id": "521"
-		, "type": "poly"
-	}
-	, "tstart": "1:27:57"
-	, "instance": "Toward the end I saw which way the wind was blowin'."
-	, "tags": "Hot Dog"
-	, "episode": 550
-	, "slug": "cheesing-out-the-wave-d-hole"
-}, {
-	"_id": "5caa6966e803cb16c4bc5282"
-	, "carto": {
-		"cartodb_id": "923"
-		, "type": "point"
-	}
-	, "tstart": "1:27:40"
-	, "instance": "Was there any water-skiing in the Vietnam War?"
-	, "tags": "Hot Dog"
-	, "episode": 550
-	, "slug": "cheesing-out-the-wave-d-hole"
-}, {
-	"_id": "5caa6966e803cb16c4bc527a"
-	, "carto": {
-		"cartodb_id": "920"
-		, "type": "point"
-	}
-	, "tstart": "1:20:08"
-	, "instance": "They've got a girl who, you know - she'll bring the food to your table."
-	, "tags": "Hot Dog"
-	, "episode": 550
-	, "slug": "cheesing-out-the-wave-d-hole"
-}, {
-	"_id": "5caa6966e803cb16c4bc527c"
-	, "carto": {
-		"cartodb_id": "920"
-		, "type": "point"
-	}
-	, "tstart": "1:26:00"
-	, "instance": "Stagger yourself in the line."
-	, "tags": "Hot Dog"
-	, "episode": 550
-	, "slug": "cheesing-out-the-wave-d-hole"
-}, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 525 ~1:24:45 GARY URBANKSY MENTIONS THE WINERY FRM #507"
@@ -1625,6 +1581,30 @@
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
 }, {
 	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+}, {
+	"_id": "5caa6966e803cb16c4bc5282"
+	, "carto": {
+		"cartodb_id": "923"
+		, "type": "point"
+	}
+	, "tstart": "1:27:40"
+	, "instance": "Was there any water-skiing in the Vietnam War?"
+	, "tags": "Hot Dog"
+	, "nb": ["The Fall of Saigon", "site of: the fall of Saigon, Hot Dog attending same"]
+	, "episode": 550
+	, "slug": "cheesing-out-the-wave-d-hole"
+}, {
+	"_id": "5caa6966e803cb16c4bc527e"
+	, "carto": {
+		"cartodb_id": "521"
+		, "type": "poly"
+	}
+	, "tstart": "1:27:57"
+	, "instance": "Toward the end I saw which way the wind was blowin'."
+	, "tags": "Hot Dog"
+	, "nb": ["Vietnam", "site of: Hot Dog, left behind"]
+	, "episode": 550
+	, "slug": "cheesing-out-the-wave-d-hole"
 }, {
 	"_id": "5cc0affe1c9d44000064d179"
 	, "episode": 547
