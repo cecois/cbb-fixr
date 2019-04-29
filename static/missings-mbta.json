@@ -1,1725 +1,1778 @@
-[{
-	"_id": "5caa6966e803cb16c4bc52f4"
-	, "carto": {
-		"cartodb_id": "981"
-		, "type": "point"
-	}
-	, "tstart": "32:30"
-	, "instance": "On a floating...sort of a paddock."
-	, "tags": "Coach Joel GanVundi"
-	, "episode": 582
-	, "slug": "practice-sacks"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f1"
-	, "carto": {
-		"cartodb_id": "974"
-		, "type": "point"
-	}
-	, "tstart": "42:15"
-	, "instance": "Why would that lady in the diner be mistaken about you wearing a headdress?"
-	, "tags": "Chris Grezlik"
-	, "episode": 580
-	, "slug": "legend-of-mr-met"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f2"
-	, "carto": {
-		"cartodb_id": "973"
-		, "type": "point"
-	}
-	, "tstart": "38:45"
-	, "instance": "Have you ever left an opera at Oprah's house \\ and you don't know what to do?"
-	, "tags": "Cal Solomon,Batthew (Badminton) Mann,Oprah Winfrey"
-	, "episode": 578
-	, "slug": "right-off-the-batman"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f3"
-	, "carto": {
-		"cartodb_id": "972"
-		, "type": "point"
-	}
-	, "tstart": "1:13:16"
-	, "instance": "Some of the ugly children have it made - they're just ugly."
-	, "tags": "John Lennon"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ef"
-	, "carto": {
-		"cartodb_id": "971"
-		, "type": "point"
-	}
-	, "tstart": "37:42"
-	, "instance": "I'm pro-feminism, but I am a mysoginist."
-	, "tags": "Gino Lambardo,Santa Claus,Big Sue,Rudi North"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ea"
-	, "carto": {
-		"cartodb_id": "970"
-		, "type": "point"
-	}
-	, "tstart": "32:20"
-	, "instance": "I think you're gonna get some coal up your fuckin' ass."
-	, "tags": "Gino Lambardo,Santa Claus,Big Sue"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ee"
-	, "carto": {
-		"cartodb_id": "970"
-		, "type": "point"
-	}
-	, "tstart": "43:26"
-	, "instance": "Did you throatpunch a reindeer?"
-	, "tags": "Rudi North,Santa Claus,Big Sue,Ho Ho"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ec"
-	, "carto": {
-		"cartodb_id": "969"
-		, "type": "point"
-	}
-	, "tstart": "6:20"
-	, "instance": "Then I was fuckin' remissed to find out I was alive."
-	, "tags": "Gino Lambardo"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e7"
-	, "carto": {
-		"cartodb_id": "967"
-		, "type": "point"
-	}
-	, "tstart": "28:11"
-	, "instance": "Why don't you like 'buns'?"
-	, "tags": "Cal Solomon,Batthew (Badminton) Mann"
-	, "episode": 578
-	, "slug": "right-off-the-batman"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e6"
-	, "carto": {
-		"cartodb_id": "966"
-		, "type": "point"
-	}
-	, "tstart": "55:12"
-	, "instance": "Anything that gets me in a big truck, I'm all about."
-	, "tags": "Kayla Dickie,Cart"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52eb"
-	, "carto": {
-		"cartodb_id": "966"
-		, "type": "point"
-	}
-	, "tstart": "43:40"
-	, "instance": "This is like a monster truck."
-	, "tags": "Kayla Dickie"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc5303"
-	, "carto": {
-		"cartodb_id": "965"
-		, "type": "point"
-	}
-	, "tstart": "25:06"
-	, "instance": "I'm just merely running down your facts as I recall them."
-	, "tags": "Kayla Dickie"
-	, "episode": 591
-	, "slug": "unbewiebeble-kayla-dickie-returns"
-}, {
-	"_id": "5caa6966e803cb16c4bc52df"
-	, "carto": {
-		"cartodb_id": "965"
-		, "type": "point"
-	}
-	, "tstart": "46:00"
-	, "instance": "I work at the bad one."
-	, "tags": "Kayla Dickie,Sprague (The Whisperer) Jenkins"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e5"
-	, "carto": {
-		"cartodb_id": "965"
-		, "type": "point"
-	}
-	, "tstart": "59:50"
-	, "instance": "I wish you wouldn't identify yourself as just 'Girlfriend.'"
-	, "tags": "Kayla Dickie,Merg Wiebe"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e2"
-	, "carto": {
-		"cartodb_id": "965"
-		, "type": "point"
-	}
-	, "tstart": "55:12"
-	, "instance": "Anything that gets me in a big truck, I'm all about."
-	, "tags": "Kayla Dickie,Cart"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52de"
-	, "carto": {
-		"cartodb_id": "964"
-		, "type": "point"
-	}
-	, "tstart": "49:52"
-	, "instance": "So he had different assistants for different locations?"
-	, "tags": "Kayla Dickie,Jud Wiebe"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e4"
-	, "carto": {
-		"cartodb_id": "963"
-		, "type": "point"
-	}
-	, "tstart": "1:06:45"
-	, "instance": "You're wearing a cloak and you're speaking in a fake British accent."
-	, "tags": "Kayla Dickie,Sprague (The Whisperer) Jensen"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e1"
-	, "carto": {
-		"cartodb_id": "962"
-		, "type": "point"
-	}
-	, "tstart": "2:12"
-	, "instance": "Cardiovascular exercise is very important, Mr. Aukerman."
-	, "tags": ""
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52dd"
-	, "carto": {
-		"cartodb_id": "961"
-		, "type": "point"
-	}
-	, "tstart": "32:10"
-	, "instance": "What kind of costume is this?"
-	, "tags": "Sprague (The Whisperer) Jenkins"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d4"
-	, "carto": {
-		"cartodb_id": "959"
-		, "type": "point"
-	}
-	, "tstart": "7:25"
-	, "instance": "I'll pitch it at the next town council meeting."
-	, "tags": "Joe Bongo,Jimmy Bongos"
-	, "episode": 576
-	, "slug": "what-the-sound-made"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d7"
-	, "carto": {
-		"cartodb_id": "958"
-		, "type": "point"
-	}
-	, "tstart": "6:30"
-	, "instance": "I was involved in the most expensive car accident in the history of Marina del Rey."
-	, "tags": "Joe Bongo,Jimmy Bongos"
-	, "episode": 576
-	, "slug": "what-the-sound-made"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d3"
-	, "carto": {
-		"cartodb_id": "955"
-		, "type": "point"
-	}
-	, "tstart": "1:03:45"
-	, "instance": "I heard about him - but he couldn't get a full horse?"
-	, "tags": "John Lennon,Keantwo Reeves,Christopher Reeve"
-	, "episode": 575
-	, "slug": "that-dazzles-me-already"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d5"
-	, "carto": {
-		"cartodb_id": "954"
-		, "type": "point"
-	}
-	, "tstart": "1:09:18"
-	, "instance": "But here's my thing - the area that my sod house used to be, now it's a Costco."
-	, "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Prudence Fart"
-	, "episode": 574
-	, "slug": "conan-never-goes-outside"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d2"
-	, "carto": {
-		"cartodb_id": "953"
-		, "type": "point"
-	}
-	, "tstart": "48:20"
-	, "instance": "We're opening up our house for services."
-	, "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat"
-	, "episode": 574
-	, "slug": "conan-never-goes-outside"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d1"
-	, "carto": {
-		"cartodb_id": "952"
-		, "type": "point"
-	}
-	, "tstart": "1:35:44"
-	, "instance": "I guess you could catch a couple of my local stories."
-	, "tags": "Jack Furz"
-	, "episode": 573
-	, "slug": "alfred-molina-flair"
-}, {
-	"_id": "5caa6966e803cb16c4bc52cf"
-	, "carto": {
-		"cartodb_id": "952"
-		, "type": "point"
-	}
-	, "tstart": "47:00"
-	, "instance": "It's a lady feeding ducks."
-	, "tags": "Jack Furz"
-	, "episode": 573
-	, "slug": "alfred-molina-flair"
-}, {
-	"_id": "5caa6966e803cb16c4bc52cd"
-	, "carto": {
-		"cartodb_id": "950"
-		, "type": "point"
-	}
-	, "tstart": "1:01:00"
-	, "instance": "An animated fish is a member of our gang."
-	, "tags": "Gino Lambardo,Idaho"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c4"
-	, "carto": {
-		"cartodb_id": "949"
-		, "type": "point"
-	}
-	, "tstart": "18:30"
-	, "instance": "I went to Kinko's for that - it cost me $40 in quarters."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c2"
-	, "carto": {
-		"cartodb_id": "948"
-		, "type": "point"
-	}
-	, "tstart": "11:28"
-	, "instance": "It's either that or I rode the Gravitron...1000 times in one weekend."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c1"
-	, "carto": {
-		"cartodb_id": "947"
-		, "type": "point"
-	}
-	, "tstart": "4:25"
-	, "instance": "I was a Chinese food delivery guy."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e9"
-	, "carto": {
-		"cartodb_id": "946"
-		, "type": "point"
-	}
-	, "tstart": "37:17"
-	, "instance": "Of course I got a new job."
-	, "tags": "Rudi North"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52bc"
-	, "carto": {
-		"cartodb_id": "946"
-		, "type": "point"
-	}
-	, "tstart": "26:04"
-	, "instance": "Did I leave that out? Because it's kind of important."
-	, "tags": "Rudi North"
-	, "episode": 570
-	, "slug": "the-dirty-27"
-}, {
-	"_id": "5caa6966e803cb16c4bc52bf"
-	, "carto": {
-		"cartodb_id": "946"
-		, "type": "point"
-	}
-	, "tstart": "55:07"
-	, "instance": "Have you washed the sidewalk today?"
-	, "tags": "Rudi North,Brody Broderson"
-	, "episode": 570
-	, "slug": "the-dirty-27"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ba"
-	, "carto": {
-		"cartodb_id": "945"
-		, "type": "point"
-	}
-	, "tstart": "35:00"
-	, "instance": "They've had a bit of a rain delay with the pyramid."
-	, "tags": "Luke and Matthew"
-	, "episode": 569
-	, "slug": "dull-knives-sturdy-eyes"
-}, {
-	"_id": "5caa6966e803cb16c4bc52bb"
-	, "carto": {
-		"cartodb_id": "944"
-		, "type": "point"
-	}
-	, "tstart": "44:50"
-	, "instance": "Woa, turkey."
-	, "tags": ""
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b7"
-	, "carto": {
-		"cartodb_id": "944"
-		, "type": "point"
-	}
-	, "tstart": "32:05"
-	, "instance": "When I eat ice cream I'm on the go."
-	, "tags": ""
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b9"
-	, "carto": {
-		"cartodb_id": "943"
-		, "type": "point"
-	}
-	, "tstart": "5:50"
-	, "instance": "Oh sure, baby, I'll be there for sure."
-	, "tags": "Debbie Allen"
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b8"
-	, "carto": {
-		"cartodb_id": "943"
-		, "type": "point"
-	}
-	, "tstart": "23:05"
-	, "instance": "If you [Neflix] don't purchase Ike Barinholtz' 'Literal Web of Deceit and Intrigue' you are fucking morons."
-	, "tags": "Debbie Allen"
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b3"
-	, "carto": {
-		"cartodb_id": "942"
-		, "type": "point"
-	}
-	, "tstart": "2:29"
-	, "instance": "'Get outta here, Honey' - I say to my writing partner."
-	, "tags": ""
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b4"
-	, "carto": {
-		"cartodb_id": "941"
-		, "type": "point"
-	}
-	, "tstart": "13:20"
-	, "instance": "I don't know these Mojo Potatoes."
-	, "tags": "Forsythia,Sergei"
-	, "episode": 567
-	, "slug": "midnight-junket"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ab"
-	, "carto": {
-		"cartodb_id": "940"
-		, "type": "point"
-	}
-	, "tstart": "37:05"
-	, "instance": "So you guys like eating cows."
-	, "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
-	, "episode": 566
-	, "slug": "the-calvins-triplets"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a8"
-	, "carto": {
-		"cartodb_id": "939"
-		, "type": "point"
-	}
-	, "tstart": "1:07:18"
-	, "instance": "I don't wanna slut-shame her but what a slut!"
-	, "tags": "Hot Dog,Augustina (Auggie) Auggerman,Jamei Leighton"
-	, "episode": 565
-	, "slug": "cmon-bake-bake"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a1"
-	, "carto": {
-		"cartodb_id": "937"
-		, "type": "point"
-	}
-	, "tstart": "30:15"
-	, "instance": "I hope you live in just, like, an abandoned dirt lot or something."
-	, "tags": "Daniel Faraway"
-	, "episode": 562
-	, "slug": "theyvent-yet"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a0"
-	, "carto": {
-		"cartodb_id": "936"
-		, "type": "point"
-	}
-	, "tstart": "49:20"
-	, "instance": "The opposite of Ariana Grande."
-	, "tags": "Hekla Jonsdottir,Björk,Ariana Grande"
-	, "episode": 561
-	, "slug": "poke-mitzvah"
-}, {
-	"_id": "5caa6966e803cb16c4bc5299"
-	, "carto": {
-		"cartodb_id": "934"
-		, "type": "point"
-	}
-	, "tstart": "49:40"
-	, "instance": "And that word was...'word' followed by 'up.'"
-	, "tags": "Nance,Larry Blackmon"
-	, "episode": 557
-	, "slug": "word-down"
-}, {
-	"_id": "5caa6966e803cb16c4bc5297"
-	, "carto": {
-		"cartodb_id": "933"
-		, "type": "point"
-	}
-	, "tstart": "39:30"
-	, "instance": "Wherever one lays and holds their pillow tight is really one's home."
-	, "tags": "Nance,Larry Blackmon"
-	, "episode": 557
-	, "slug": "word-down"
-}, {
-	"_id": "5caa6966e803cb16c4bc5296"
-	, "carto": {
-		"cartodb_id": "932"
-		, "type": "point"
-	}
-	, "tstart": "47:26"
-	, "instance": "And that word was...'word' followed by 'up.'"
-	, "tags": "Nance,Larry Blackmon"
-	, "episode": 557
-	, "slug": "word-down"
-}, {
-	"_id": "5caa6966e803cb16c4bc5290"
-	, "carto": {
-		"cartodb_id": "930"
-		, "type": "point"
-	}
-	, "tstart": "34:20"
-	, "instance": "Was it the Blues Brothers stunt show?"
-	, "tags": "JW Stillwater"
-	, "episode": 555
-	, "slug": "what-a-wonderful-waterworld"
-}, {
-	"_id": "5caa6966e803cb16c4bc5295"
-	, "carto": {
-		"cartodb_id": "930"
-		, "type": "point"
-	}
-	, "tstart": "42:00"
-	, "instance": "Keep the tips of your fingers from burning off."
-	, "tags": "JW Stillwater,Valley Stuntman California Buckley"
-	, "episode": 555
-	, "slug": "what-a-wonderful-waterworld"
-}, {
-	"_id": "5caa6966e803cb16c4bc5291"
-	, "carto": {
-		"cartodb_id": "930"
-		, "type": "point"
-	}
-	, "tstart": "40:10"
-	, "instance": "I'll be damned if I'm not Cal Buckley, Valley Stuntman."
-	, "tags": "JW Stillwater,Valley Stuntman California Buckley"
-	, "episode": 555
-	, "slug": "what-a-wonderful-waterworld"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a2"
-	, "carto": {
-		"cartodb_id": "926"
-		, "type": "point"
-	}
-	, "tstart": "17:05"
-	, "instance": "Not the chain - it's too much work."
-	, "tags": "Bean Dip"
-	, "episode": 563
-	, "slug": "where-you-come-from-with-chvrches"
-}, {
-	"_id": "5caa6966e803cb16c4bc5285"
-	, "carto": {
-		"cartodb_id": "926"
-		, "type": "point"
-	}
-	, "tstart": "56:30"
-	, "instance": "And why The W, by the way?"
-	, "tags": "Bean Dip"
-	, "episode": 552
-	, "slug": "hey-keep-readin"
-}, {
-	"_id": "5caa6966e803cb16c4bc528e"
-	, "carto": {
-		"cartodb_id": "926"
-		, "type": "point"
-	}
-	, "tstart": "1:13:35"
-	, "instance": "Don't get it twisted."
-	, "tags": "Bean Dip"
-	, "episode": 552
-	, "slug": "hey-keep-readin"
-}, {
-	"_id": "5caa6966e803cb16c4bc5293"
-	, "carto": {
-		"cartodb_id": "925"
-		, "type": "point"
-	}
-	, "tstart": "52:40"
-	, "instance": "Quart of beers - you can poor em on your head."
-	, "tags": "Gino Lambardo"
-	, "episode": 551
-	, "slug": "new-to-the-wax-with-the-sloppy-boys"
-}, {
-	"_id": "5caa6966e803cb16c4bc5284"
-	, "carto": {
-		"cartodb_id": "924"
-		, "type": "point"
-	}
-	, "tstart": "6:38"
-	, "instance": "Yes we went to Hall Town and we got a divorce."
-	, "tags": "Gino Lambardo"
-	, "episode": 551
-	, "slug": "new-to-the-wax-with-the-sloppy-boys"
-}, {
-	"_id": "5caa6966e803cb16c4bc5287"
-	, "carto": {
-		"cartodb_id": "924"
-		, "type": "point"
-	}
-	, "tstart": "5:25"
-	, "instance": "My dad is my former dad."
-	, "tags": "Gino Lambardo"
-	, "episode": 551
-	, "slug": "new-to-the-wax-with-the-sloppy-boys"
-}, {
-	"_id": "5caa6966e803cb16c4bc5278"
-	, "carto": {
-		"cartodb_id": "919"
-		, "type": "point"
-	}
-	, "tstart": "51:20"
-	, "instance": "Is that why you've been parking your car on the corner?"
-	, "tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler"
-	, "episode": 549
-	, "slug": "prom-womptacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc5279"
-	, "carto": {
-		"cartodb_id": "918"
-		, "type": "point"
-	}
-	, "tstart": "48:55"
-	, "instance": "And 'Castaway' could be either because it's a made-up nonsense name based on a movie."
-	, "tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler,Castaway (film)"
-	, "episode": 549
-	, "slug": "prom-womptacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc5276"
-	, "carto": {
-		"cartodb_id": "917"
-		, "type": "point"
-	}
-	, "tstart": "1:19:50"
-	, "instance": "They bring you too much food - it's very fun."
-	, "tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5277"
-	, "carto": {
-		"cartodb_id": "916"
-		, "type": "point"
-	}
-	, "tstart": "1:19:28"
-	, "instance": "We was having a drawing conversation."
-	, "tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5273"
-	, "carto": {
-		"cartodb_id": "915"
-		, "type": "point"
-	}
-	, "tstart": "56:40"
-	, "instance": "Why do they call it 'Little Tokyo' when it's so big?"
-	, "tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5272"
-	, "carto": {
-		"cartodb_id": "914"
-		, "type": "point"
-	}
-	, "tstart": "53:30"
-	, "instance": "I tell you what - this muthafucka looked just like Tupac."
-	, "tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Tupac Shakur"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5271"
-	, "carto": {
-		"cartodb_id": "913"
-		, "type": "point"
-	}
-	, "tstart": "52:10"
-	, "instance": "Believe it or not it was 1985 exactly."
-	, "tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5275"
-	, "carto": {
-		"cartodb_id": "911"
-		, "type": "point"
-	}
-	, "tstart": "26:55"
-	, "instance": "Do you know, that sneaky fellow - he had an x-ray machine in the bathroom of one of his restaurants and he was spying on peoples' skeletons."
-	, "tags": "Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Chuck Berry"
-	, "episode": 548
-	, "slug": "know-what-im-saying"
-}, {
-	"_id": "5caa6966e803cb16c4bc5266"
-	, "carto": {
-		"cartodb_id": "907"
-		, "type": "point"
-	}
-	, "tstart": "1:17:55"
-	, "instance": "Speaking of Punk'd..."
-	, "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore,Ashton Kutcher"
-	, "episode": 542
-	, "slug": "big-ben-minus-ten"
-}, {
-	"_id": "5caa6966e803cb16c4bc5262"
-	, "carto": {
-		"cartodb_id": "906"
-		, "type": "point"
-	}
-	, "tstart": "1:08:10"
-	, "instance": "Right now we're on our gas stations tour."
-	, "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore"
-	, "episode": 542
-	, "slug": "big-ben-minus-ten"
-}, {
-	"_id": "5caa6966e803cb16c4bc5263"
-	, "carto": {
-		"cartodb_id": "906"
-		, "type": "point"
-	}
-	, "tstart": "1:16:20"
-	, "instance": "Alright, so an off-brand gas station."
-	, "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore"
-	, "episode": 542
-	, "slug": "big-ben-minus-ten"
-}, {
-	"_id": "5caa6966e803cb16c4bc525c"
-	, "carto": {
-		"cartodb_id": "901"
-		, "type": "point"
-	}
-	, "tstart": "48:30"
-	, "instance": "It's a crazy time."
-	, "tags": ""
-	, "episode": 538
-	, "slug": "roller-coaster-one"
-}, {
-	"_id": "5caa6966e803cb16c4bc5256"
-	, "carto": {
-		"cartodb_id": "899"
-		, "type": "point"
-	}
-	, "tstart": "1:17:00"
-	, "instance": "My dad did the same thing for me when 'Terminator 2' came out."
-	, "tags": "Gino Lambardo,Scott's Nephew Todd,Scott Jeffries"
-	, "episode": 536
-	, "slug": "live-from-sxsw-2018"
-}, {
-	"_id": "5caa6966e803cb16c4bc5257"
-	, "carto": {
-		"cartodb_id": "898"
-		, "type": "point"
-	}
-	, "tstart": "53:03"
-	, "instance": "You know somebody goes to Westworld to fuck the horses, right?"
-	, "tags": "Gino Lambardo,Scott Jeffries,Scott's Nephew Todd"
-	, "episode": 536
-	, "slug": "live-from-sxsw-2018"
-}, {
-	"_id": "5caa6966e803cb16c4bc5255"
-	, "carto": {
-		"cartodb_id": "897"
-		, "type": "point"
-	}
-	, "tstart": "3:53"
-	, "instance": "It's just a woman, tatted-up, facing away from the camera for an hour."
-	, "tags": "Gino Lambardo"
-	, "episode": 536
-	, "slug": "live-from-sxsw-2018"
-}, {
-	"_id": "5caa6966e803cb16c4bc5254"
-	, "carto": {
-		"cartodb_id": "896"
-		, "type": "point"
-	}
-	, "tstart": "1:12:57"
-	, "instance": "It was a sturgeon - she has an office in Marina del Rey."
-	, "tags": "Rudi North,Shaliyah,Conchneee"
-	, "episode": 535
-	, "slug": "niles-per-hour"
-}, {
-	"_id": "5caa6966e803cb16c4bc5251"
-	, "carto": {
-		"cartodb_id": "895"
-		, "type": "point"
-	}
-	, "tstart": "1:09:30"
-	, "instance": "We are just, like, so fluid."
-	, "tags": "Rudi North,Shaliyah,Conchneee"
-	, "episode": 535
-	, "slug": "niles-per-hour"
-}, {
-	"_id": "5caa6966e803cb16c4bc524f"
-	, "carto": {
-		"cartodb_id": "893"
-		, "type": "point"
-	}
-	, "tstart": "46:34"
-	, "instance": "How did you get into the science of Geology?"
-	, "tags": "Bashford & Franklin (musical combination)"
-	, "episode": 534
-	, "slug": "solid-as-a-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc5252"
-	, "carto": {
-		"cartodb_id": "893"
-		, "type": "point"
-	}
-	, "tstart": "50:00"
-	, "instance": "You dug into the floor but it was really *your* roof?"
-	, "tags": "Bashford & Franklin (musical combination)"
-	, "episode": 534
-	, "slug": "solid-as-a-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc524e"
-	, "carto": {
-		"cartodb_id": "892"
-		, "type": "point"
-	}
-	, "tstart": "5:45"
-	, "instance": "She went to high school with Judd Apatow."
-	, "tags": ""
-	, "episode": 534
-	, "slug": "solid-as-a-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc524a"
-	, "carto": {
-		"cartodb_id": "891"
-		, "type": "point"
-	}
-	, "tstart": "1:55:05"
-	, "instance": "Scurvy is a very serious issue."
-	, "tags": "Keith Jones"
-	, "episode": 461
-	, "slug": "tragedy-boom-boom-with-the-magic-tavern"
-}, {
-	"_id": "5caa6966e803cb16c4bc5248"
-	, "carto": {
-		"cartodb_id": "889"
-		, "type": "point"
-	}
-	, "tstart": "1:14:47"
-	, "instance": "I've been there for 32 years."
-	, "tags": "Becky"
-	, "episode": 531
-	, "slug": "atmosphere-bully"
-}, {
-	"_id": "5caa6966e803cb16c4bc524d"
-	, "carto": {
-		"cartodb_id": "889"
-		, "type": "point"
-	}
-	, "tstart": "1:31:33"
-	, "instance": "You can go see Dr./Dentist Samoa [sic]..."
-	, "tags": "Becky"
-	, "episode": 531
-	, "slug": "atmosphere-bully"
-}, {
-	"_id": "5caa6966e803cb16c4bc5205"
-	, "carto": {
-		"cartodb_id": "855"
-		, "type": "point"
-	}
-	, "tstart": "10:05"
-	, "instance": "Is that not a thing that everybody knows about?"
-	, "tags": "Gino Lambardo,Mario Pirello"
-	, "episode": 525
-	, "slug": "2017-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a3"
-	, "carto": {
-		"cartodb_id": "854"
-		, "type": "point"
-	}
-	, "tstart": "27:25"
-	, "instance": "You gotta ask for the special menu."
-	, "tags": "Bean Dip"
-	, "episode": 563
-	, "slug": "where-you-come-from-with-chvrches"
-}, {
-	"_id": "5caa6966e803cb16c4bc5204"
-	, "carto": {
-		"cartodb_id": "854"
-		, "type": "point"
-	}
-	, "tstart": "1:32:30"
-	, "instance": "I'm grabbing it so fast quite honestly the sushi sloshed around in the bag before it gets to the house."
-	, "tags": "Big Chunky Bubbles,Rudi North"
-	, "episode": 524
-	, "slug": "merry-chunky-christmas-with-neil-patrick-harris"
-}, {
-	"_id": "5caa6966e803cb16c4bc5207"
-	, "carto": {
-		"cartodb_id": "853"
-		, "type": "point"
-	}
-	, "tstart": "1:29:25"
-	, "instance": "So I jumped into traffic."
-	, "tags": "Big Chunky Bubbles,Rudi North"
-	, "episode": 524
-	, "slug": "merry-chunky-christmas-with-neil-patrick-harris"
-}, {
-	"_id": "5caa6966e803cb16c4bc530a"
-	, "carto": {
-		"cartodb_id": "573"
-		, "type": "poly"
-	}
-	, "tstart": "19:00"
-	, "instance": "Is San Jose \"The Bay Area\"?"
-	, "tags": "Randy Useless"
-	, "episode": 594
-	, "slug": "now-its-time-for-a-breakdown"
-}, {
-	"_id": "5caa6966e803cb16c4bc5309"
-	, "carto": {
-		"cartodb_id": "572"
-		, "type": "poly"
-	}
-	, "tstart": "1:09:25"
-	, "instance": "So he had been on that train since pre-the murders."
-	, "tags": "O.J. Simpson,Appetizer PeeE Neur"
-	, "episode": 592
-	, "slug": "the-peee-neurs"
-}, {
-	"_id": "5caa6966e803cb16c4bc5300"
-	, "carto": {
-		"cartodb_id": "571"
-		, "type": "poly"
-	}
-	, "tstart": "1:10:45"
-	, "instance": "They're not phased by the nakedness."
-	, "tags": "Kaitlin"
-	, "episode": 588
-	, "slug": "lil-choices"
-}, {
-	"_id": "5caa6966e803cb16c4bc52fc"
-	, "carto": {
-		"cartodb_id": "570"
-		, "type": "poly"
-	}
-	, "tstart": "30:55"
-	, "instance": "These are easy, easy questions."
-	, "tags": "Devon Westinghouse"
-	, "episode": 586
-	, "slug": "butt-first"
-}, {
-	"_id": "5caa6966e803cb16c4bc52fd"
-	, "carto": {
-		"cartodb_id": "570"
-		, "type": "poly"
-	}
-	, "tstart": "33:15"
-	, "instance": "Great side over there - you got great pizza."
-	, "tags": "Devon Westinghouse,James P. Garity"
-	, "episode": 586
-	, "slug": "butt-first"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f6"
-	, "carto": {
-		"cartodb_id": "558"
-		, "type": "poly"
-	}
-	, "tstart": "34:00"
-	, "instance": "After the game a trickster demon by the name of Aziban approached me outside my hotel room in the form of a coyote."
-	, "tags": "Coach Joel GanVundi"
-	, "episode": 582
-	, "slug": "practice-sacks"
-}, {
-	"_id": "5caa6966e803cb16c4bc52fb"
-	, "carto": {
-		"cartodb_id": "557"
-		, "type": "poly"
-	}
-	, "tstart": "22:55"
-	, "instance": "They will televise the Houston players, but our players are covered by big, green boxes."
-	, "tags": "Coach Joel GanVundi"
-	, "episode": 582
-	, "slug": "practice-sacks"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f0"
-	, "carto": {
-		"cartodb_id": "554"
-		, "type": "poly"
-	}
-	, "tstart": "11:32"
-	, "instance": "I built a home for a raccoon."
-	, "tags": "Gino Lambardo"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ed"
-	, "carto": {
-		"cartodb_id": "553"
-		, "type": "poly"
-	}
-	, "tstart": "10:27"
-	, "instance": "And he gives college tourgasms."
-	, "tags": "Gino Lambardo,Dean Cook"
-	, "episode": 579
-	, "slug": "2018-holiday-spectacular"
-}, {
-	"_id": "5caa6966e803cb16c4bc5306"
-	, "carto": {
-		"cartodb_id": "552"
-		, "type": "poly"
-	}
-	, "tstart": "29:30"
-	, "instance": "He started a fire because he left some curling irons on."
-	, "tags": "Sprague the Whisperer,Kayla Dickie,Jud Wiebe"
-	, "episode": 591
-	, "slug": "unbewiebeble-kayla-dickie-returns"
-}, {
-	"_id": "5caa6966e803cb16c4bc52e0"
-	, "carto": {
-		"cartodb_id": "552"
-		, "type": "poly"
-	}
-	, "tstart": "1:00:55"
-	, "instance": "So Jud is running some sort of Mayoral sex cult."
-	, "tags": "Kayla Dickie,Jud Wiebe"
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d9"
-	, "carto": {
-		"cartodb_id": "550"
-		, "type": "poly"
-	}
-	, "tstart": "3:15"
-	, "instance": "I watch plays."
-	, "tags": ""
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52db"
-	, "carto": {
-		"cartodb_id": "549"
-		, "type": "poly"
-	}
-	, "tstart": "3:15"
-	, "instance": "I once participated in a sexy contest."
-	, "tags": ""
-	, "episode": 577
-	, "slug": "miss-pered"
-}, {
-	"_id": "5caa6966e803cb16c4bc52d6"
-	, "carto": {
-		"cartodb_id": "547"
-		, "type": "poly"
-	}
-	, "tstart": "27:58"
-	, "instance": "We live across the mountain from, um - do you know Cher?"
-	, "tags": "John Lennon,Cher,Mamma Mia! (film)"
-	, "episode": 575
-	, "slug": "that-dazzles-me-already"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ce"
-	, "carto": {
-		"cartodb_id": "546"
-		, "type": "poly"
-	}
-	, "tstart": "41:35"
-	, "instance": "Wait, they named the city after him?!"
-	, "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Jerry Sandusky"
-	, "episode": 574
-	, "slug": "conan-never-goes-outside"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ca"
-	, "carto": {
-		"cartodb_id": "545"
-		, "type": "poly"
-	}
-	, "tstart": "1:17:55"
-	, "instance": "They found most of the gold everwhere."
-	, "tags": "Gino Lambardo,Queen Cleopatra"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c9"
-	, "carto": {
-		"cartodb_id": "544"
-		, "type": "poly"
-	}
-	, "tstart": "48:50"
-	, "instance": "America's erect penis."
-	, "tags": "Gino Lambardo,Idaho"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52cb"
-	, "carto": {
-		"cartodb_id": "543"
-		, "type": "poly"
-	}
-	, "tstart": "18:38"
-	, "instance": "Hindsight's 20/20, Auxman."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c8"
-	, "carto": {
-		"cartodb_id": "542"
-		, "type": "poly"
-	}
-	, "tstart": "18:38"
-	, "instance": "Hindsight's 20/20, Auxman."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c6"
-	, "carto": {
-		"cartodb_id": "541"
-		, "type": "poly"
-	}
-	, "tstart": "18:38"
-	, "instance": "Hindsight's 20/20, Auxman."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c5"
-	, "carto": {
-		"cartodb_id": "540"
-		, "type": "poly"
-	}
-	, "tstart": "18:38"
-	, "instance": "Hindsight's 20/20, Auxman."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c7"
-	, "carto": {
-		"cartodb_id": "539"
-		, "type": "poly"
-	}
-	, "tstart": "18:38"
-	, "instance": "Hindsight's 20/20, Auxman."
-	, "tags": "Gino Lambardo"
-	, "episode": 571
-	, "slug": "rope-beats-rock"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c3"
-	, "carto": {
-		"cartodb_id": "538"
-		, "type": "poly"
-	}
-	, "tstart": "42:40"
-	, "instance": "I got some gardens there."
-	, "tags": "Rudi North,Brody Broderson"
-	, "episode": 570
-	, "slug": "the-dirty-27"
-}, {
-	"_id": "5caa6966e803cb16c4bc52bd"
-	, "carto": {
-		"cartodb_id": "536"
-		, "type": "poly"
-	}
-	, "tstart": "33:00"
-	, "instance": "It's very difficult to get to - almost as difficult as HBO."
-	, "tags": "Luke and Matthew"
-	, "episode": 569
-	, "slug": "dull-knives-sturdy-eyes"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b2"
-	, "carto": {
-		"cartodb_id": "534"
-		, "type": "poly"
-	}
-	, "tstart": "1:04:10"
-	, "instance": "So is everyone in the community forced to go, somehow?"
-	, "tags": "Nadine Funts "
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b1"
-	, "carto": {
-		"cartodb_id": "534"
-		, "type": "poly"
-	}
-	, "tstart": "1:17:35"
-	, "instance": "So you started a sex cult where the children are prisoners, forced to make you food."
-	, "tags": "Nadine Funts "
-	, "episode": 568
-	, "slug": "literal-web"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b0"
-	, "carto": {
-		"cartodb_id": "533"
-		, "type": "poly"
-	}
-	, "tstart": "15:10"
-	, "instance": "I'm from Russia but I go to the Ukraine."
-	, "tags": "Forsythia,Sergei"
-	, "episode": 567
-	, "slug": "midnight-junket"
-}, {
-	"_id": "5caa6966e803cb16c4bc52aa"
-	, "carto": {
-		"cartodb_id": "532"
-		, "type": "poly"
-	}
-	, "tstart": "11:47"
-	, "instance": "Two different locations, now!"
-	, "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
-	, "episode": 566
-	, "slug": "the-calvins-triplets"
-}, {
-	"_id": "5caa6966e803cb16c4bc52be"
-	, "carto": {
-		"cartodb_id": "531"
-		, "type": "poly"
-	}
-	, "tstart": "50:00"
-	, "instance": "We killed a raccoon to see if it would die."
-	, "tags": "Eugenia WOBBLES,Augustina (Auggie) Auggerman"
-	, "episode": 565
-	, "slug": "cmon-bake-bake"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a4"
-	, "carto": {
-		"cartodb_id": "938"
-		, "type": "point"
-	}
-	, "tstart": "14:40"
-	, "instance": "Unfortunately I was otherwise detained."
-	, "tags": "Byron Denniston"
-	, "episode": 564
-	, "slug": "svelte-scale"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a5"
-	, "carto": {
-		"cartodb_id": "938"
-		, "type": "point"
-	}
-	, "tstart": "27:35"
-	, "instance": "I do have a vest which is full of small knives."
-	, "tags": "Byron Denniston"
-	, "episode": 564
-	, "slug": "svelte-scale"
-}, {
-	"_id": "5caa6966e803cb16c4bc52b5"
-	, "carto": {
-		"cartodb_id": "938"
-		, "type": "point"
-	}
-	, "tstart": "31:13"
-	, "instance": "I dressed up as a guard, I did some guarding of the prisoners."
-	, "tags": "Byron Denniston"
-	, "episode": 564
-	, "slug": "svelte-scale"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a9"
-	, "carto": {
-		"cartodb_id": "529"
-		, "type": "poly"
-	}
-	, "tstart": "19:25"
-	, "instance": "I don't live in a proper home."
-	, "tags": "Byron Denniston"
-	, "episode": 564
-	, "slug": "svelte-scale"
-}, {
-	"_id": "5caa6966e803cb16c4bc52a7"
-	, "carto": {
-		"cartodb_id": "529"
-		, "type": "poly"
-	}
-	, "tstart": "15:38"
-	, "instance": "You may interact, from time to time, with their babies."
-	, "tags": "Byron Denniston"
-	, "episode": 564
-	, "slug": "svelte-scale"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 525 ~1:24:45 GARY URBANKSY MENTIONS THE WINERY FRM #507"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 507 ~49:00 GARY URBANKSY LISTS HIS OLD STORES"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• where's 528's Dos Dorodo (el dorodo)?"
-}, {
-	"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-}, {
-	"_id": "5caa6966e803cb16c4bc529e"
-	, "carto": {
-		"cartodb_id": "527"
-		, "type": "poly"
-	}
-	, "tstart": "4:14"
-	, "instance": "We're not cockroaches or horses - just human entrepreneurs."
-	, "tags": "Jen,Berry"
-	, "nb": ["San Luis Ibispo, CA", "hometown of: Jen, hometown of: Berry"]
-	, "episode": 559
-	, "slug": "jen-and-berrys-frozen-ice"
-}, {
-	"_id": "5caa6966e803cb16c4bc52fa"
-	, "carto": {
-		"cartodb_id": "563"
-		, "type": "poly"
-	}
-	, "tstart": "1:19:20"
-	, "instance": "They filmed some of Star Wars there."
-	, "tags": "Martin Sheffield Lickly,Chitter Chitter Cluck Click"
-	, "nb": ["Guatemala", "site of: Blooding ceremonies; the filming of Star Wars"]
-	, "episode": 583
-	, "slug": "batman-nine-nine"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f8"
-	, "carto": {
-		"cartodb_id": "563"
-		, "type": "poly"
-	}
-	, "tstart": "1:16:31"
-	, "instance": "What is a blooding ceremony?"
-	, "tags": "Martin Sheffield Lickly,Chitter Chitter Cluck Click"
-	, "nb": ["Guatemala", "site of: Blooding ceremonies; the filming of Star Wars"]
-	, "episode": 583
-	, "slug": "batman-nine-nine"
-}, {
-	"_id": "5caa6966e803cb16c4bc529c"
-	, "carto": {
-		"cartodb_id": "935"
-		, "type": "point"
-	}
-	, "tstart": "39:50"
-	, "instance": "My postman just mailed himself to the bottom of the ocean."
-	, "tags": "Martin Sheffield Lickly,Chase Varner"
-	, "nb": ["-133.172817,24.751503", "site of:Martin Sheffield's postman"]
-	, "episode": 558
-	, "slug": "ship-of-love"
-}, {
-	"_id": "5caa6966e803cb16c4bc52f7"
-	, "carto": {
-		"cartodb_id": "526"
-		, "type": "poly"
-	}
-	, "tstart": "36:55"
-	, "instance": "Oh, I ran though that field."
-	, "tags": "Martin Sheffield Lickly"
-	, "episode": 583
-	, "slug": "batman-nine-nine"
-}, {
-	"_id": "5caa6966e803cb16c4bc529a"
-	, "carto": {
-		"cartodb_id": "526"
-		, "type": "poly"
-	}
-	, "tstart": "16:52"
-	, "instance": "There's a little bit of a drawl - but definitely England."
-	, "tags": "Martin Sheffield Lickly"
-	, "nb": ["Oxfordshire, UK", "home region of: Martin Sheffield Lickly"]
-	, "episode": 558
-	, "slug": "ship-of-love"
-}, {
-	"_id": "5caa6966e803cb16c4bc529d"
-	, "carto": {
-		"cartodb_id": "525"
-		, "type": "poly"
-	}
-	, "tstart": "48:30"
-	, "instance": "That's what Hekla means in what language?"
-	, "tags": "Hekla Jonsdottir"
-	, "nb": ["Reykjavík, Iceland", "site of: gaming conventions"]
-	, "episode": 561
-	, "slug": "poke-mitzvah"
-}, {
-	"_id": "5caa6966e803cb16c4bc5298"
-	, "carto": {
-		"cartodb_id": "525"
-		, "type": "poly"
-	}
-	, "tstart": "52:57"
-	, "instance": "I'm sure a lot of gamers are going to dig this show."
-	, "tags": "Raul DeLaMancha,Steven 'Sweatch' Stokey,Paul 'Erupt' Stokey"
-	, "nb": ["Reykjavík, Iceland", "site of: gaming conventions"]
-	, "episode": 556
-	, "slug": "tips-n-tricks"
-}, {
-	"_id": "5caa6966e803cb16c4bc5292"
-	, "carto": {
-		"cartodb_id": "931"
-		, "type": "point"
-	}
-	, "tstart": "49:20"
-	, "instance": "I am making more money now than I have ever made in my life."
-	, "tags": "Raul DeLaMancha"
-	, "nb": ["the button", "El Botón, MX", "-101.0023355,21.8595173", "hometown of: Raul DeLaMancha"]
-	, "episode": 556
-	, "slug": "tips-n-tricks"
-}, {
-	"_id": "5caa6966e803cb16c4bc5230"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": "poly"
-	}
-	, "tstart": "1:09:20"
-	, "instance": "Has the whale ever been to the ancient city of Atlantis?"
-	, "tags": "Josh Fox,Kiwi Kris"
-	, "nb": [
-		"Agadir, Morocco"
-		, "site of: Kiwi Kris discovering Atlantis; possible site of: Atlantis (new theory)"
-	]
-	, "episode": 528
-	, "slug": "this-is-the-story-of-my-life"
-}, {
-	"carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "15:45"
-	, "instance": "I fell in a hole when I was there - it was kind of rough, actually."
-	, "tags": "Kiwi Kris"
-	, "nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"]
-	, "episode": 528
-	, "slug": "this-is-the-story-of-my-life"
-}, {
-	"carto": {
-		"cartodb_id": 99999
-		, "type": ""
-	}
-	, "tstart": "1:07:05"
-	, "instance": "You went to college and then you decided to go into fish."
-	, "tags": "Dorothy Charlessss,Whistleblower Leo Williams,20-Something Will Crowe"
-	, "episode": 527
-	, "nb": [
-		"University of Alaska - Juneau"
-		, "site of: Will Crowe, majoring in Abnormal Psychology; nothing else"
-	]
-	, "slug": "hootie-hoo"
-}, {
-	"_id": "5caa6966e803cb16c4bc5305"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": "poly"
-	}
-	, "tstart": "1:04:40"
-	, "instance": "A hair-metal band threw [guitar picks] and you caught seven?"
-	, "tags": "Jimmy-Bug Brickhouse"
-	, "nb": [
-		"Clayton, NC"
-		, "possible hometown of: Jimmy-Bug Brickhouse and the Lose Boys musical combination;site of: Jimmy-Bug Brickhouse collecting picks at a Lose Boys show"
-	]
-	, "episode": 594
-	, "slug": "now-its-time-for-a-breakdown"
-}, {
-	"_id": "5caa6966e803cb16c4bc5308"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": "poly"
-	}
-	, "tstart": "1:00:27"
-	, "instance": "Did you see Sha Na Na?"
-	, "nb": [
-		"Woodstock Field"
-		, "site of: Woodstock 1969, Appetizer PeeE Neur watching Sha Na Na at same, nothing else"
-	]
-	, "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Sha Na Na (musical combination)"
-	, "episode": 592
-	, "slug": "the-peee-neurs"
-}, {
-	"_id": "5caa6966e803cb16c4bc5304"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "21:05"
-	, "instance": "I'm sorry - I'm not even, like, from here."
-	, "tags": "Kaitlin"
-	, "nb": ["Dayton, OH", "hometown of: Kaitlin"]
-	, "episode": 588
-	, "slug": "lil-choices"
-}, {
-	"_id": "5caa6966e803cb16c4bc52c0"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "38:35"
-	, "instance": "So you're a California native?"
-	, "tags": "Rudi North,Brody Broderson"
-	, "episode": 570
-	, "slug": "the-dirty-27"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ae"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "53:10"
-	, "instance": "Who's the purest on the other side?"
-	, "tags": "Forsythia,Donna Lewis,I Love You Always Forever (song)"
-	, "episode": 567
-	, "slug": "midnight-junket"
-}, {
-	"_id": "5caa6966e803cb16c4bc52ac"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "37:38"
-	, "instance": "I appreciate the co-sign on that, brother."
-	, "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
-	, "episode": 566
-	, "slug": "the-calvins-triplets"
-}, {
-	"_id": "5caa6966e803cb16c4bc529f"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "7:50"
-	, "instance": "A little razzle dazzle and then we showed up."
-	, "tags": "Jen,Berry,Chicago (musical),We Both Reached for the Gun (song),John Kander,Fred Ebb"
-	, "episode": 559
-	, "slug": "jen-and-berrys-frozen-ice"
-}, {
-	"_id": "5caa6966e803cb16c4bc529b"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "7:50"
-	, "instance": "A little razzle dazzle and then we showed up."
-	, "tags": "Jen,Berry,Chicago (musical),Razzle Dazzle (song),John Kander,Fred Ebb"
-	, "episode": 559
-	, "slug": "jen-and-berrys-frozen-ice"
-}, {
-	"_id": "5caa6966e803cb16c4bc5283"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "1:15:40"
-	, "instance": "Good for you not to bring those up - I'd think about suing you."
-	, "tags": "John Lennon,Helter Skelter (song),The Beatles"
-	, "episode": 551
-	, "slug": "new-to-the-wax-with-the-sloppy-boys"
-}, {
-	"_id": "5caa6966e803cb16c4bc525f"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "46:08"
-	, "instance": "Who's your HPPIC?"
-	, "tags": "Marjory Kershaw,Al A. Peterson,Grease (song),Barry Gibb,Frankie Valli"
-	, "episode": 540
-	, "slug": "low-five"
-}, {
-	"_id": "5caa6966e803cb16c4bc51fb"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "23:09"
-	, "instance": "There were so many fires in London back in the day."
-	, "tags": "Joe Squib,The Clash (musical combination),London's Burning (song)"
-	, "episode": 520
-	, "slug": "dead-body-rap"
-}, {
-	"_id": "5caa6966e803cb16c4bc5215"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "7:10"
-	, "instance": "Some stinging social commentary from Gino."
-	, "tags": "Gino Lambardo"
-	, "episode": 485
-	, "slug": "the-8th-anniversary-show"
-}, {
-	"_id": "5caa6966e803cb16c4bc5216"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "3:06:35"
-	, "instance": "Stop by Norm Hamer Nissan."
-	, "tags": "Gino Lambardo,John Lennon,Ming,Norm Hamer"
-	, "episode": 485
-	, "slug": "the-8th-anniversary-show"
-}, {
-	"_id": "5caa6966e803cb16c4bc5214"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "2:30:13"
-	, "instance": "An update is what you're gonna get."
-	, "tags": "Gino Lambardo,John Lennon,Dagmar the Small,Bert Riley,Rauro Riley,Cake Boss,Bone Queef John St. Gynecologist,Norm Hamer"
-	, "episode": 485
-	, "slug": "the-8th-anniversary-show"
-}, {
-	"_id": "5caa6966e803cb16c4bc5212"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "1:05:07"
-	, "instance": "So I went out and I attempted to rob the Chase Bank over there. And that stressed me out."
-	, "tags": "Maxwell Keeper,Shelly Driftwood"
-	, "episode": 419
-	, "slug": "the-7th-anniversary-show"
-}, {
-	"_id": "5caa6966e803cb16c4bc5210"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "51:08"
-	, "instance": "You are green and brown \\ Hope nobody chops you down \\ You - I would die 4 u"
-	, "tags": "Willard Mapleton,Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)"
-	, "episode": 418
-	, "slug": "paul-reiser-apple-tree"
-}, {
-	"_id": "5caa6966e803cb16c4bc520f"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "1:00:45"
-	, "instance": "You just said you didn't know that song!"
-	, "tags": "Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)"
-	, "episode": 418
-	, "slug": "paul-reiser-apple-tree"
-}, {
-	"_id": "5caa6966e803cb16c4bc5211"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "1:00:55"
-	, "instance": "What about something, you know, a little more old-school?"
-	, "tags": "Victor Diamond,Tiny,Welcome to the Jungle (song),Guns N' Roses (musical combination)"
-	, "episode": 418
-	, "slug": "paul-reiser-apple-tree"
-}, {
-	"_id": "5caa6966e803cb16c4bc5202"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "35:39"
-	, "instance": "The color of the 'Thriller' video."
-	, "tags": "Chazmin Clangman,Sunny Clangman,Thriller (song),Michael Jackson,Rod Temperton"
-	, "episode": 377
-	, "slug": "good-night-in-the-morning"
-}, {
-	"_id": "5caa6966e803cb16c4bc51fd"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "1:21:52"
-	, "instance": "The best one? Zebra."
-	, "tags": "Chip Gardner,Take Your Fingers from My Hair (song),Zebra (musical combination)"
-	, "episode": 300
-	, "slug": "oh-golly-you-devil"
-}, {
-	"_id": "5cb1f5f1b74b38609a39c658"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "56:00"
-	, "instance": "I had a dream I had a sister named 'Ashley.'"
-	, "tags": "Percy Pennyweather,Phineas T. Johnson"
-	, "episode": 296
-	, "slug": "taking-the-bladder-out"
-	, "fixed": false
-}, {
-	"_id": "5caa6966e803cb16c4bc5260"
-	, "carto": {
-		"cartodb_id": ""
-		, "type": ""
-	}
-	, "tstart": "53:20"
-	, "instance": "When Slippy gets into something, Slippy gets *into* something."
-	, "tags": "Slippy Daniels,Jack Pot"
-	, "nb": [
-		"site of: Slippy Daniels' wild swinger parties"
-		, "Madison Square Garden"
-	]
-	, "episode": 541
-	, "slug": "is-that-a-joke"
-}]
+[
+	{
+		"_id": "5caa6966e803cb16c4bc52f4",
+		"carto": {
+			"cartodb_id": "981",
+			"type": "point"
+		},
+		"tstart": "32:30",
+		"instance": "On a floating...sort of a paddock.",
+		"tags": "Coach Joel GanVundi",
+		"episode": 582,
+		"slug": "practice-sacks"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52f1",
+		"carto": {
+			"cartodb_id": "974",
+			"type": "point"
+		},
+		"tstart": "42:15",
+		"instance": "Why would that lady in the diner be mistaken about you wearing a headdress?",
+		"tags": "Chris Grezlik",
+		"episode": 580,
+		"slug": "legend-of-mr-met"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52f2",
+		"carto": {
+			"cartodb_id": "973",
+			"type": "point"
+		},
+		"tstart": "38:45",
+		"instance": "Have you ever left an opera at Oprah's house \\ and you don't know what to do?",
+		"tags": "Cal Solomon,Batthew (Badminton) Mann,Oprah Winfrey",
+		"episode": 578,
+		"slug": "right-off-the-batman"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52f3",
+		"carto": {
+			"cartodb_id": "972",
+			"type": "point"
+		},
+		"tstart": "1:13:16",
+		"instance": "Some of the ugly children have it made - they're just ugly.",
+		"tags": "John Lennon",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ef",
+		"carto": {
+			"cartodb_id": "971",
+			"type": "point"
+		},
+		"tstart": "37:42",
+		"instance": "I'm pro-feminism, but I am a mysoginist.",
+		"tags": "Gino Lambardo,Santa Claus,Big Sue,Rudi North",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ea",
+		"carto": {
+			"cartodb_id": "970",
+			"type": "point"
+		},
+		"tstart": "32:20",
+		"instance": "I think you're gonna get some coal up your fuckin' ass.",
+		"tags": "Gino Lambardo,Santa Claus,Big Sue",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ee",
+		"carto": {
+			"cartodb_id": "970",
+			"type": "point"
+		},
+		"tstart": "43:26",
+		"instance": "Did you throatpunch a reindeer?",
+		"tags": "Rudi North,Santa Claus,Big Sue,Ho Ho",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ec",
+		"carto": {
+			"cartodb_id": "969",
+			"type": "point"
+		},
+		"tstart": "6:20",
+		"instance": "Then I was fuckin' remissed to find out I was alive.",
+		"tags": "Gino Lambardo",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e7",
+		"carto": {
+			"cartodb_id": "967",
+			"type": "point"
+		},
+		"tstart": "28:11",
+		"instance": "Why don't you like 'buns'?",
+		"tags": "Cal Solomon,Batthew (Badminton) Mann",
+		"episode": 578,
+		"slug": "right-off-the-batman"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e6",
+		"carto": {
+			"cartodb_id": "966",
+			"type": "point"
+		},
+		"tstart": "55:12",
+		"instance": "Anything that gets me in a big truck, I'm all about.",
+		"tags": "Kayla Dickie,Cart",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52eb",
+		"carto": {
+			"cartodb_id": "966",
+			"type": "point"
+		},
+		"tstart": "43:40",
+		"instance": "This is like a monster truck.",
+		"tags": "Kayla Dickie",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5303",
+		"carto": {
+			"cartodb_id": "965",
+			"type": "point"
+		},
+		"tstart": "25:06",
+		"instance": "I'm just merely running down your facts as I recall them.",
+		"tags": "Kayla Dickie",
+		"episode": 591,
+		"slug": "unbewiebeble-kayla-dickie-returns"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52df",
+		"carto": {
+			"cartodb_id": "965",
+			"type": "point"
+		},
+		"tstart": "46:00",
+		"instance": "I work at the bad one.",
+		"tags": "Kayla Dickie,Sprague (The Whisperer) Jenkins",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e5",
+		"carto": {
+			"cartodb_id": "965",
+			"type": "point"
+		},
+		"tstart": "59:50",
+		"instance": "I wish you wouldn't identify yourself as just 'Girlfriend.'",
+		"tags": "Kayla Dickie,Merg Wiebe",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e2",
+		"carto": {
+			"cartodb_id": "965",
+			"type": "point"
+		},
+		"tstart": "55:12",
+		"instance": "Anything that gets me in a big truck, I'm all about.",
+		"tags": "Kayla Dickie,Cart",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52de",
+		"carto": {
+			"cartodb_id": "964",
+			"type": "point"
+		},
+		"tstart": "49:52",
+		"instance": "So he had different assistants for different locations?",
+		"tags": "Kayla Dickie,Jud Wiebe",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e4",
+		"carto": {
+			"cartodb_id": "963",
+			"type": "point"
+		},
+		"tstart": "1:06:45",
+		"instance": "You're wearing a cloak and you're speaking in a fake British accent.",
+		"tags": "Kayla Dickie,Sprague (The Whisperer) Jensen",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e1",
+		"carto": {
+			"cartodb_id": "962",
+			"type": "point"
+		},
+		"tstart": "2:12",
+		"instance": "Cardiovascular exercise is very important, Mr. Aukerman.",
+		"tags": "",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52dd",
+		"carto": {
+			"cartodb_id": "961",
+			"type": "point"
+		},
+		"tstart": "32:10",
+		"instance": "What kind of costume is this?",
+		"tags": "Sprague (The Whisperer) Jenkins",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d4",
+		"carto": {
+			"cartodb_id": "959",
+			"type": "point"
+		},
+		"tstart": "7:25",
+		"instance": "I'll pitch it at the next town council meeting.",
+		"tags": "Joe Bongo,Jimmy Bongos",
+		"episode": 576,
+		"slug": "what-the-sound-made"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d7",
+		"carto": {
+			"cartodb_id": "958",
+			"type": "point"
+		},
+		"tstart": "6:30",
+		"instance": "I was involved in the most expensive car accident in the history of Marina del Rey.",
+		"tags": "Joe Bongo,Jimmy Bongos",
+		"episode": 576,
+		"slug": "what-the-sound-made"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d3",
+		"carto": {
+			"cartodb_id": "955",
+			"type": "point"
+		},
+		"tstart": "1:03:45",
+		"instance": "I heard about him - but he couldn't get a full horse?",
+		"tags": "John Lennon,Keantwo Reeves,Christopher Reeve",
+		"episode": 575,
+		"slug": "that-dazzles-me-already"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d5",
+		"carto": {
+			"cartodb_id": "954",
+			"type": "point"
+		},
+		"tstart": "1:09:18",
+		"instance": "But here's my thing - the area that my sod house used to be, now it's a Costco.",
+		"tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Prudence Fart",
+		"episode": 574,
+		"slug": "conan-never-goes-outside"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d2",
+		"carto": {
+			"cartodb_id": "953",
+			"type": "point"
+		},
+		"tstart": "48:20",
+		"instance": "We're opening up our house for services.",
+		"tags": "Patman Hamptoncrat,Scatricia Hamptoncrat",
+		"episode": 574,
+		"slug": "conan-never-goes-outside"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d1",
+		"carto": {
+			"cartodb_id": "952",
+			"type": "point"
+		},
+		"tstart": "1:35:44",
+		"instance": "I guess you could catch a couple of my local stories.",
+		"tags": "Jack Furz",
+		"episode": 573,
+		"slug": "alfred-molina-flair"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52cf",
+		"carto": {
+			"cartodb_id": "952",
+			"type": "point"
+		},
+		"tstart": "47:00",
+		"instance": "It's a lady feeding ducks.",
+		"tags": "Jack Furz",
+		"episode": 573,
+		"slug": "alfred-molina-flair"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52cd",
+		"carto": {
+			"cartodb_id": "950",
+			"type": "point"
+		},
+		"tstart": "1:01:00",
+		"instance": "An animated fish is a member of our gang.",
+		"tags": "Gino Lambardo,Idaho",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c4",
+		"carto": {
+			"cartodb_id": "949",
+			"type": "point"
+		},
+		"tstart": "18:30",
+		"instance": "I went to Kinko's for that - it cost me $40 in quarters.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c2",
+		"carto": {
+			"cartodb_id": "948",
+			"type": "point"
+		},
+		"tstart": "11:28",
+		"instance": "It's either that or I rode the Gravitron...1000 times in one weekend.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c1",
+		"carto": {
+			"cartodb_id": "947",
+			"type": "point"
+		},
+		"tstart": "4:25",
+		"instance": "I was a Chinese food delivery guy.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e9",
+		"carto": {
+			"cartodb_id": "946",
+			"type": "point"
+		},
+		"tstart": "37:17",
+		"instance": "Of course I got a new job.",
+		"tags": "Rudi North",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52bc",
+		"carto": {
+			"cartodb_id": "946",
+			"type": "point"
+		},
+		"tstart": "26:04",
+		"instance": "Did I leave that out? Because it's kind of important.",
+		"tags": "Rudi North",
+		"episode": 570,
+		"slug": "the-dirty-27"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52bf",
+		"carto": {
+			"cartodb_id": "946",
+			"type": "point"
+		},
+		"tstart": "55:07",
+		"instance": "Have you washed the sidewalk today?",
+		"tags": "Rudi North,Brody Broderson",
+		"episode": 570,
+		"slug": "the-dirty-27"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ba",
+		"carto": {
+			"cartodb_id": "945",
+			"type": "point"
+		},
+		"tstart": "35:00",
+		"instance": "They've had a bit of a rain delay with the pyramid.",
+		"tags": "Luke and Matthew",
+		"episode": 569,
+		"slug": "dull-knives-sturdy-eyes"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52bb",
+		"carto": {
+			"cartodb_id": "944",
+			"type": "point"
+		},
+		"tstart": "44:50",
+		"instance": "Woa, turkey.",
+		"tags": "",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b7",
+		"carto": {
+			"cartodb_id": "944",
+			"type": "point"
+		},
+		"tstart": "32:05",
+		"instance": "When I eat ice cream I'm on the go.",
+		"tags": "",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b9",
+		"carto": {
+			"cartodb_id": "943",
+			"type": "point"
+		},
+		"tstart": "5:50",
+		"instance": "Oh sure, baby, I'll be there for sure.",
+		"tags": "Debbie Allen",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b8",
+		"carto": {
+			"cartodb_id": "943",
+			"type": "point"
+		},
+		"tstart": "23:05",
+		"instance": "If you [Neflix] don't purchase Ike Barinholtz' 'Literal Web of Deceit and Intrigue' you are fucking morons.",
+		"tags": "Debbie Allen",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b3",
+		"carto": {
+			"cartodb_id": "942",
+			"type": "point"
+		},
+		"tstart": "2:29",
+		"instance": "'Get outta here, Honey' - I say to my writing partner.",
+		"tags": "",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b4",
+		"carto": {
+			"cartodb_id": "941",
+			"type": "point"
+		},
+		"tstart": "13:20",
+		"instance": "I don't know these Mojo Potatoes.",
+		"tags": "Forsythia,Sergei",
+		"episode": 567,
+		"slug": "midnight-junket"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ab",
+		"carto": {
+			"cartodb_id": "940",
+			"type": "point"
+		},
+		"tstart": "37:05",
+		"instance": "So you guys like eating cows.",
+		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+		"episode": 566,
+		"slug": "the-calvins-triplets"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a8",
+		"carto": {
+			"cartodb_id": "939",
+			"type": "point"
+		},
+		"tstart": "1:07:18",
+		"instance": "I don't wanna slut-shame her but what a slut!",
+		"tags": "Hot Dog,Augustina (Auggie) Auggerman,Jamei Leighton",
+		"episode": 565,
+		"slug": "cmon-bake-bake"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a1",
+		"carto": {
+			"cartodb_id": "937",
+			"type": "point"
+		},
+		"tstart": "30:15",
+		"instance": "I hope you live in just, like, an abandoned dirt lot or something.",
+		"tags": "Daniel Faraway",
+		"episode": 562,
+		"slug": "theyvent-yet"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a0",
+		"carto": {
+			"cartodb_id": "936",
+			"type": "point"
+		},
+		"tstart": "49:20",
+		"instance": "The opposite of Ariana Grande.",
+		"tags": "Hekla Jonsdottir,Björk,Ariana Grande",
+		"episode": 561,
+		"slug": "poke-mitzvah"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5299",
+		"carto": {
+			"cartodb_id": "934",
+			"type": "point"
+		},
+		"tstart": "49:40",
+		"instance": "And that word was...'word' followed by 'up.'",
+		"tags": "Nance,Larry Blackmon",
+		"episode": 557,
+		"slug": "word-down"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5297",
+		"carto": {
+			"cartodb_id": "933",
+			"type": "point"
+		},
+		"tstart": "39:30",
+		"instance": "Wherever one lays and holds their pillow tight is really one's home.",
+		"tags": "Nance,Larry Blackmon",
+		"episode": 557,
+		"slug": "word-down"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5296",
+		"carto": {
+			"cartodb_id": "932",
+			"type": "point"
+		},
+		"tstart": "47:26",
+		"instance": "And that word was...'word' followed by 'up.'",
+		"tags": "Nance,Larry Blackmon",
+		"episode": 557,
+		"slug": "word-down"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5290",
+		"carto": {
+			"cartodb_id": "930",
+			"type": "point"
+		},
+		"tstart": "34:20",
+		"instance": "Was it the Blues Brothers stunt show?",
+		"tags": "JW Stillwater",
+		"episode": 555,
+		"slug": "what-a-wonderful-waterworld"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5295",
+		"carto": {
+			"cartodb_id": "930",
+			"type": "point"
+		},
+		"tstart": "42:00",
+		"instance": "Keep the tips of your fingers from burning off.",
+		"tags": "JW Stillwater,Valley Stuntman California Buckley",
+		"episode": 555,
+		"slug": "what-a-wonderful-waterworld"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5291",
+		"carto": {
+			"cartodb_id": "930",
+			"type": "point"
+		},
+		"tstart": "40:10",
+		"instance": "I'll be damned if I'm not Cal Buckley, Valley Stuntman.",
+		"tags": "JW Stillwater,Valley Stuntman California Buckley",
+		"episode": 555,
+		"slug": "what-a-wonderful-waterworld"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a2",
+		"carto": {
+			"cartodb_id": "926",
+			"type": "point"
+		},
+		"tstart": "17:05",
+		"instance": "Not the chain - it's too much work.",
+		"tags": "Bean Dip",
+		"episode": 563,
+		"slug": "where-you-come-from-with-chvrches"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5285",
+		"carto": {
+			"cartodb_id": "926",
+			"type": "point"
+		},
+		"tstart": "56:30",
+		"instance": "And why The W, by the way?",
+		"tags": "Bean Dip",
+		"episode": 552,
+		"slug": "hey-keep-readin"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc528e",
+		"carto": {
+			"cartodb_id": "926",
+			"type": "point"
+		},
+		"tstart": "1:13:35",
+		"instance": "Don't get it twisted.",
+		"tags": "Bean Dip",
+		"episode": 552,
+		"slug": "hey-keep-readin"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5293",
+		"carto": {
+			"cartodb_id": "925",
+			"type": "point"
+		},
+		"tstart": "52:40",
+		"instance": "Quart of beers - you can poor em on your head.",
+		"tags": "Gino Lambardo",
+		"episode": 551,
+		"slug": "new-to-the-wax-with-the-sloppy-boys"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5284",
+		"carto": {
+			"cartodb_id": "924",
+			"type": "point"
+		},
+		"tstart": "6:38",
+		"instance": "Yes we went to Hall Town and we got a divorce.",
+		"tags": "Gino Lambardo",
+		"episode": 551,
+		"slug": "new-to-the-wax-with-the-sloppy-boys"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5287",
+		"carto": {
+			"cartodb_id": "924",
+			"type": "point"
+		},
+		"tstart": "5:25",
+		"instance": "My dad is my former dad.",
+		"tags": "Gino Lambardo",
+		"episode": 551,
+		"slug": "new-to-the-wax-with-the-sloppy-boys"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5278",
+		"carto": {
+			"cartodb_id": "919",
+			"type": "point"
+		},
+		"tstart": "51:20",
+		"instance": "Is that why you've been parking your car on the corner?",
+		"tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler",
+		"episode": 549,
+		"slug": "prom-womptacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5279",
+		"carto": {
+			"cartodb_id": "918",
+			"type": "point"
+		},
+		"tstart": "48:55",
+		"instance": "And 'Castaway' could be either because it's a made-up nonsense name based on a movie.",
+		"tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler,Castaway (film)",
+		"episode": 549,
+		"slug": "prom-womptacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5276",
+		"carto": {
+			"cartodb_id": "917",
+			"type": "point"
+		},
+		"tstart": "1:19:50",
+		"instance": "They bring you too much food - it's very fun.",
+		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5277",
+		"carto": {
+			"cartodb_id": "916",
+			"type": "point"
+		},
+		"tstart": "1:19:28",
+		"instance": "We was having a drawing conversation.",
+		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5273",
+		"carto": {
+			"cartodb_id": "915",
+			"type": "point"
+		},
+		"tstart": "56:40",
+		"instance": "Why do they call it 'Little Tokyo' when it's so big?",
+		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5272",
+		"carto": {
+			"cartodb_id": "914",
+			"type": "point"
+		},
+		"tstart": "53:30",
+		"instance": "I tell you what - this muthafucka looked just like Tupac.",
+		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Tupac Shakur",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5271",
+		"carto": {
+			"cartodb_id": "913",
+			"type": "point"
+		},
+		"tstart": "52:10",
+		"instance": "Believe it or not it was 1985 exactly.",
+		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5275",
+		"carto": {
+			"cartodb_id": "911",
+			"type": "point"
+		},
+		"tstart": "26:55",
+		"instance": "Do you know, that sneaky fellow - he had an x-ray machine in the bathroom of one of his restaurants and he was spying on peoples' skeletons.",
+		"tags": "Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Chuck Berry",
+		"episode": 548,
+		"slug": "know-what-im-saying"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5266",
+		"carto": {
+			"cartodb_id": "907",
+			"type": "point"
+		},
+		"tstart": "1:17:55",
+		"instance": "Speaking of Punk'd...",
+		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore,Ashton Kutcher",
+		"episode": 542,
+		"slug": "big-ben-minus-ten"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5262",
+		"carto": {
+			"cartodb_id": "906",
+			"type": "point"
+		},
+		"tstart": "1:08:10",
+		"instance": "Right now we're on our gas stations tour.",
+		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+		"episode": 542,
+		"slug": "big-ben-minus-ten"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5263",
+		"carto": {
+			"cartodb_id": "906",
+			"type": "point"
+		},
+		"tstart": "1:16:20",
+		"instance": "Alright, so an off-brand gas station.",
+		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+		"episode": 542,
+		"slug": "big-ben-minus-ten"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc525c",
+		"carto": {
+			"cartodb_id": "901",
+			"type": "point"
+		},
+		"tstart": "48:30",
+		"instance": "It's a crazy time.",
+		"tags": "",
+		"episode": 538,
+		"slug": "roller-coaster-one"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5256",
+		"carto": {
+			"cartodb_id": "899",
+			"type": "point"
+		},
+		"tstart": "1:17:00",
+		"instance": "My dad did the same thing for me when 'Terminator 2' came out.",
+		"tags": "Gino Lambardo,Scott's Nephew Todd,Scott Jeffries",
+		"episode": 536,
+		"slug": "live-from-sxsw-2018"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5257",
+		"carto": {
+			"cartodb_id": "898",
+			"type": "point"
+		},
+		"tstart": "53:03",
+		"instance": "You know somebody goes to Westworld to fuck the horses, right?",
+		"tags": "Gino Lambardo,Scott Jeffries,Scott's Nephew Todd",
+		"episode": 536,
+		"slug": "live-from-sxsw-2018"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5255",
+		"carto": {
+			"cartodb_id": "897",
+			"type": "point"
+		},
+		"tstart": "3:53",
+		"instance": "It's just a woman, tatted-up, facing away from the camera for an hour.",
+		"tags": "Gino Lambardo",
+		"episode": 536,
+		"slug": "live-from-sxsw-2018"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5254",
+		"carto": {
+			"cartodb_id": "896",
+			"type": "point"
+		},
+		"tstart": "1:12:57",
+		"instance": "It was a sturgeon - she has an office in Marina del Rey.",
+		"tags": "Rudi North,Shaliyah,Conchneee",
+		"episode": 535,
+		"slug": "niles-per-hour"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5251",
+		"carto": {
+			"cartodb_id": "895",
+			"type": "point"
+		},
+		"tstart": "1:09:30",
+		"instance": "We are just, like, so fluid.",
+		"tags": "Rudi North,Shaliyah,Conchneee",
+		"episode": 535,
+		"slug": "niles-per-hour"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc524f",
+		"carto": {
+			"cartodb_id": "893",
+			"type": "point"
+		},
+		"tstart": "46:34",
+		"instance": "How did you get into the science of Geology?",
+		"tags": "Bashford & Franklin (musical combination)",
+		"episode": 534,
+		"slug": "solid-as-a-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5252",
+		"carto": {
+			"cartodb_id": "893",
+			"type": "point"
+		},
+		"tstart": "50:00",
+		"instance": "You dug into the floor but it was really *your* roof?",
+		"tags": "Bashford & Franklin (musical combination)",
+		"episode": 534,
+		"slug": "solid-as-a-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc524e",
+		"carto": {
+			"cartodb_id": "892",
+			"type": "point"
+		},
+		"tstart": "5:45",
+		"instance": "She went to high school with Judd Apatow.",
+		"tags": "",
+		"episode": 534,
+		"slug": "solid-as-a-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc524a",
+		"carto": {
+			"cartodb_id": "891",
+			"type": "point"
+		},
+		"tstart": "1:55:05",
+		"instance": "Scurvy is a very serious issue.",
+		"tags": "Keith Jones",
+		"episode": 461,
+		"slug": "tragedy-boom-boom-with-the-magic-tavern"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5248",
+		"carto": {
+			"cartodb_id": "889",
+			"type": "point"
+		},
+		"tstart": "1:14:47",
+		"instance": "I've been there for 32 years.",
+		"tags": "Becky",
+		"episode": 531,
+		"slug": "atmosphere-bully"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc524d",
+		"carto": {
+			"cartodb_id": "889",
+			"type": "point"
+		},
+		"tstart": "1:31:33",
+		"instance": "You can go see Dr./Dentist Samoa [sic]...",
+		"tags": "Becky",
+		"episode": 531,
+		"slug": "atmosphere-bully"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5205",
+		"carto": {
+			"cartodb_id": "855",
+			"type": "point"
+		},
+		"tstart": "10:05",
+		"instance": "Is that not a thing that everybody knows about?",
+		"tags": "Gino Lambardo,Mario Pirello",
+		"episode": 525,
+		"slug": "2017-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a3",
+		"carto": {
+			"cartodb_id": "854",
+			"type": "point"
+		},
+		"tstart": "27:25",
+		"instance": "You gotta ask for the special menu.",
+		"tags": "Bean Dip",
+		"episode": 563,
+		"slug": "where-you-come-from-with-chvrches"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5204",
+		"carto": {
+			"cartodb_id": "854",
+			"type": "point"
+		},
+		"tstart": "1:32:30",
+		"instance": "I'm grabbing it so fast quite honestly the sushi sloshed around in the bag before it gets to the house.",
+		"tags": "Big Chunky Bubbles,Rudi North",
+		"episode": 524,
+		"slug": "merry-chunky-christmas-with-neil-patrick-harris"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5207",
+		"carto": {
+			"cartodb_id": "853",
+			"type": "point"
+		},
+		"tstart": "1:29:25",
+		"instance": "So I jumped into traffic.",
+		"tags": "Big Chunky Bubbles,Rudi North",
+		"episode": 524,
+		"slug": "merry-chunky-christmas-with-neil-patrick-harris"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc530a",
+		"carto": {
+			"cartodb_id": "573",
+			"type": "poly"
+		},
+		"tstart": "19:00",
+		"instance": "Is San Jose \"The Bay Area\"?",
+		"tags": "Randy Useless",
+		"episode": 594,
+		"slug": "now-its-time-for-a-breakdown"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5309",
+		"carto": {
+			"cartodb_id": "572",
+			"type": "poly"
+		},
+		"tstart": "1:09:25",
+		"instance": "So he had been on that train since pre-the murders.",
+		"tags": "O.J. Simpson,Appetizer PeeE Neur",
+		"episode": 592,
+		"slug": "the-peee-neurs"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5300",
+		"carto": {
+			"cartodb_id": "571",
+			"type": "poly"
+		},
+		"tstart": "1:10:45",
+		"instance": "They're not phased by the nakedness.",
+		"tags": "Kaitlin",
+		"episode": 588,
+		"slug": "lil-choices"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52fc",
+		"carto": {
+			"cartodb_id": "570",
+			"type": "poly"
+		},
+		"tstart": "30:55",
+		"instance": "These are easy, easy questions.",
+		"tags": "Devon Westinghouse",
+		"episode": 586,
+		"slug": "butt-first"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52fd",
+		"carto": {
+			"cartodb_id": "570",
+			"type": "poly"
+		},
+		"tstart": "33:15",
+		"instance": "Great side over there - you got great pizza.",
+		"tags": "Devon Westinghouse,James P. Garity",
+		"episode": 586,
+		"slug": "butt-first"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52f6",
+		"carto": {
+			"cartodb_id": "558",
+			"type": "poly"
+		},
+		"tstart": "34:00",
+		"instance": "After the game a trickster demon by the name of Aziban approached me outside my hotel room in the form of a coyote.",
+		"tags": "Coach Joel GanVundi",
+		"episode": 582,
+		"slug": "practice-sacks"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52fb",
+		"carto": {
+			"cartodb_id": "557",
+			"type": "poly"
+		},
+		"tstart": "22:55",
+		"instance": "They will televise the Houston players, but our players are covered by big, green boxes.",
+		"tags": "Coach Joel GanVundi",
+		"episode": 582,
+		"slug": "practice-sacks"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52f0",
+		"carto": {
+			"cartodb_id": "554",
+			"type": "poly"
+		},
+		"tstart": "11:32",
+		"instance": "I built a home for a raccoon.",
+		"tags": "Gino Lambardo",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ed",
+		"carto": {
+			"cartodb_id": "553",
+			"type": "poly"
+		},
+		"tstart": "10:27",
+		"instance": "And he gives college tourgasms.",
+		"tags": "Gino Lambardo,Dean Cook",
+		"episode": 579,
+		"slug": "2018-holiday-spectacular"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5306",
+		"carto": {
+			"cartodb_id": "552",
+			"type": "poly"
+		},
+		"tstart": "29:30",
+		"instance": "He started a fire because he left some curling irons on.",
+		"tags": "Sprague the Whisperer,Kayla Dickie,Jud Wiebe",
+		"episode": 591,
+		"slug": "unbewiebeble-kayla-dickie-returns"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52e0",
+		"carto": {
+			"cartodb_id": "552",
+			"type": "poly"
+		},
+		"tstart": "1:00:55",
+		"instance": "So Jud is running some sort of Mayoral sex cult.",
+		"tags": "Kayla Dickie,Jud Wiebe",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d9",
+		"carto": {
+			"cartodb_id": "550",
+			"type": "poly"
+		},
+		"tstart": "3:15",
+		"instance": "I watch plays.",
+		"tags": "",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52db",
+		"carto": {
+			"cartodb_id": "549",
+			"type": "poly"
+		},
+		"tstart": "3:15",
+		"instance": "I once participated in a sexy contest.",
+		"tags": "",
+		"episode": 577,
+		"slug": "miss-pered"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52d6",
+		"carto": {
+			"cartodb_id": "547",
+			"type": "poly"
+		},
+		"tstart": "27:58",
+		"instance": "We live across the mountain from, um - do you know Cher?",
+		"tags": "John Lennon,Cher,Mamma Mia! (film)",
+		"episode": 575,
+		"slug": "that-dazzles-me-already"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ce",
+		"carto": {
+			"cartodb_id": "546",
+			"type": "poly"
+		},
+		"tstart": "41:35",
+		"instance": "Wait, they named the city after him?!",
+		"tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Jerry Sandusky",
+		"episode": 574,
+		"slug": "conan-never-goes-outside"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ca",
+		"carto": {
+			"cartodb_id": "545",
+			"type": "poly"
+		},
+		"tstart": "1:17:55",
+		"instance": "They found most of the gold everwhere.",
+		"tags": "Gino Lambardo,Queen Cleopatra",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c9",
+		"carto": {
+			"cartodb_id": "544",
+			"type": "poly"
+		},
+		"tstart": "48:50",
+		"instance": "America's erect penis.",
+		"tags": "Gino Lambardo,Idaho",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52cb",
+		"carto": {
+			"cartodb_id": "543",
+			"type": "poly"
+		},
+		"tstart": "18:38",
+		"instance": "Hindsight's 20/20, Auxman.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c8",
+		"carto": {
+			"cartodb_id": "542",
+			"type": "poly"
+		},
+		"tstart": "18:38",
+		"instance": "Hindsight's 20/20, Auxman.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c6",
+		"carto": {
+			"cartodb_id": "541",
+			"type": "poly"
+		},
+		"tstart": "18:38",
+		"instance": "Hindsight's 20/20, Auxman.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c5",
+		"carto": {
+			"cartodb_id": "540",
+			"type": "poly"
+		},
+		"tstart": "18:38",
+		"instance": "Hindsight's 20/20, Auxman.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c7",
+		"carto": {
+			"cartodb_id": "539",
+			"type": "poly"
+		},
+		"tstart": "18:38",
+		"instance": "Hindsight's 20/20, Auxman.",
+		"tags": "Gino Lambardo",
+		"episode": 571,
+		"slug": "rope-beats-rock"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c3",
+		"carto": {
+			"cartodb_id": "538",
+			"type": "poly"
+		},
+		"tstart": "42:40",
+		"instance": "I got some gardens there.",
+		"tags": "Rudi North,Brody Broderson",
+		"episode": 570,
+		"slug": "the-dirty-27"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52bd",
+		"carto": {
+			"cartodb_id": "536",
+			"type": "poly"
+		},
+		"tstart": "33:00",
+		"instance": "It's very difficult to get to - almost as difficult as HBO.",
+		"tags": "Luke and Matthew",
+		"episode": 569,
+		"slug": "dull-knives-sturdy-eyes"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b2",
+		"carto": {
+			"cartodb_id": "534",
+			"type": "poly"
+		},
+		"tstart": "1:04:10",
+		"instance": "So is everyone in the community forced to go, somehow?",
+		"tags": "Nadine Funts ",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b1",
+		"carto": {
+			"cartodb_id": "534",
+			"type": "poly"
+		},
+		"tstart": "1:17:35",
+		"instance": "So you started a sex cult where the children are prisoners, forced to make you food.",
+		"tags": "Nadine Funts ",
+		"episode": 568,
+		"slug": "literal-web"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b0",
+		"carto": {
+			"cartodb_id": "533",
+			"type": "poly"
+		},
+		"tstart": "15:10",
+		"instance": "I'm from Russia but I go to the Ukraine.",
+		"tags": "Forsythia,Sergei",
+		"episode": 567,
+		"slug": "midnight-junket"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52aa",
+		"carto": {
+			"cartodb_id": "532",
+			"type": "poly"
+		},
+		"tstart": "11:47",
+		"instance": "Two different locations, now!",
+		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+		"episode": 566,
+		"slug": "the-calvins-triplets"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52be",
+		"carto": {
+			"cartodb_id": "531",
+			"type": "poly"
+		},
+		"tstart": "50:00",
+		"instance": "We killed a raccoon to see if it would die.",
+		"tags": "Eugenia WOBBLES,Augustina (Auggie) Auggerman",
+		"episode": 565,
+		"slug": "cmon-bake-bake"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a4",
+		"carto": {
+			"cartodb_id": "938",
+			"type": "point"
+		},
+		"tstart": "14:40",
+		"instance": "Unfortunately I was otherwise detained.",
+		"tags": "Byron Denniston",
+		"episode": 564,
+		"slug": "svelte-scale"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a5",
+		"carto": {
+			"cartodb_id": "938",
+			"type": "point"
+		},
+		"tstart": "27:35",
+		"instance": "I do have a vest which is full of small knives.",
+		"tags": "Byron Denniston",
+		"episode": 564,
+		"slug": "svelte-scale"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52b5",
+		"carto": {
+			"cartodb_id": "938",
+			"type": "point"
+		},
+		"tstart": "31:13",
+		"instance": "I dressed up as a guard, I did some guarding of the prisoners.",
+		"tags": "Byron Denniston",
+		"episode": 564,
+		"slug": "svelte-scale"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a9",
+		"carto": {
+			"cartodb_id": "529",
+			"type": "poly"
+		},
+		"tstart": "19:25",
+		"instance": "I don't live in a proper home.",
+		"tags": "Byron Denniston",
+		"episode": 564,
+		"slug": "svelte-scale"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a7",
+		"carto": {
+			"cartodb_id": "529",
+			"type": "poly"
+		},
+		"tstart": "15:38",
+		"instance": "You may interact, from time to time, with their babies.",
+		"tags": "Byron Denniston",
+		"episode": 564,
+		"slug": "svelte-scale"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 525 ~1:24:45 GARY URBANKSY MENTIONS THE WINERY FRM #507"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 507 ~49:00 GARY URBANKSY LISTS HIS OLD STORES"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• where's 528's Dos Dorodo (el dorodo)?"
+	},
+	{
+		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5230",
+		"carto": {
+			"cartodb_id": "",
+			"type": "poly"
+		},
+		"tstart": "1:09:20",
+		"instance": "Has the whale ever been to the ancient city of Atlantis?",
+		"tags": "Josh Fox,Kiwi Kris",
+		"nb": [
+			"Agadir, Morocco",
+			"site of: Kiwi Kris discovering Atlantis; possible site of: Atlantis (new theory)"
+		],
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
+	},
+	{
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "15:45",
+		"instance": "I fell in a hole when I was there - it was kind of rough, actually.",
+		"tags": "Kiwi Kris",
+		"nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"],
+		"episode": 528,
+		"slug": "this-is-the-story-of-my-life"
+	},
+	{
+		"carto": {
+			"cartodb_id": 99999,
+			"type": ""
+		},
+		"tstart": "1:07:05",
+		"instance": "You went to college and then you decided to go into fish.",
+		"tags": "Dorothy Charlessss,Whistleblower Leo Williams,20-Something Will Crowe",
+		"episode": 527,
+		"nb": [
+			"University of Alaska - Juneau",
+			"site of: Will Crowe, majoring in Abnormal Psychology; nothing else"
+		],
+		"slug": "hootie-hoo"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5305",
+		"carto": {
+			"cartodb_id": "",
+			"type": "poly"
+		},
+		"tstart": "1:04:40",
+		"instance": "A hair-metal band threw [guitar picks] and you caught seven?",
+		"tags": "Jimmy-Bug Brickhouse",
+		"nb": [
+			"Clayton, NC",
+			"possible hometown of: Jimmy-Bug Brickhouse and the Lose Boys musical combination;site of: Jimmy-Bug Brickhouse collecting picks at a Lose Boys show"
+		],
+		"episode": 594,
+		"slug": "now-its-time-for-a-breakdown"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5308",
+		"carto": {
+			"cartodb_id": "",
+			"type": "poly"
+		},
+		"tstart": "1:00:27",
+		"instance": "Did you see Sha Na Na?",
+		"nb": [
+			"Woodstock Field",
+			"site of: Woodstock 1969, Appetizer PeeE Neur watching Sha Na Na at same, nothing else"
+		],
+		"tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Sha Na Na (musical combination)",
+		"episode": 592,
+		"slug": "the-peee-neurs"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5304",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "21:05",
+		"instance": "I'm sorry - I'm not even, like, from here.",
+		"tags": "Kaitlin",
+		"nb": ["Dayton, OH", "hometown of: Kaitlin"],
+		"episode": 588,
+		"slug": "lil-choices"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52c0",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "38:35",
+		"instance": "So you're a California native?",
+		"tags": "Rudi North,Brody Broderson",
+		"episode": 570,
+		"slug": "the-dirty-27"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ae",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "53:10",
+		"instance": "Who's the purest on the other side?",
+		"tags": "Forsythia,Donna Lewis,I Love You Always Forever (song)",
+		"episode": 567,
+		"slug": "midnight-junket"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52ac",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "37:38",
+		"instance": "I appreciate the co-sign on that, brother.",
+		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+		"episode": 566,
+		"slug": "the-calvins-triplets"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc529f",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "7:50",
+		"instance": "A little razzle dazzle and then we showed up.",
+		"tags": "Jen,Berry,Chicago (musical),We Both Reached for the Gun (song),John Kander,Fred Ebb",
+		"episode": 559,
+		"slug": "jen-and-berrys-frozen-ice"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc529b",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "7:50",
+		"instance": "A little razzle dazzle and then we showed up.",
+		"tags": "Jen,Berry,Chicago (musical),Razzle Dazzle (song),John Kander,Fred Ebb",
+		"episode": 559,
+		"slug": "jen-and-berrys-frozen-ice"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5283",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "1:15:40",
+		"instance": "Good for you not to bring those up - I'd think about suing you.",
+		"tags": "John Lennon,Helter Skelter (song),The Beatles",
+		"episode": 551,
+		"slug": "new-to-the-wax-with-the-sloppy-boys"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc525f",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "46:08",
+		"instance": "Who's your HPPIC?",
+		"tags": "Marjory Kershaw,Al A. Peterson,Grease (song),Barry Gibb,Frankie Valli",
+		"episode": 540,
+		"slug": "low-five"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc51fb",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "23:09",
+		"instance": "There were so many fires in London back in the day.",
+		"tags": "Joe Squib,The Clash (musical combination),London's Burning (song)",
+		"episode": 520,
+		"slug": "dead-body-rap"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5215",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "7:10",
+		"instance": "Some stinging social commentary from Gino.",
+		"tags": "Gino Lambardo",
+		"episode": 485,
+		"slug": "the-8th-anniversary-show"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5216",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "3:06:35",
+		"instance": "Stop by Norm Hamer Nissan.",
+		"tags": "Gino Lambardo,John Lennon,Ming,Norm Hamer",
+		"episode": 485,
+		"slug": "the-8th-anniversary-show"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5214",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "2:30:13",
+		"instance": "An update is what you're gonna get.",
+		"tags": "Gino Lambardo,John Lennon,Dagmar the Small,Bert Riley,Rauro Riley,Cake Boss,Bone Queef John St. Gynecologist,Norm Hamer",
+		"episode": 485,
+		"slug": "the-8th-anniversary-show"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5212",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "1:05:07",
+		"instance": "So I went out and I attempted to rob the Chase Bank over there. And that stressed me out.",
+		"tags": "Maxwell Keeper,Shelly Driftwood",
+		"episode": 419,
+		"slug": "the-7th-anniversary-show"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5210",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "51:08",
+		"instance": "You are green and brown \\ Hope nobody chops you down \\ You - I would die 4 u",
+		"tags": "Willard Mapleton,Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)",
+		"episode": 418,
+		"slug": "paul-reiser-apple-tree"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc520f",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "1:00:45",
+		"instance": "You just said you didn't know that song!",
+		"tags": "Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)",
+		"episode": 418,
+		"slug": "paul-reiser-apple-tree"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5211",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "1:00:55",
+		"instance": "What about something, you know, a little more old-school?",
+		"tags": "Victor Diamond,Tiny,Welcome to the Jungle (song),Guns N' Roses (musical combination)",
+		"episode": 418,
+		"slug": "paul-reiser-apple-tree"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5202",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "35:39",
+		"instance": "The color of the 'Thriller' video.",
+		"tags": "Chazmin Clangman,Sunny Clangman,Thriller (song),Michael Jackson,Rod Temperton",
+		"episode": 377,
+		"slug": "good-night-in-the-morning"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc51fd",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "1:21:52",
+		"instance": "The best one? Zebra.",
+		"tags": "Chip Gardner,Take Your Fingers from My Hair (song),Zebra (musical combination)",
+		"episode": 300,
+		"slug": "oh-golly-you-devil"
+	},
+	{
+		"_id": "5cb1f5f1b74b38609a39c658",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "56:00",
+		"instance": "I had a dream I had a sister named 'Ashley.'",
+		"tags": "Percy Pennyweather,Phineas T. Johnson",
+		"episode": 296,
+		"slug": "taking-the-bladder-out",
+		"fixed": false
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5260",
+		"carto": {
+			"cartodb_id": "",
+			"type": ""
+		},
+		"tstart": "53:20",
+		"instance": "When Slippy gets into something, Slippy gets *into* something.",
+		"tags": "Slippy Daniels,Jack Pot",
+		"nb": [
+			"site of: Slippy Daniels' wild swinger parties",
+			"Madison Square Garden"
+		],
+		"episode": 541,
+		"slug": "is-that-a-joke"
+	}
+]
