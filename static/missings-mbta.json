@@ -612,18 +612,6 @@
 		"slug": "word-down"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc5292",
-		"carto": {
-			"cartodb_id": "931",
-			"type": "point"
-		},
-		"tstart": "49:20",
-		"instance": "I am making more money now than I have ever made in my life.",
-		"tags": "Raul DeLaMancha",
-		"episode": 556,
-		"slug": "tips-n-tricks"
-	},
-	{
 		"_id": "5caa6966e803cb16c4bc5290",
 		"carto": {
 			"cartodb_id": "930",
@@ -1524,28 +1512,16 @@
 		"slug": "tips-n-tricks"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc528d",
+		"_id": "5caa6966e803cb16c4bc5292",
 		"carto": {
-			"cartodb_id": "928",
+			"cartodb_id": "931",
 			"type": "point"
 		},
-		"tstart": "33:34",
-		"instance": "Okay, so you're doing students 360.",
-		"tags": "Lyle Cummings,Peppers McGilly",
-		"episode": 554,
-		"slug": "educainment-squad"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc528f",
-		"carto": {
-			"cartodb_id": "524",
-			"type": "poly"
-		},
-		"tstart": "1:03:05",
-		"instance": "I think she was about seconds away from puttin' her phone up to her big ol' pussy.",
-		"tags": "Lyle Cummings,Peppers McGilly",
-		"episode": 554,
-		"slug": "educainment-squad"
+		"tstart": "49:20",
+		"instance": "I am making more money now than I have ever made in my life.",
+		"tags": "Raul DeLaMancha",
+		"episode": 556,
+		"slug": "tips-n-tricks"
 	},
 	{
 		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
