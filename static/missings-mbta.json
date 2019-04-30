@@ -1344,18 +1344,6 @@
 		"slug": "cmon-bake-bake"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc52a4",
-		"carto": {
-			"cartodb_id": "938",
-			"type": "point"
-		},
-		"tstart": "14:40",
-		"instance": "Unfortunately I was otherwise detained.",
-		"tags": "Byron Denniston",
-		"episode": 564,
-		"slug": "svelte-scale"
-	},
-	{
 		"_id": "5caa6966e803cb16c4bc52a5",
 		"carto": {
 			"cartodb_id": "938",
@@ -1453,6 +1441,19 @@
 	},
 	{
 		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc52a4",
+		"carto": {
+			"cartodb_id": "938",
+			"type": "point"
+		},
+		"tstart": "14:40",
+		"instance": "Unfortunately I was otherwise detained.",
+		"tags": "Byron Denniston",
+		"nb": ["Wadsworth Prison, London", "site of: Byron Denniston, briefly"],
+		"episode": 564,
+		"slug": "svelte-scale"
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc5230",
