@@ -1,5 +1,14 @@
 [
 	{
+		"NOTE": "•••••••••••••••••••••••••••••••••••••••• NO LINESTRINGS in ATLAS - check teh following mlab IDs once they are: 5bad71931f6e4f1b9fcf6a55"
+	},
+	{
+		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
+	},
+	{
+		"NOTE": "••••••••••••••••••• add Tampa, FL's id to 5c1064bf5d0e6554dd70bb7e (place long ago ep.577) and the as-yet uncreated 'freaking insane' instance frm same ep •••••••••••••••"
+	},
+	{
 		"_id": "5caa6966e803cb16c4bc52f1",
 		"carto": {
 			"cartodb_id": "974",
@@ -8,20 +17,9 @@
 		"tstart": "42:15",
 		"instance": "Why would that lady in the diner be mistaken about you wearing a headdress?",
 		"tags": "Chris Grezlik",
+		"nb":["56th@Broadrey - Gangland Improv, almost in Mexico","site of: Chris Grezlik's tight 30m"],
 		"episode": 580,
 		"slug": "legend-of-mr-met"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5303",
-		"carto": {
-			"cartodb_id": "965",
-			"type": "point"
-		},
-		"tstart": "25:06",
-		"instance": "I'm just merely running down your facts as I recall them.",
-		"tags": "Kayla Dickie",
-		"episode": 591,
-		"slug": "unbewiebeble-kayla-dickie-returns"
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc52d4",
@@ -32,20 +30,19 @@
 		"tstart": "7:25",
 		"instance": "I'll pitch it at the next town council meeting.",
 		"tags": "Joe Bongo,Jimmy Bongos",
+		"nb":["site of: Marina del Rey Neighborhood (Town) Council, often Joe Bongo","11976 Culver Blvd., Marina del Rey, Los Angeles, CA"],
 		"episode": 576,
 		"slug": "what-the-sound-made"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc52d7",
 		"carto": {
 			"cartodb_id": "958",
 			"type": "point"
 		},
-		"tstart": "6:30",
-		"instance": "I was involved in the most expensive car accident in the history of Marina del Rey.",
-		"tags": "Joe Bongo,Jimmy Bongos",
-		"episode": 576,
-		"slug": "what-the-sound-made"
+		"nb": [
+			"Marina del Rey Lighthouse",
+			"destroyed by: Joe Bongo"
+		]
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc52d1",
@@ -56,18 +53,7 @@
 		"tstart": "1:35:44",
 		"instance": "I guess you could catch a couple of my local stories.",
 		"tags": "Jack Furz",
-		"episode": 573,
-		"slug": "alfred-molina-flair"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc52cf",
-		"carto": {
-			"cartodb_id": "952",
-			"type": "point"
-		},
-		"tstart": "47:00",
-		"instance": "It's a lady feeding ducks.",
-		"tags": "Jack Furz",
+		"nb":["KABC-TV","workplace of: Jack Furz","-118.066111,34.226944"],
 		"episode": 573,
 		"slug": "alfred-molina-flair"
 	},
@@ -80,6 +66,7 @@
 		"tstart": "30:15",
 		"instance": "I hope you live in just, like, an abandoned dirt lot or something.",
 		"tags": "Daniel Faraway",
+		"nb":["downtown LA penthouse","home of: Daniel Faraway"],
 		"episode": 562,
 		"slug": "theyvent-yet"
 	},
@@ -92,6 +79,7 @@
 		"tstart": "49:20",
 		"instance": "The opposite of Ariana Grande.",
 		"tags": "Hekla Jonsdottir,Björk,Ariana Grande",
+		"nb":["-21.830983,64.101659","Orkan (gas station)","possible workplace of: Hekla Jonsdottir;possible site of: Bjork, once;possible former site of: tiny doughnuts"],
 		"episode": 561,
 		"slug": "poke-mitzvah"
 	},
@@ -104,18 +92,7 @@
 		"tstart": "49:40",
 		"instance": "And that word was...'word' followed by 'up.'",
 		"tags": "Nance,Larry Blackmon",
-		"episode": 557,
-		"slug": "word-down"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5297",
-		"carto": {
-			"cartodb_id": "933",
-			"type": "point"
-		},
-		"tstart": "39:30",
-		"instance": "Wherever one lays and holds their pillow tight is really one's home.",
-		"tags": "Nance,Larry Blackmon",
+		"nb":["Katz' Deli","site of: the theft of 'Word Up' by Larry Blackmon"],
 		"episode": 557,
 		"slug": "word-down"
 	},
@@ -128,6 +105,7 @@
 		"tstart": "47:26",
 		"instance": "And that word was...'word' followed by 'up.'",
 		"tags": "Nance,Larry Blackmon",
+		"nb":["1 711 Whey St.","site of: Nance tailing Scott Aukerman"],
 		"episode": 557,
 		"slug": "word-down"
 	},
@@ -140,6 +118,7 @@
 		"tstart": "34:20",
 		"instance": "Was it the Blues Brothers stunt show?",
 		"tags": "JW Stillwater",
+		"nb":["-118.3542496,34.1369307","site of: J.W. Stillwater and Caramel taking in a show"],
 		"episode": 555,
 		"slug": "what-a-wonderful-waterworld"
 	},
@@ -152,6 +131,7 @@
 		"tstart": "42:00",
 		"instance": "Keep the tips of your fingers from burning off.",
 		"tags": "JW Stillwater,Valley Stuntman California Buckley",
+		"nb":["-118.3542496,34.1369307","site of: J.W. Stillwater and Caramel taking in a show"],
 		"episode": 555,
 		"slug": "what-a-wonderful-waterworld"
 	},
@@ -164,34 +144,10 @@
 		"tstart": "40:10",
 		"instance": "I'll be damned if I'm not Cal Buckley, Valley Stuntman.",
 		"tags": "JW Stillwater,Valley Stuntman California Buckley",
+		"nb":["-118.3542496,34.1369307","site of: J.W. Stillwater and Caramel taking in a show"],
 		"episode": 555,
 		"slug": "what-a-wonderful-waterworld"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5285",
-		"carto": {
-			"cartodb_id": "926",
-			"type": "point"
-		},
-		"tstart": "56:30",
-		"instance": "And why The W, by the way?",
-		"tags": "Bean Dip",
-		"episode": 552,
-		"slug": "hey-keep-readin"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc528e",
-		"carto": {
-			"cartodb_id": "926",
-			"type": "point"
-		},
-		"tstart": "1:13:35",
-		"instance": "Don't get it twisted.",
-		"tags": "Bean Dip",
-		"episode": 552,
-		"slug": "hey-keep-readin"
-	},
-	{
+	},{
 		"_id": "5caa6966e803cb16c4bc5293",
 		"carto": {
 			"cartodb_id": "925",
@@ -200,6 +156,7 @@
 		"tstart": "52:40",
 		"instance": "Quart of beers - you can poor em on your head.",
 		"tags": "Gino Lambardo",
+		"nb":["Boardy Barn","site of: Gino Lambardo and John Lennon over the summer","-72.549862,40.866094"],
 		"episode": 551,
 		"slug": "new-to-the-wax-with-the-sloppy-boys"
 	},
@@ -212,6 +169,7 @@
 		"tstart": "6:38",
 		"instance": "Yes we went to Hall Town and we got a divorce.",
 		"tags": "Gino Lambardo",
+		"nb":["Hempstead Hall Town","site of: all of Gino Lambardo's legal proceedings","-73.620784,40.706357"],
 		"episode": 551,
 		"slug": "new-to-the-wax-with-the-sloppy-boys"
 	},
@@ -224,6 +182,7 @@
 		"tstart": "5:25",
 		"instance": "My dad is my former dad.",
 		"tags": "Gino Lambardo",
+		"nb":["Hempstead Hall Town","site of: all of Gino Lambardo's legal proceedings","-73.620784,40.706357"],
 		"episode": 551,
 		"slug": "new-to-the-wax-with-the-sloppy-boys"
 	},
@@ -235,19 +194,8 @@
 		},
 		"tstart": "51:20",
 		"instance": "Is that why you've been parking your car on the corner?",
-		"tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler",
-		"episode": 549,
-		"slug": "prom-womptacular"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5279",
-		"carto": {
-			"cartodb_id": "918",
-			"type": "point"
-		},
-		"tstart": "48:55",
-		"instance": "And 'Castaway' could be either because it's a made-up nonsense name based on a movie.",
-		"tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler,Castaway (film)",
+		"tags": "Marissa Wompler,Charlotte Listler,C.S. Steers,Dr. Seth Wompler,Dana Rodman",
+		"nb":["proxy for: Fixins and Mixins","site of: a crime of passion","4023 Lincoln Blvd, Marina Del Rey, CA 90292","penguin's frozen yogurt"],
 		"episode": 549,
 		"slug": "prom-womptacular"
 	},
@@ -260,6 +208,7 @@
 		"tstart": "1:19:50",
 		"instance": "They bring you too much food - it's very fun.",
 		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette",
+		"nb":["Maggiano's Little Italy - The Grove","189 The Grove Dr Suite Z80, Los Angeles, CA 90036"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
 	},
@@ -272,6 +221,7 @@
 		"tstart": "1:19:28",
 		"instance": "We was having a drawing conversation.",
 		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,eDream Vignette",
+		"nb":["Romano's Macaroni Grill - Northridge","19400 Plummer St, Northridge, CA 91324","site of: a drawing conversation, a draw"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
 	},
@@ -284,6 +234,7 @@
 		"tstart": "56:40",
 		"instance": "Why do they call it 'Little Tokyo' when it's so big?",
 		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel",
+		"nb":["Little Tokyo - Los Angeles","site of: Carmine Woods lost"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
 	},
@@ -296,6 +247,7 @@
 		"tstart": "53:30",
 		"instance": "I tell you what - this muthafucka looked just like Tupac.",
 		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Tupac Shakur",
+		"nb":["6933 Hollywood Blvd, Hollywood, CA 90028","Madame Tussauds Hollywood","site of: lots of Tupacs"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
 	},
@@ -308,8 +260,42 @@
 		"tstart": "52:10",
 		"instance": "Believe it or not it was 1985 exactly.",
 		"tags": "Carmine Woods,Lavinia Skyleton Marsh Caruthers,Shevel Knievel",
+		"nb":["Ripley's Believe It or Not!","site of: Shevel Knievel's crash landing on the way to the 'Back to the Future' premiere",
+			"-118.338476,34.101260"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
+	},
+	{
+		"carto": {
+			"cartodb_id": "763",
+			"type": "point"
+		},
+		"nb": [
+			"Enzo's Deli - messapequa park",
+			"workplace of: Zach Morris friend of Gino Lambardo"
+		]
+	},
+	{
+		"carto": {
+			"cartodb_id": "252",
+			"type": "point"
+		},
+		"nb": [
+			"Snake River Canyon",
+			"Evel Knievel Snake River Canyon Jump Site","-114.422827,42.597037",
+			"site of: Evel Knievel's unsuccessful jump, Shevel Knievel's successful (accidental) jump"
+		]
+	},
+	{
+		"carto": {
+			"cartodb_id": "262",
+			"type": "point"
+		},
+		"nb": [
+			"World Trade Center",
+			"-74.01309013,40.71160558",
+			"site of: Shevel Knievel's (almost) greatest stunt (not that)"
+		]
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc5275",
@@ -320,6 +306,7 @@
 		"tstart": "26:55",
 		"instance": "Do you know, that sneaky fellow - he had an x-ray machine in the bathroom of one of his restaurants and he was spying on peoples' skeletons.",
 		"tags": "Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Chuck Berry",
+		"nb":["Southern Air Restaurant","site of: not Patys in Toluca Lake, Chuck Berry for a while","-90.84212,38.81129"],
 		"episode": 548,
 		"slug": "know-what-im-saying"
 	},
@@ -332,18 +319,7 @@
 		"tstart": "1:17:55",
 		"instance": "Speaking of Punk'd...",
 		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore,Ashton Kutcher",
-		"episode": 542,
-		"slug": "big-ben-minus-ten"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5262",
-		"carto": {
-			"cartodb_id": "906",
-			"type": "point"
-		},
-		"tstart": "1:08:10",
-		"instance": "Right now we're on our gas stations tour.",
-		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+		"nb":["a beverly hills gas station","site of: Ashton Kutcher watching parking lot basketball"],
 		"episode": 542,
 		"slug": "big-ben-minus-ten"
 	},
@@ -356,6 +332,20 @@
 		"tstart": "1:16:20",
 		"instance": "Alright, so an off-brand gas station.",
 		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+		"nb":["site of: Bertrand Gilmore doing passing stuff","gas station at Vine@Melrose"],
+		"episode": 542,
+		"slug": "big-ben-minus-ten"
+	},
+	{
+		"_id": "5caa6966e803cb16c4bc5262",
+		"carto": {
+			"cartodb_id": "906",
+			"type": "point"
+		},
+		"tstart": "1:08:10",
+		"instance": "Right now we're on our gas stations tour.",
+		"tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+		"nb":["Texaco #??","site of: Bertrand Gilmore doing strictly passing stuff"],
 		"episode": 542,
 		"slug": "big-ben-minus-ten"
 	},
@@ -368,6 +358,7 @@
 		"tstart": "48:30",
 		"instance": "It's a crazy time.",
 		"tags": "",
+		"nb":["site of: Chelsea Peretti's home","4481 bev hills dr"],
 		"episode": 538,
 		"slug": "roller-coaster-one"
 	},
@@ -380,6 +371,7 @@
 		"tstart": "1:17:00",
 		"instance": "My dad did the same thing for me when 'Terminator 2' came out.",
 		"tags": "Gino Lambardo,Scott's Nephew Todd,Scott Jeffries",
+		"nb":["Timeout arcade in Roosevelt Field Mall","site of: Gino Lambardo beating 'Time Crisis 2'"],
 		"episode": 536,
 		"slug": "live-from-sxsw-2018"
 	},
@@ -392,6 +384,7 @@
 		"tstart": "53:03",
 		"instance": "You know somebody goes to Westworld to fuck the horses, right?",
 		"tags": "Gino Lambardo,Scott Jeffries,Scott's Nephew Todd",
+		"nb":["site of: Gino Lambardo and a police horse","7th@Neches, Austin","-97.738306,30.268189"],
 		"episode": 536,
 		"slug": "live-from-sxsw-2018"
 	},
@@ -404,6 +397,7 @@
 		"tstart": "3:53",
 		"instance": "It's just a woman, tatted-up, facing away from the camera for an hour.",
 		"tags": "Gino Lambardo",
+		"nb":["Alamo Draft House, Austin","site of: Gino Lambardo watching 'Blind Spot'"],
 		"episode": 536,
 		"slug": "live-from-sxsw-2018"
 	},
@@ -416,6 +410,7 @@
 		"tstart": "1:12:57",
 		"instance": "It was a sturgeon - she has an office in Marina del Rey.",
 		"tags": "Rudi North,Shaliyah,Conchneee",
+		"nb":["Marina Plastic Surgery","possible surgeon of: Conchneee & Shaliyah","4644 Lincoln Blvd #552, Marina Del Rey, CA 90292"],
 		"episode": 535,
 		"slug": "niles-per-hour"
 	},
@@ -428,6 +423,7 @@
 		"tstart": "1:09:30",
 		"instance": "We are just, like, so fluid.",
 		"tags": "Rudi North,Shaliyah,Conchneee",
+		"nb":["Great Barrier Reef","-18.2780/147.7070","former home to: Shaliyah & Conchneee"],
 		"episode": 535,
 		"slug": "niles-per-hour"
 	},
@@ -440,6 +436,7 @@
 		"tstart": "46:34",
 		"instance": "How did you get into the science of Geology?",
 		"tags": "Bashford & Franklin (musical combination)",
+		"nb":["UWisconsin - Osh Kosh","site of: a metriculating and digging Bashford & Franklin"],
 		"episode": 534,
 		"slug": "solid-as-a-rock"
 	},
@@ -452,6 +449,7 @@
 		"tstart": "50:00",
 		"instance": "You dug into the floor but it was really *your* roof?",
 		"tags": "Bashford & Franklin (musical combination)",
+		"nb":["UWisconsin - Osh Kosh","site of: a metriculating and digging Bashford & Franklin"],
 		"episode": 534,
 		"slug": "solid-as-a-rock"
 	},
@@ -464,33 +462,21 @@
 		"tstart": "5:45",
 		"instance": "She went to high school with Judd Apatow.",
 		"tags": "",
+		"nb":["Beverly Hills High School","site of: Judd Apatow once, Claudia O'Doherty's mother once; nothing else"],
 		"episode": 534,
 		"slug": "solid-as-a-rock"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc5248",
-		"carto": {
-			"cartodb_id": "889",
-			"type": "point"
-		},
-		"tstart": "1:14:47",
-		"instance": "I've been there for 32 years.",
-		"tags": "Becky",
-		"nb": ["South African POW camp", "site of: Gary Oldman, escaping"],
-		"episode": 531,
-		"slug": "atmosphere-bully"
-	},
-	{
 		"_id": "5caa6966e803cb16c4bc52ea",
 		"carto": {
-			"cartodb_id": "970",
+			"cartodb_id": "482",
 			"type": "point"
 		},
 		"tstart": "32:20",
 		"instance": "I think you're gonna get some coal up your fuckin' ass.",
 		"tags": "Gino Lambardo,Santa Claus,Big Sue",
 		"nb": [
-			"????",
+			"-118.312678,34.101719",
 			"proxy for: Carpets and Rugs Down There",
 			"site of: a flood once"
 		],
@@ -498,77 +484,26 @@
 		"slug": "2018-holiday-spectacular"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc52ee",
 		"carto": {
-			"cartodb_id": "970",
+			"cartodb_id": "667",
 			"type": "point"
 		},
-		"tstart": "43:26",
-		"instance": "Did you throatpunch a reindeer?",
-		"tags": "Rudi North,Santa Claus,Big Sue,Ho Ho",
 		"nb": [
-			"????",
-			"proxy for: Carpets and Rugs Down There",
-			"site of: a flood once"
-		],
-		"episode": 579,
-		"slug": "2018-holiday-spectacular"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••ANY POINTS in ATLAS?"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• NO LINESTRINGS in ATLAS - check teh following mlab IDs once they are: 5bad71931f6e4f1b9fcf6a55"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 545 ~42:00 MERGARITE LIVES UPSTAIRS AT EARWOLF"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 525 ~1:24:45 GARY URBANKSY MENTIONS THE WINERY FRM #507"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• EP 507 ~49:00 GARY URBANKSY LISTS HIS OLD STORES"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• where's 528's Dos Dorodo (el dorodo)?"
-	},
-	{
-		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
-	},
-	{
-		"NOTE": "••••••••••••••••••• add Tampa, FL's id to 5c1064bf5d0e6554dd70bb7e (place long ago ep.577) and the as-yet uncreated 'freaking insane' instance frm same ep •••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"NOTE": "•••••••••••••••••••••••••••••••••••••••• ••••••••••••••••••••••••••"
-	},
-	{
-		"carto": {
-			"cartodb_id": "425",
-			"type": "poly"
-		},
-		"nb": [
-			"Colorado",
-			"site of: Chuckie Spliff, once; home state of: Kayla Dickie, Cart"
+			"Pizzeria Mozza",
+      "-118.338808,34.083121",
+			"site of: Big Sue immediately after the...incident"
 		]
 	},
+  {
+    "carto": {
+      "cartodb_id": "425",
+      "type": "poly"
+    },
+    "nb": [
+      "Colorado",
+      "site of: Chuckie Spliff, once; home state of: Kayla Dickie, Cart"
+    ]
+  },
 	{
 		"carto": {
 			"cartodb_id": "131",
@@ -576,7 +511,7 @@
 		},
 		"nb": [
 			"Jud Wiebe Trail",
-			"site of: Kayla Dickie, Cart, Jud Wiebe; nothing else"
+			"site of: Kayla Dickie, Cart, Jud W  iebe; nothing else"
 		]
 	},
 	{
