@@ -3,7 +3,7 @@
 		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
 	},
 	{
-		"NOTE": "••••••••••••••••••• add Tampa, FL's id to 5c1064bf5d0e6554dd70bb7e (place long ago ep.577) and the as-yet uncreated 'freaking insane' instance frm same ep •••••••••••••••"
+		"NOTE": "••••••••••••••••••• add Tampa, FL poly's id to 5c1064bf5d0e6554dd70bb7e (place long ago ep.577) and the as-yet uncreated 'freaking insane' instance frm same ep •••••••••••••••"
 	},
 	{
 		"carto": {
@@ -33,59 +33,6 @@
 		"slug": "hootie-hoo"
 	},
 	{
-		"_id": "5caa6966e803cb16c4bc5305",
-		"carto": {
-			"cartodb_id": "",
-			"type": "poly"
-		},
-		"tstart": "1:04:40",
-		"instance": "A hair-metal band threw [guitar picks] and you caught seven?",
-		"tags": "Jimmy-Bug Brickhouse",
-		"nb": [
-			"Clayton, NC",
-			"possible hometown of: Jimmy-Bug Brickhouse and the Lose Boys musical combination;site of: Jimmy-Bug Brickhouse collecting picks at a Lose Boys show"
-		],
-		"episode": 594,
-		"slug": "now-its-time-for-a-breakdown"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5304",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "21:05",
-		"instance": "I'm sorry - I'm not even, like, from here.",
-		"tags": "Kaitlin",
-		"nb": ["Dayton, OH", "hometown of: Kaitlin"],
-		"episode": 588,
-		"slug": "lil-choices"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc52c0",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "38:35",
-		"instance": "So you're a California native?",
-		"tags": "Rudi North,Brody Broderson",
-		"episode": 570,
-		"slug": "the-dirty-27"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc52ae",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "53:10",
-		"instance": "Who's the purest on the other side?",
-		"tags": "Forsythia,Donna Lewis,I Love You Always Forever (song)",
-		"episode": 567,
-		"slug": "midnight-junket"
-	},
-	{
 		"_id": "5caa6966e803cb16c4bc52ac",
 		"carto": {
 			"cartodb_id": "",
@@ -96,30 +43,6 @@
 		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
 		"episode": 566,
 		"slug": "the-calvins-triplets"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc529f",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "7:50",
-		"instance": "A little razzle dazzle and then we showed up.",
-		"tags": "Jen,Berry,Chicago (musical),We Both Reached for the Gun (song),John Kander,Fred Ebb",
-		"episode": 559,
-		"slug": "jen-and-berrys-frozen-ice"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc529b",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "7:50",
-		"instance": "A little razzle dazzle and then we showed up.",
-		"tags": "Jen,Berry,Chicago (musical),Razzle Dazzle (song),John Kander,Fred Ebb",
-		"episode": 559,
-		"slug": "jen-and-berrys-frozen-ice"
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc5283",
