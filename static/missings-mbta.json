@@ -41,7 +41,7 @@
 		"tstart": "37:38",
 		"instance": "I appreciate the co-sign on that, brother.",
 		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-		"nb":["original farm location off 605, 606, roundabout et al"],
+		"nb": ["original farm location off 605, 606, roundabout et al"],
 		"episode": 566,
 		"slug": "the-calvins-triplets"
 	},
@@ -54,7 +54,7 @@
 		"tstart": "1:15:40",
 		"instance": "Good for you not to bring those up - I'd think about suing you.",
 		"tags": "John Lennon,Helter Skelter (song),The Beatles",
-		"nb":["HARDCASTLE"],
+		"nb": ["HARDCASTLE"],
 		"episode": 551,
 		"slug": "new-to-the-wax-with-the-sloppy-boys"
 	},
@@ -67,7 +67,12 @@
 		"tstart": "46:08",
 		"instance": "Who's your HPPIC?",
 		"tags": "Marjory Kershaw,Al A. Peterson,Grease (song),Barry Gibb,Frankie Valli",
-		"nb":["badlands natl park","workplace of: stephon","site of: everything - cactuses, lizards, wolves","ALSO MAKE SURE GREASE IS AS HARDCASTLE"],
+		"nb": [
+			"badlands natl park",
+			"workplace of: stephon",
+			"site of: everything - cactuses, lizards, wolves",
+			"ALSO MAKE SURE GREASE IS AS HARDCASTLE"
+		],
 		"episode": 540,
 		"slug": "low-five"
 	},
@@ -80,7 +85,7 @@
 		"tstart": "23:09",
 		"instance": "There were so many fires in London back in the day.",
 		"tags": "Joe Squib,The Clash (musical combination),London's Burning (song)",
-		"nb":["buckingham palace","home of: Joe Squib","ALSO HARDCASTLE"],
+		"nb": ["buckingham palace", "home of: Joe Squib", "ALSO HARDCASTLE"],
 		"episode": 520,
 		"slug": "dead-body-rap"
 	},
@@ -93,7 +98,7 @@
 		"tstart": "7:10",
 		"instance": "Some stinging social commentary from Gino.",
 		"tags": "Gino Lambardo",
-		"nb":["hollywood walk of fame OR venice boardwalk"],
+		"nb": ["hollywood walk of fame OR venice boardwalk"],
 		"episode": 485,
 		"slug": "the-8th-anniversary-show"
 	},
@@ -106,7 +111,7 @@
 		"tstart": "3:06:35",
 		"instance": "Stop by Norm Hamer Nissan.",
 		"tags": "Gino Lambardo,John Lennon,Ming,Norm Hamer",
-		"nb":["norm hamer nissan - carlsbad"],
+		"nb": ["norm hamer nissan - carlsbad"],
 		"episode": 485,
 		"slug": "the-8th-anniversary-show"
 	},
@@ -119,7 +124,7 @@
 		"tstart": "2:30:13",
 		"instance": "An update is what you're gonna get.",
 		"tags": "Gino Lambardo,John Lennon,Dagmar the Small,Bert Riley,Rauro Riley,Cake Boss,Bone Queef John St. Gynecologist,Norm Hamer",
-		"nb":["norm hamer nissan - carlsbad"],
+		"nb": ["norm hamer nissan - carlsbad"],
 		"episode": 485,
 		"slug": "the-8th-anniversary-show"
 	},
@@ -132,7 +137,7 @@
 		"tstart": "1:05:07",
 		"instance": "So I went out and I attempted to rob the Chase Bank over there. And that stressed me out.",
 		"tags": "Maxwell Keeper,Shelly Driftwood",
-		"nb":["some chase bank in hollywood"],
+		"nb": ["some chase bank in hollywood"],
 		"episode": 419,
 		"slug": "the-7th-anniversary-show"
 	},
@@ -145,7 +150,7 @@
 		"tstart": "51:08",
 		"instance": "You are green and brown \\ Hope nobody chops you down \\ You - I would die 4 u",
 		"tags": "Willard Mapleton,Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)",
-		"nb":["HARDCASTLE"],
+		"nb": ["HARDCASTLE"],
 		"episode": 418,
 		"slug": "paul-reiser-apple-tree"
 	},
@@ -158,7 +163,7 @@
 		"tstart": "1:00:45",
 		"instance": "You just said you didn't know that song!",
 		"tags": "Victor Diamond,Tiny,I Would Die 4 U (song),Prince and The Revolution (musical combination)",
-		"nb":["HARDCASTLE"],
+		"nb": ["HARDCASTLE"],
 		"episode": 418,
 		"slug": "paul-reiser-apple-tree"
 	},
@@ -171,7 +176,7 @@
 		"tstart": "1:00:55",
 		"instance": "What about something, you know, a little more old-school?",
 		"tags": "Victor Diamond,Tiny,Welcome to the Jungle (song),Guns N' Roses (musical combination)",
-		"nb":["HARDCASTLE"],
+		"nb": ["HARDCASTLE"],
 		"episode": 418,
 		"slug": "paul-reiser-apple-tree"
 	},
@@ -184,7 +189,7 @@
 		"tstart": "35:39",
 		"instance": "The color of the 'Thriller' video.",
 		"tags": "Chazmin Clangman,Sunny Clangman,Thriller (song),Michael Jackson,Rod Temperton",
-		"nb":["HARDCASTLE"],
+		"nb": ["HARDCASTLE"],
 		"episode": 377,
 		"slug": "good-night-in-the-morning"
 	},
@@ -197,7 +202,7 @@
 		"tstart": "1:21:52",
 		"instance": "The best one? Zebra.",
 		"tags": "Chip Gardner,Take Your Fingers from My Hair (song),Zebra (musical combination)",
-		"nb":["HARDCASTLE","TELL ME WHT YOU WANT TAKE YOUR FINGERS...HAIR"],
+		"nb": ["HARDCASTLE", "TELL ME WHT YOU WANT TAKE YOUR FINGERS...HAIR"],
 		"episode": 300,
 		"slug": "oh-golly-you-devil"
 	},
@@ -210,7 +215,7 @@
 		"tstart": "56:00",
 		"instance": "I had a dream I had a sister named 'Ashley.'",
 		"tags": "Percy Pennyweather,Phineas T. Johnson",
-		"nb":["bagdhad"],
+		"nb": ["bagdhad"],
 		"episode": 296,
 		"slug": "taking-the-bladder-out",
 		"fixed": false
@@ -242,116 +247,5 @@
 		"nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"],
 		"episode": 528,
 		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"carto": {
-			"cartodb_id": 99999,
-			"type": ""
-		},
-		"tstart": "1:07:05",
-		"instance": "You went to college and then you decided to go into fish.",
-		"tags": "Dorothy Charlessss,Whistleblower Leo Williams,20-Something Will Crowe",
-		"episode": 527,
-		"nb": [
-			"University of Alaska - Juneau",
-			"site of: Will Crowe, majoring in Abnormal Psychology; nothing else"
-		],
-		"slug": "hootie-hoo"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5308",
-		"carto": {
-			"cartodb_id": "",
-			"type": "poly"
-		},
-		"tstart": "1:00:27",
-		"instance": "Did you see Sha Na Na?",
-		"nb": [
-			"Woodstock Field",
-			"site of: Woodstock 1969, Appetizer PeeE Neur watching Sha Na Na at same, nothing else"
-		],
-		"tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Sha Na Na (musical combination)",
-		"episode": 592,
-		"slug": "the-peee-neurs"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5304",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "21:05",
-		"instance": "I'm sorry - I'm not even, like, from here.",
-		"tags": "Kaitlin",
-		"nb": ["Dayton, OH", "hometown of: Kaitlin"],
-		"episode": 588,
-		"slug": "lil-choices"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc52ae",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "53:10",
-		"instance": "Who's the purest on the other side?",
-		"tags": "Forsythia,Donna Lewis,I Love You Always Forever (song)",
-		"nb":["HARDCASTLE"],
-		"episode": 567,
-		"slug": "midnight-junket"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc529f",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "7:50",
-		"instance": "A little razzle dazzle and then we showed up.",
-		"tags": "Jen,Berry,Chicago (musical),We Both Reached for the Gun (song),John Kander,Fred Ebb",
-		"nb":["HARDCASTLE"],
-		"episode": 559,
-		"slug": "jen-and-berrys-frozen-ice"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc529b",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "7:50",
-		"instance": "A little razzle dazzle and then we showed up.",
-		"tags": "Jen,Berry,Chicago (musical),Razzle Dazzle (song),John Kander,Fred Ebb",
-		"nb":["HARDCASTLE"],
-		"episode": 559,
-		"slug": "jen-and-berrys-frozen-ice"
-	},
-	{
-		"ALERT": "••••••••••••••••••••••••••••••••••••••••••••••••••• 949 or 803 depending on 'drowned by quarters' - kinkos or nathans",
-		"_id": "5caa6966e803cb16c4bc52c4",
-		"carto": {
-			"cartodb_id": "",
-			"type": "point"
-		},
-		"tstart": "18:30",
-		"instance": "I went to Kinko's for that - it cost me $40 in quarters.",
-		"tags": "Gino Lambardo",
-		"nb": [
-			"Kinko's near merrick LI, NY OR a nathans instance on/near long island",
-			"site of: Gino Lambardo, printing driving directions OR gino smashing open a change machine at nathans"
-		],
-		"episode": 571,
-		"slug": "rope-beats-rock"
-	},
-	{
-		"carto": {
-			"cartodb_id": "299",
-			"type": "point"
-		},
-		"nb": [
-			"OR FOR POLY GO CHANGE MLAB",
-			"Nassau Community College",
-			"site of: a metriculating Gino Lambardo"
-		]
 	}
 ]
