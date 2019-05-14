@@ -1,5 +1,9 @@
 [
 	{
+		"NOTE": "poly:172 should be United Kingdom"
+	},{
+		"NOTE": "empty on-the-lam frm ep.435 is u.s.a. entire"
+	},{
 		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
 	},
 	{
@@ -16,19 +20,6 @@
 		"nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"],
 		"episode": 528,
 		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc52ac",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "37:38",
-		"instance": "I appreciate the co-sign on that, brother.",
-		"tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-		"nb": ["original farm location off 605, 606, roundabout et al"],
-		"episode": 566,
-		"slug": "the-calvins-triplets"
 	},
 	{
 		"_id": "5caa6966e803cb16c4bc525f",
@@ -60,18 +51,5 @@
 		"nb": ["buckingham palace", "home of: Joe Squib", "ALSO HARDCASTLE"],
 		"episode": 520,
 		"slug": "dead-body-rap"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc5215",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "7:10",
-		"instance": "Some stinging social commentary from Gino.",
-		"tags": "Gino Lambardo",
-		"nb": ["hollywood walk of fame OR venice boardwalk"],
-		"episode": 485,
-		"slug": "the-8th-anniversary-show"
 	}
 ]
