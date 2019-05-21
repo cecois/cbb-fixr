@@ -1,55 +1,5 @@
 [
 	{
-		"NOTE": "poly:172 should be United Kingdom"
-	},{
-		"NOTE": "empty on-the-lam frm ep.435 is u.s.a. entire"
-	},{
 		"NOTE": "ONCE YOU HAVE AMSTERDAM POLY FROM EP.529, ADD THAT ID TO \"_id\": {\"$oid\": \"5ad69439bd966f7943214c46\"}"
-	},
-	{
-		"NOTE": "••••••••••••••••••• add Tampa, FL poly's id to 5c1064bf5d0e6554dd70bb7e (place long ago ep.577) and the as-yet uncreated 'freaking insane' instance frm same ep •••••••••••••••"
-	},
-	{
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "15:45",
-		"instance": "I fell in a hole when I was there - it was kind of rough, actually.",
-		"tags": "Kiwi Kris",
-		"nb": ["Machu Picchu, Peru", "site of: Kiwi Kris in a hole"],
-		"episode": 528,
-		"slug": "this-is-the-story-of-my-life"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc525f",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "46:08",
-		"instance": "Who's your HPPIC?",
-		"tags": "Marjory Kershaw,Al A. Peterson,Grease (song),Barry Gibb,Frankie Valli",
-		"nb": [
-			"badlands natl park",
-			"workplace of: stephon",
-			"site of: everything - cactuses, lizards, wolves",
-			"ALSO MAKE SURE GREASE IS AS HARDCASTLE"
-		],
-		"episode": 540,
-		"slug": "low-five"
-	},
-	{
-		"_id": "5caa6966e803cb16c4bc51fb",
-		"carto": {
-			"cartodb_id": "",
-			"type": ""
-		},
-		"tstart": "23:09",
-		"instance": "There were so many fires in London back in the day.",
-		"tags": "Joe Squib,The Clash (musical combination),London's Burning (song)",
-		"nb": ["buckingham palace", "home of: Joe Squib", "ALSO HARDCASTLE"],
-		"episode": 520,
-		"slug": "dead-body-rap"
 	}
 ]
