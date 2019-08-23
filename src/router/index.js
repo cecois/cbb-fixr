@@ -1,16 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
-
-import FIXR from "@/components/Fixr";
-
+import JKR from "@/components/JKR";
 Vue.use(Router);
-
 export default new Router({
-  routes: [
-    {
-      path: "/fixr",
-      name: "FIXR",
-      component: FIXR
-    }
-  ]
+	routes: [{
+		path: "/"
+		, name: "JKR"
+		, component: JKR
+	}]
 });

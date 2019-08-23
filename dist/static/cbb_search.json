@@ -1,0 +1,722 @@
+{
+  "took": 12,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 23,
+    "max_score": 9.539231,
+    "hits": [
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff104",
+        "_score": 9.539231,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:06:30",
+          "tend": "1:07:06",
+          "instance": "How did I get money at that time?",
+          "bit": "Location",
+          "elucidation": "identifiable earth location",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "point",
+          "location_id": "140",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff105",
+        "_score": 8.233377,
+        "_source": {
+          "episode": "592",
+          "tstart": "52:30",
+          "tend": "52:48",
+          "instance": "I like big bottomas - I cannot lie to you, Scott.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Sir Mix-a-Lot,Baby Got Back (song),Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff109",
+        "_score": 8.233377,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:07:47",
+          "tend": "1:08:31",
+          "instance": "Couldn't fit it - must aquit it.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "MC Hammer,Addams Groove (song),Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10b",
+        "_score": 8.233377,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:27:15",
+          "tend": "1:27:38",
+          "instance": "Several different tunes in one.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "SICKO MODE (song),Travis Scott,Drake,Entrée PeeE Neur,Appetizer PeeE Neur,Jarles",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10d",
+        "_score": 8.233377,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:18:15",
+          "tend": "1:19:10",
+          "instance": "Low-rise *and* boot-cut?",
+          "bit": "Classic Jarles",
+          "elucidation": "jarles bein jarles",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Jarles,Ma Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0fa",
+        "_score": 7.972189,
+        "_source": {
+          "episode": "592",
+          "tstart": "11:58",
+          "tend": "12:10",
+          "instance": "So two times you've been able to wear this.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "The Fugees (musical combination),Killing Me Softly with His Song (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0fd",
+        "_score": 7.972189,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:04:05",
+          "tend": "1:04:50",
+          "instance": "I was the fourth lead guitarist.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),One of These Nights (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0fe",
+        "_score": 7.972189,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:01:25",
+          "tend": "1:02:23",
+          "instance": "I lifted up my pastor's robe and revealed my Old Navy low-rise boot-cut jeans.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Fugees (musical combination),Killing Me Softly with His Song (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff103",
+        "_score": 7.972189,
+        "_source": {
+          "episode": "592",
+          "tstart": "49:49",
+          "tend": "50:08",
+          "instance": "Ma Neur is not doing well.",
+          "bit": "Where Are You From?",
+          "elucidation": "a character trait or detail is challenged or prompted",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Ma Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff107",
+        "_score": 7.972189,
+        "_source": {
+          "episode": "592",
+          "tstart": "49:52",
+          "tend": "50:27",
+          "instance": "I cooked for her one time I gave here the -itis.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "The Fugees (musical combination),Killing Me Softly with His Song (song),Entrée PeeE Neur,Appetizer PeeE Neur,Ma Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0ff",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "27:00",
+          "tend": "27:15",
+          "instance": "A 'cube' meaning...equal on all sides?",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Entrée PeeE Neur,The Fugees (musical combination),Killing Me Softly with His Song (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff100",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "49:30",
+          "tend": "49:49",
+          "instance": "Ring-a-ding ding, ring-a-ding ding.",
+          "bit": "The Devil Went Down to Georgia",
+          "elucidation": "the charlie daniels devil/georgia scenario is referenced or debated",
+          "tags": "Entrée PeeE Neur,Charlie Daniels Band,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff102",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "45:30",
+          "tend": "45:50",
+          "instance": "That was like \"yes, and - here's what you are.\"",
+          "bit": "Yes, And...",
+          "elucidation": "the rule of 'yes, and' is invoked or abused",
+          "tags": "Entrée PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff106",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:00:00",
+          "tend": "1:00:27",
+          "instance": "Oh, you know - it soothes the savage breast.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Who Shot Ya? (song),The Notorious B.I.G.,Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10a",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:21:45",
+          "tend": "1:21:18",
+          "instance": "She's leakin' - she's soaking wet.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Salt Shaker (song),The Ying Yang Twins (musical combination),Lil Jon,The East Side Boyz (musical combination),Entrée PeeE Neur,Appetizer PeeE Neur,Jarles",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10c",
+        "_score": 7.768151,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:17:20",
+          "tend": "1:17:45",
+          "instance": "You said 'shit' once and then you got very offended when I said spit.",
+          "bit": "That is the Dream",
+          "elucidation": "scott seems jealous or just commendatory",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0fb",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:04:05",
+          "tend": "1:04:50",
+          "instance": "I was the fourth lead guitarist.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),Life in the Fast Lane (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff0fc",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:04:05",
+          "tend": "1:04:50",
+          "instance": "I was the fourth lead guitarist.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),Hotel California (song)",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff101",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "40:12",
+          "tend": "40:52",
+          "instance": "People been making movies since the '90s.",
+          "bit": "The Train Effect",
+          "elucidation": "among scott's favorite films is evidently \"l'arrivé d'un train en gare de la ciotat\"",
+          "tags": "Entrée PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff108",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:07:47",
+          "tend": "1:09:24",
+          "instance": "Couldn't fit it - must aquit it.",
+          "bit": "The Paul Hardcastle of Suicides",
+          "elucidation": "any song reference",
+          "tags": "O.J. Simpson,MC Hammer,Pumps and a Bump (song),Entrée PeeE Neur,Appetizer PeeE Neur",
+          "location_type": "",
+          "location_id": "",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10e",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:00:27",
+          "tend": "1:00:56",
+          "instance": "Did you see Sha Na Na?",
+          "bit": "Location",
+          "elucidation": "identifiable earth location",
+          "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Sha Na Na (musical combination)",
+          "hero":{"on":true,"attrib":"Scott Aukerman"},
+          "location_type": "point",
+          "location_id": "1007",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff10f",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:09:25",
+          "tend": "1:09:45",
+          "instance": "So he had been on that train since pre-the murders.",
+          "bit": "Location",
+          "elucidation": "identifiable earth location",
+          "tags": "O.J. Simpson,Appetizer PeeE Neur",
+          "location_type": "poly",
+          "location_id": "572",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      },
+      {
+        "_index": "cbb",
+        "_type": "bit",
+        "_id": "5c92c5561f6e4f7aad7ff110",
+        "_score": 7.5443034,
+        "_source": {
+          "episode": "592",
+          "tstart": "1:09:40",
+          "tend": "1:10:25",
+          "instance": "So wait - you were in the Bronco?!",
+          "bit": "Location",
+          "elucidation": "identifiable earth location",
+          "tags": "O.J. Simpson,Appetizer PeeE Neur,Entrée PeeE Neur",
+          "location_type": "point",
+          "location_id": "322",
+          "updated_at": "2019-03-18T09:37:04Z",
+          "created_at": "2019-03-18T09:37:04Z",
+          "slug_earwolf": "the-peee-neurs",
+          "episode_title": "The PeeE Neurs",
+          "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart",
+          "holding": "false"
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "all_bits": {
+      "doc_count": 15312,
+      "bits": {
+        "doc_count": 23,
+        "filtered_bits": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+            {
+              "key": "The Paul Hardcastle of Suicides",
+              "doc_count": 13
+            },
+            {
+              "key": "Location",
+              "doc_count": 3
+            },
+            {
+              "key": "Where Are You From?",
+              "doc_count": 2
+            },
+            {
+              "key": "Classic Jarles",
+              "doc_count": 1
+            },
+            {
+              "key": "That is the Dream",
+              "doc_count": 1
+            },
+            {
+              "key": "The Devil Went Down to Georgia",
+              "doc_count": 1
+            },
+            {
+              "key": "The Train Effect",
+              "doc_count": 1
+            },
+            {
+              "key": "Yes, And...",
+              "doc_count": 1
+            }
+          ]
+        }
+      },
+      "episodes": {
+        "doc_count": 23,
+        "filtered_episodes": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+            {
+              "key": "592",
+              "doc_count": 23
+            }
+          ]
+        }
+      },
+      "tags": {
+        "doc_count": 23,
+        "filtered_tags": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+            {
+              "key": "entrée peee neur",
+              "doc_count": 21
+            },
+            {
+              "key": "appetizer peee neur",
+              "doc_count": 19
+            },
+            {
+              "key": "killing me softly with his song (song)",
+              "doc_count": 4
+            },
+            {
+              "key": "the fugees (musical combination)",
+              "doc_count": 4
+            },
+            {
+              "key": "jarles",
+              "doc_count": 3
+            },
+            {
+              "key": "ma neur",
+              "doc_count": 3
+            },
+            {
+              "key": "o.j. simpson",
+              "doc_count": 3
+            },
+            {
+              "key": "the eagles (musical combination)",
+              "doc_count": 3
+            },
+            {
+              "key": "mc hammer",
+              "doc_count": 2
+            },
+            {
+              "key": "addams groove (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "baby got back (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "charlie daniels band",
+              "doc_count": 1
+            },
+            {
+              "key": "drake",
+              "doc_count": 1
+            },
+            {
+              "key": "hotel california (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "life in the fast lane (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "lil jon",
+              "doc_count": 1
+            },
+            {
+              "key": "one of these nights (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "pumps and a bump (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "salt shaker (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "sha na na (musical combination)",
+              "doc_count": 1
+            },
+            {
+              "key": "sicko mode (song)",
+              "doc_count": 1
+            },
+            {
+              "key": "sir mix-a-lot",
+              "doc_count": 1
+            },
+            {
+              "key": "the east side boyz (musical combination)",
+              "doc_count": 1
+            },
+            {
+              "key": "the notorious b.i.g.",
+              "doc_count": 1
+            },
+            {
+              "key": "the ying yang twins (musical combination)",
+              "doc_count": 1
+            },
+            {
+              "key": "travis scott",
+              "doc_count": 1
+            },
+            {
+              "key": "who shot ya? (song)",
+              "doc_count": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
