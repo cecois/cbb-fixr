@@ -148,6 +148,35 @@ const baseLayer = new L.TileLayer(
 
 this.MAP.addLayer(baseLayer);
 
+/* ++++++++++++++++++++++++++++++++++++++++++ dropzone */
+    window.addEventListener("dragenter", e => {
+      // console.log("in dragenter, e:", e);
+      this.dropzone.state = "drag";
+      this.dropzone.msg = "drop fil";
+    });
+
+    window.addEventListener("dragleave", e => {
+      e.preventDefault();
+      this.dropzone.state = "idle";
+      this.dropzone.msg = "fil drop";
+    });
+
+    window.addEventListener("dragover", e => {
+      e.preventDefault();
+      this.dropzone.state = "drag";
+    });
+
+    window.addEventListener("drop", e => {
+      e.preventDefault();
+      this.dropzone.state = "idle";
+      this.dropzone.msg = "tnx";
+
+      let fil = e.dataTransfer.files;
+      this._ACCEPTDROP(fil);
+    });
+
+    /* ++++++++++++++++++++++++++++++++++++++++++ /dropzone */
+
 document.addEventListener("keydown", (e)=>{
   console.log('e.keyCode:',e.keyCode)
   if(e.keyCode==27){
@@ -160,6 +189,7 @@ document.addEventListener("keydown", (e)=>{
   data() {
     return {
       MAP:null,
+            dropzone: { state: "idle", msg: null },
       page: { title: "MIlLeriAjkR", splayed: false },
       modals: {result:false,edit:false},
       project:{loadings:{map:false,mongo:false}},
@@ -174,6 +204,130 @@ document.addEventListener("keydown", (e)=>{
   },
   methods: {
     
+    _LOADDROP: function(fil) {
+      this.project.loadings.map = true;
+      const reader = new FileReader();
+      reader.loadend = e => {
+        delete e.target.result;
+      };
+
+      reader.onload = D => {
+
+        let O = JSON.parse(D.target.result);
+        console.log("OTYPE:",O.type)
+        // if(O.type=='Feature'){
+          // one thing and we'll take it
+// first clear the group
+this.JKGROUP.clearLayers();
+var style = { color: "#bc000a" }
+this.project.loadings.map = false;
+
+// let OJ=null
+
+        // } else if(O.type=='FeatureCollection') {
+          // its a featurecoll we'll take the first
+        // } else {
+          // this.dropzone.msg = "izzat json, really?!";
+
+// OJ=O
+          //           OJ.properties.name="geojsonfrmfil"
+          // OJ.crs = {
+          //     type: "name",
+          //     properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" }
+          //   }
+        // }
+
+          L.geoJSON(O, {
+            style: style
+          })
+            .bindPopup(layer => {
+              return "<div>name: " + layer.feature.properties.name + "</div>";
+            })
+            .on("popupopen", layer => {
+              let fea =  layer.layer.feature;
+              fea.properties.name="Manual GeoJSON File"
+              fea.properties.anno="(desc)"
+              // this.active = layer.layer.feature;
+              this.active = fea;
+            })
+            .addTo(this.JKGROUP);
+          map.fitBounds(this.JKGROUP.getBounds());
+        
+      } //reader.onload
+
+      reader.readAsText(fil, "UTF-8");
+    },// loaddrop
+    _LOADDROPOG: function(fil) {
+      this.project.loadings.map = true;
+      const reader = new FileReader();
+      reader.loadend = e => {
+        delete e.target.result;
+      };
+
+      reader.onload = e => {
+
+        console.log("e.target.result:",e.target.result)
+
+        if (JSON.parse(e.target.result).length <= 0) {
+          this.dropzone.msg = "izzat json, really?!";
+        } else {
+          if (typeof this.JKGROUP == "undefined") {
+            this.JKGROUP = new L.featureGroup().addTo(this.MAP);
+          } else {
+            this.JKGROUP.clearLayers();
+          }
+          var style = { color: "#bc000a" }
+
+          this.project.loadings.map = false;
+
+          let go = JSON.parse(e.target.result);
+
+          go.properties.name="geojsonfrmfil"
+          go.crs = {
+              type: "name",
+              properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" }
+            }
+
+          let goo = {
+            type: "FeatureCollection",
+            name: "geojson",
+            crs: {
+              type: "name",
+              properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" }
+            },
+            features: [
+              {
+                type: "Feature",
+                properties: { name: "geojsonfromfil", anno:null, cartodb_id: null },
+                geometry: {
+                  type: "MultiPolygon",
+                  coordinates: (JSON.parse(e.target.result).features)?JSON.parse(e.target.result).features[0].geometry.coordinates:JSON.parse(e.target.result).geometry.coordinates
+                }
+              }
+            ]
+          };
+
+          L.geoJSON(go, {
+            style: style
+          })
+            .bindPopup(layer => {
+              return "<div>name: " + layer.feature.properties.name + "</div>";
+            })
+            .on("popupopen", layer => {
+              this.active = layer.layer.feature;
+            })
+            .addTo(this.JKGROUP);
+          map.fitBounds(this.JKGROUP.getBounds());
+        }
+      };
+
+      reader.readAsText(fil, "UTF-8");
+    },// loaddrop
+    _ACCEPTDROP: function(fil) {
+      console.log("fil in acceptDrop:", fil);
+      // bookkeeping and prep func, if necessary
+      this._LOADDROP(fil[0]);
+    },
     _SETMANUAL:function(){
       // there's an active been accepted, we send it to the mongo store
       console.log(JSON.stringify(this.activeTemp))
