@@ -4,120 +4,107 @@
   <vue-headful :title="page.title" description="fxsxxxrrrre" />
   
   <!-- START NAV 1-->
-    <nav id="mjk-navbar" class="navbar is-white">
-        <!-- <div class="container"> -->
-            <div class="navbar-brand">
-                
-                
-            </div>
-            <div id="navMenu" class="navbar-menu">
-                <div class="navbar-start has-text-centered" style="padding-top:1em;">
-                
-<div class="field" id="mjk-query-field">
-        <div class="control">
-          <input id="mjk-query" v-model="query" class="input is-large" type="text" :placeholder="config.mode">
-        </div>
-        <p class="level-item"><span @click="_GEOCODE" class="fa fa-play"></span></p>
-      </div nb="/.field">
+  <nav id="mjk-navbar" class="navbar is-white">
 
-      <section class="hero is-info welcome is-small">
-                    <div class="hero-body">
-                        <div class="container">
-                            <h1 class="title">
-                                <span>{{active.properties.name}}</span> <span v-if="active.properties.name" @click="_EDIT" class="fa fa-edit"></span><span v-if="active.properties.name" @click="_SEND" class="fa fa-upload"></span>
-                            </h1>
-                            <h2 class="subtitle">
-                                {{active.properties.anno}}
-                            </h2>
-                        </div>
-                    </div>
-                </section>
+    <div id="mjk-navMenu" class="navbar-menu" :style="_SETCOLORBG('primary')">
+      <div class="has-text-centered is-paddingless is-marginless">
 
-                </div>
+        <div class="field has-addons" id="mjk-query-field">
+  <div class="control">
+    <input :style="_SETCOLOR('quinary')" id="mjk-query" v-model="query" class="input" type="text" :placeholder="config.mode">
+  </div>
+  <div class="control">
+    <a @click="_GEOCODE" class="button is-info" :style="_SETCOLORBG('secondary')">
+      <span class="icon is-large is-left">
+      <i class="fas fa-map-signs"></i>
+    </span>
+    </a>
+  </div>
+</div>
 
-            </div>
-        <!-- </div> -->
-    </nav>
-    <!-- END NAV 1 -->
+      </div nb="/.navbar">
 
+<div id="mjk-active" class="columns has-text-centered" :style="_SETCOLOR('quaternary')">
+              
+              <div class="column is-9">
+                <h1 class="is-1">{{active.properties.name}}</h1>
+<h4 class="is-4">
+              {{active.properties.anno}}
+              </h4>
+              </div nb="/.column">
+
+
+              <!-- Main container -->
+  <div class="column has-text-white">
+    
+    <div v-if="active.properties.name" @click="_EDIT" class="fa fa-edit"></div>
+    <div v-if="active.properties.name" @click="_SEND" class="fa fa-upload"></div>
+    </div nb="/.column">
+
+            </div nb="/#mjk-active">
+
+    </div nb="/#navMenu">
+  </nav>
+  <!-- END NAV 1 -->
   <!-- START NAV 2-->
-    <nav id="mjk-candidates" class="navbar is-white is-marginless is-paddingless">
-        <!-- <div class="container"> -->
-            <div class="navbar-brand">
-                
-              <div class="is-left" v-for="can in candidates">{{can.properties.name}} <span @click="_SEND" v-if="can.properties.temp_id==active.properties.temp_id" class="fa fa-check"></span>|&nbsp;&nbsp;</div> 
-                
-            </div>
-            
-        <!-- </div> -->
-    </nav>
-    <!-- END NAV 2 -->
-
-
-    <!-- <div class="container"> -->
-<!--         <div class="columns">
-            <div id="mjk-candidates" class="column is-3 ">
-                <aside class="menu is-hidden-mobile">
-                    <ul class="menu-list">
-                        
-                    <li v-for="can in candidates">{{can.properties.name}} <span @click="_SEND" v-if="can.properties.cartodb_id==active.properties.cartodb_id" class="fa fa-check"></span></li>
-                    
-                    </ul>
-                </aside>
-            </div> -->
-            <!-- <div class="column is-9" id="mjk-active">
-                
-                <section class="hero is-info welcome is-small">
-                    <div class="hero-body">
-                        <div class="container">
-                            <h1 class="title">
-                                <span>{{active.nom}}</span> <span v-if="active.properties.name" @click="_SEND" class="fa fa-check"></span>
-                            </h1>
-                            <h2 class="subtitle">
-                            </h2>
-                        </div>
-                    </div>
-                </section>
-                
-            </div> -->
-        <!-- </div> -->
-    <!-- </div> -->
-
-<!-- ••••••••••••••••••••••••••••••••••••••••••••••• MODALS 
-        •• -->
-<div class="modal" v-bind:class="{ 'is-active': modals.result }">
-      <div class="modal-background"></div>
-      <div class="modal-content">
-        <pre>{{ result }}</pre>
-      </div>
-      <button
-        class="modal-close is-large"
-        aria-label="close"
-        @click="modals.result = false"
-      ></button>
+  <nav id="mjk-candidates" class="navbar is-white is-marginless is-paddingless">
+    <div class="navbar-brand">
+      
+      <div class="is-left" v-for="can in candidates">{{can.properties.name}} <span @click="_SEND" v-if="can.properties.temp_id==active.properties.temp_id" class="fa fa-check"></span>|&nbsp;&nbsp;</div>
+      
     </div>
-
-    <div class="modal" v-bind:class="{ 'is-active': modals.edit }">
+    
+  </nav>
+  
+    <!-- ••••••••••••••••••••••••••••••••••••••••••••••• MODALS
+    •• -->
+    <div class="modal" v-bind:class="{ 'is-active': modals.result }">
       <div class="modal-background"></div>
       <div class="modal-content">
-        
-<div class="field">
+      <pre>{{ result }}</pre>
+    </div>
+    <button
+    class="modal-close is-large"
+    aria-label="close"
+    @click="modals.result = false"
+    ></button>
+  </div>
+  <div class="modal" v-bind:class="{ 'is-active': modals.edit }">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      
+
+<!-- 
+<div class="field has-addons" id="mjk-query-field">
+  <div class="control">
+    <input :style="_SETCOLOR('quinary')" id="mjk-query" v-model="query" class="input" type="text" :placeholder="config.mode">
+  </div>
+  <div class="control">
+    <a @click="_GEOCODE" class="button is-info" :style="_SETCOLORBG('secondary')">
+      <span class="icon is-large is-left">
+      <i class="fas fa-map-signs"></i>
+    </span>
+    </a>
+  </div>
+</div>
+ -->
+
+      <div class="field">
         <div class="control">
           
-          <input class="input is-large" v-model="activeTemp.name" placeholder="name">
-          <input class="input is-medium" v-model="activeTemp.anno" placeholder="anno">
+          <input :style="_SETCOLOR('secondary')" class="input is-large" v-model="activeTemp.name" placeholder="name">
+          <input :style="_SETCOLOR('tertiary')" class="input is-medium" v-model="activeTemp.anno" placeholder="anno">
         </div>
-        <p class="level-item"><span @click="_SETMANUAL" class="fa fa-parachute-box is-size-1"></span></p>
+        <a @click="_SETMANUAL" class="button is-large is-fullwidth">Submit</a>
+        <!-- <p class="level-item"><span @click="_SETMANUAL" class="fa fa-parachute-box is-size-1"></span></p> -->
       </div nb="/.field">
-
-      </div>
-      <button
-        class="modal-close is-large"
-        aria-label="close"
-        @click="modals.edit = false"
-      ></button>
     </div>
-
+    <button
+    class="modal-close is-large"
+    aria-label="close"
+    @click="modals.edit = false"
+    ></button>
+  </div>
 </div nb="app root">
 </template>
 
@@ -127,6 +114,8 @@ export default {
   created: function() {
     var mess = "Milleria Geocoder";
     this.msg = mess.toUpperCase();
+
+    this._GETCOLORS()
 
   },
   mounted: function() {
@@ -199,7 +188,8 @@ document.addEventListener("keydown", (e)=>{
       active: {properties:{name:null,anno:null,cartodb_id:null}},
       candidates: [],
       dropzone: { state: "idle", msg: null },
-      config: { mode: "33" }
+      config: { mode: "33" },
+      colors:{primary:[33,44,69],secondary:[247,242,163],tertiary:[201,216,147],quaternary:[57,141,112],quinary:[62,80,64]}
     };
   },
   methods: {
@@ -257,7 +247,85 @@ this.project.loadings.map = false;
 
       reader.readAsText(fil, "UTF-8");
     },// loaddrop
-    _LOADDROPOG: function(fil) {
+    _SETCOLORBG:function(w){
+
+let C = 'rgb(255,255,255)';
+          switch (w) {
+            case "primary":
+              C={backgroundColor:'rgb('+this.colors.primary.join(',')+')'}
+              break;
+            case "secondary":
+              C={backgroundColor:'rgb('+this.colors.secondary.join(',')+')'}
+              break;
+            case "tertiary":
+              C={backgroundColor:'rgb('+this.colors.tertiary.join(',')+')'}
+              break;
+            case "quaternary":
+              C={backgroundColor:'rgb('+this.colors.quaternary.join(',')+')'}
+              break;
+            case "quinary":
+              C={backgroundColor:'rgb('+this.colors.quinary.join(',')+')'}
+              break;
+            default:
+              C={backgroundColor:'rgb(222,222,222)'}
+              break;
+          }
+return C
+
+    }
+    ,_SETCOLOR:function(w){
+
+let C = 'rgb(255,255,255)';
+          switch (w) {
+            case "primary":
+              C={color:'rgb('+this.colors.primary.join(',')+')'}
+              break;
+            case "secondary":
+              C={color:'rgb('+this.colors.secondary.join(',')+')'}
+              break;
+            case "tertiary":
+              C={color:'rgb('+this.colors.tertiary.join(',')+')'}
+              break;
+            case "quaternary":
+              C={color:'rgb('+this.colors.quaternary.join(',')+')'}
+              break;
+            case "quinary":
+              C={color:'rgb('+this.colors.quinary.join(',')+')'}
+              break;
+            default:
+              C={color:'rgb(222,222,222)'}
+              break;
+          }
+return C
+
+    }
+    ,_GETCOLORRAW:function(w){
+
+let C = 'rgb(255,255,255)';
+          switch (w) {
+            case "primary":
+              C='rgb('+this.colors.primary.join(',')+')'
+              break;
+            case "secondary":
+              C='rgb('+this.colors.secondary.join(',')+')'
+              break;
+            case "tertiary":
+              C='rgb('+this.colors.tertiary.join(',')+')'
+              break;
+            case "quaternary":
+              C='rgb('+this.colors.quaternary.join(',')+')'
+              break;
+            case "quinary":
+              C='rgb('+this.colors.quinary.join(',')+')'
+              break;
+            default:
+              C='rgb(222,222,222)'
+              break;
+          }
+return C
+
+    }
+    ,_LOADDROPOG: function(fil) {
       this.project.loadings.map = true;
       const reader = new FileReader();
       reader.loadend = e => {
@@ -392,13 +460,42 @@ this.project.loadings.map = false;
       // there's an active been accepted, we send it to the mongo store
       this.modals.edit=true
     },
+    _GETCOLORS:function(){
+
+$.ajax({
+        type: "POST",
+        url: 'http://colormind.io/api/',
+        data: '{"model":"default"}',
+        dataType: "json",
+        beforeSend: el => {
+          console.log('fetching random colors...')
+        },
+        success: data => {
+          
+          //map it here
+          // set it
+          this.colors=
+{primary:data.result[0]
+,secondary:data.result[1]
+,tertiary:data.result[2]
+,quaternary:data.result[3]
+,quinary:data.result[4]
+}
+          
+        }
+      })
+        .fail((err, el) => {
+          console.log(err);
+        });
+
+    },
     _GEOCODE:function(){
       // preparse input
       // send to appropriate endpoint
       this.project.loadings.map = true;
       
       // var style = this.STYLE();
-      var style = { color: "#ec00ff" }
+      var style = { color: this._GETCOLORRAW() }
 
       let uri =
         this.config.mode == "T"
@@ -454,12 +551,26 @@ $mjk-bg:rgb(255,255,255);
   position:absolute;top:20%;height:80%;width:100%;z-index:0;
 }
 
-#mjk-navbar{}
-#mjk-candidates{font-size:.6em;color:$mjk-secondary;background-color:$mjk-bg;}
-#mjk-active{height:20vh;}
-#mjk-query-field{margin-bottom:1em;}
-#mjk-query{
+#mjk-navMenu{padding:1em;}
+#mjk-active{
   font-weight:900;
-  color:$mjk-primary;
+  font-size:1.8em;
+  width:100%;
+  padding-left:2em;
+  font-family: 'Titillium Web', sans-serif;
+  .fa{
+  &:hover{color:rgb(222,222,222);cursor:pointer;}
+}
+}
+#mjk-candidates{font-size:.6em;}
+// #mjk-active{height:20vh;}
+#mjk-query-field{
+  // padding-top:1em;
+  padding-left:1em;
+}
+#mjk-query{
+  font-weight:900;font-family: 'Titillium Web', sans-serif;
+  &:focus{border:1px solid white;}
+  width:35vw;
 }
 </style>
