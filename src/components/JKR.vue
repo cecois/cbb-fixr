@@ -1,17 +1,18 @@
 <template>
 <div class="">
+  <vue-topprogress ref="topProgress"></vue-topprogress>
   <div id="map"></div>
   <vue-headful :title="page.title" description="fxsxxxrrrre" />
   
   <!-- START NAV 1-->
-  <nav id="mjk-navbar" class="navbar is-white">
+  <nav id="mjk-navbar" class="navbar is-white has-text-centered">
 
     <div id="mjk-navMenu" class="navbar-menu" :style="_SETCOLORBG('primary')">
-      <div class="has-text-centered is-paddingless is-marginless">
+      <div class=" is-paddingless is-marginless">
 
-        <div class="field has-addons" id="mjk-query-field">
+        <div class="field has-addons has-text-centered is-horizontal" id="mjk-query-field">
   <div class="control">
-    <input :style="_SETCOLOR('quinary')" id="mjk-query" v-model="query" class="input" type="text" :placeholder="config.mode">
+    <input :style="_SETCOLOR('quinary')" id="mjk-query" v-model="query" class="input is-expanded" type="text" :placeholder="config.mode">
   </div>
   <div class="control">
     <a @click="_GEOCODE" class="button is-info" :style="_SETCOLORBG('secondary')">
@@ -19,12 +20,16 @@
       <i class="fas fa-map-signs"></i>
     </span>
     </a>
+
+<div :style="_SETCOLOR('tertiary')" @click="_EDIT" class="fa fa-edit has-text-right j-btn"></div>
+    <div :style="_SETCOLOR('secondary')" @click="_SEND" class="fa fa-upload has-text-right j-btn"></div>
+
   </div>
 </div>
 
       </div nb="/.navbar">
 
-<div id="mjk-active" class="columns has-text-centered" :style="_SETCOLOR('quaternary')">
+<!-- <div id="mjk-active" class="columns has-text-centered" :style="_SETCOLOR('quaternary')">
               
               <div class="column is-9">
                 <h1 class="is-1">{{active.properties.name}}</h1>
@@ -34,14 +39,12 @@
               </div nb="/.column">
 
 
-              <!-- Main container -->
   <div class="column has-text-white">
     
-    <div v-if="active.properties.name" @click="_EDIT" class="fa fa-edit"></div>
-    <div v-if="active.properties.name" @click="_SEND" class="fa fa-upload"></div>
+    
     </div nb="/.column">
 
-            </div nb="/#mjk-active">
+            </div nb="/#mjk-active"> -->
 
     </div nb="/#navMenu">
   </nav>
@@ -52,6 +55,11 @@
       
       <div class="is-left" v-for="can in candidates">{{can.properties.name}} <span @click="_SEND" v-if="can.properties.temp_id==active.properties.temp_id" class="fa fa-check"></span>|&nbsp;&nbsp;</div>
       
+    </div>
+
+    <div class="navbar-menu has-text-left" style="font-size:3em;">
+<!-- <div :style="_SETCOLOR('tertiary')" @click="_EDIT" class="fa fa-edit has-text-right j-btn"></div>
+    <div :style="_SETCOLOR('secondary')" @click="_SEND" class="fa fa-upload has-text-right j-btn"></div> -->
     </div>
     
   </nav>
@@ -95,9 +103,29 @@
           <input :style="_SETCOLOR('secondary')" class="input is-large" v-model="activeTemp.name" placeholder="name">
           <input :style="_SETCOLOR('tertiary')" class="input is-medium" v-model="activeTemp.anno" placeholder="anno">
         </div>
-        <a @click="_SETMANUAL" class="button is-large is-fullwidth">Submit</a>
+        <a @click="_SETMANUAL" class="button is-large is-fullwidth">Set</a>
         <!-- <p class="level-item"><span @click="_SETMANUAL" class="fa fa-parachute-box is-size-1"></span></p> -->
       </div nb="/.field">
+
+
+      <div id="mjk-active" class="columns has-text-centered" :style="_SETCOLOR('quaternary')">
+              
+              <div class="column is-9">
+                <h1 class="is-1">{{active.properties.name}}</h1>
+<h4 class="is-4">
+              {{active.properties.anno}}
+              </h4>
+              </div nb="/.column">
+
+
+              <!-- Main container -->
+  <div class="column has-text-white">
+    
+    
+    </div nb="/.column">
+
+            </div nb="/#mjk-active">
+
     </div>
     <button
     class="modal-close is-large"
@@ -117,6 +145,17 @@ export default {
 
     this._GETCOLORS()
 
+
+//     var geojson = {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-70.603637,-33.399918],[-70.614624,-33.395332],[-70.639343,-33.392466],[-70.659942,-33.394759],[-70.683975,-33.404504],[-70.697021,-33.419406],[-70.701141,-33.434306],[-70.700454,-33.446339],[-70.694274,-33.458369],[-70.682601,-33.465816],[-70.668869,-33.472117],[-70.646209,-33.473835],[-70.624923,-33.472117],[-70.609817,-33.468107],[-70.595397,-33.458369],[-70.587158,-33.442901],[-70.587158,-33.426283],[-70.590591,-33.414248],[-70.594711,-33.406224],[-70.603637,-33.399918]]]}}
+
+//     console.log("geojson.length", this.$_.flatten(geojson.geometry.coordinates).length);
+
+// var options = {tolerance: 0.01, highQuality: false};
+// var simplified = this.$TURFSIMPLE(geojson, options);
+
+//     console.log("simplified.coords", simplified.geometry.coordinates);
+//     console.log("simplified.length", this.$_.flatten(simplified.geometry.coordinates).length);
+
   },
   mounted: function() {
 
@@ -127,8 +166,13 @@ this.MAP = new L.Map("map", {
   zoom: 2
 });
 
+      if (! this.JKGROUPSI) {
+        this.JKGROUPSI = new L.featureGroup().addTo(this.MAP);
+      }
+
+
 if (! this.JKGROUP) {
-        this.JKGROUP = new L.featureGroup().addTo(this.MAP);
+        this.JKGROUP = new L.featureGroup().addTo(this.MAP).bringToFront();
       }
 
 const baseLayer = new L.TileLayer(
@@ -167,7 +211,6 @@ this.MAP.addLayer(baseLayer);
     /* ++++++++++++++++++++++++++++++++++++++++++ /dropzone */
 
 document.addEventListener("keydown", (e)=>{
-  console.log('e.keyCode:',e.keyCode)
   if(e.keyCode==27){
     this.modals.result=false
     this.modals.edit=false
@@ -192,7 +235,16 @@ document.addEventListener("keydown", (e)=>{
       colors:{primary:[33,44,69],secondary:[247,242,163],tertiary:[201,216,147],quaternary:[57,141,112],quinary:[62,80,64]}
     };
   },
-  methods: {
+  watch: {
+    "loadings": {
+      handler: function (vnew, vold) {
+        vnew?this.$refs.topProgress.start():this.$refs.topProgress.done();
+      }//handler
+      ,
+     deep: true
+    }
+  } //watch
+  ,methods: {
     
     _LOADDROP: function(fil) {
       this.project.loadings.map = true;
@@ -205,27 +257,13 @@ document.addEventListener("keydown", (e)=>{
 
         let O = JSON.parse(D.target.result);
         console.log("OTYPE:",O.type)
-        // if(O.type=='Feature'){
-          // one thing and we'll take it
+        
 // first clear the group
 this.JKGROUP.clearLayers();
-var style = { color: "#bc000a" }
+this.JKGROUPSI.clearLayers();
+let style = { color: "#bc000a" }
+let styleSimple = { color: "#1cc1be" }
 this.project.loadings.map = false;
-
-// let OJ=null
-
-        // } else if(O.type=='FeatureCollection') {
-          // its a featurecoll we'll take the first
-        // } else {
-          // this.dropzone.msg = "izzat json, really?!";
-
-// OJ=O
-          //           OJ.properties.name="geojsonfrmfil"
-          // OJ.crs = {
-          //     type: "name",
-          //     properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" }
-          //   }
-        // }
 
           L.geoJSON(O, {
             style: style
@@ -237,10 +275,12 @@ this.project.loadings.map = false;
               let fea =  layer.layer.feature;
               fea.properties.name="Manual GeoJSON File"
               fea.properties.anno="(desc)"
-              // this.active = layer.layer.feature;
               this.active = fea;
             })
             .addTo(this.JKGROUP);
+
+this.$TURFSIMPLE(L.geoJSON(O,{style:styleSimple}),{tolerance: 1, highQuality: false,mutate:true}).addTo(this.JKGROUPSI)
+
           map.fitBounds(this.JKGROUP.getBounds());
         
       } //reader.onload
@@ -344,6 +384,11 @@ return C
           } else {
             this.JKGROUP.clearLayers();
           }
+          if (typeof this.JKGROUPSI == "undefined") {
+            this.JKGROUPSI = new L.featureGroup().addTo(this.MAP);
+          } else {
+            this.JKGROUPSI.clearLayers();
+          }
           var style = { color: "#bc000a" }
 
           this.project.loadings.map = false;
@@ -398,7 +443,7 @@ return C
     },
     _SETMANUAL:function(){
       // there's an active been accepted, we send it to the mongo store
-      console.log(JSON.stringify(this.activeTemp))
+      // console.log(JSON.stringify(this.activeTemp))
       this.active.properties.name=this.activeTemp.name
       this.active.properties.anno=this.activeTemp.anno
       this.modals.edit=false
@@ -407,7 +452,7 @@ return C
       
       $.ajax({
         type: "POST",
-        url: "http://localhost:3030/geocode/submit/cbb",
+        url: "http://milleria.org:3030/geocode/submit/cbb",
         data: this.active,
         dataType: "json",
         beforeSend: el => {
@@ -416,7 +461,7 @@ return C
         success: data => {
           
           let pat = null;
-          switch (data.response[0].geometry.type.toLowerCase()) {
+          switch (data.response.geometry.type.toLowerCase()) {
             case "point":
               pat = "point";
               break;
@@ -441,7 +486,7 @@ return C
               '"location_type": "' +
               pat +
               '","location_id": "' +
-              data.response[0].properties.cartodb_id +
+              data.response.properties.cartodb_id +
               '",';
             this.result = paste;
           
@@ -490,26 +535,32 @@ $.ajax({
 
     },
     _GEOCODE:function(){
+
+      this.activeTemp.name=null;
+this.activeTemp.anno=null;
       // preparse input
+      this.$refs.topProgress.start()
       // send to appropriate endpoint
       this.project.loadings.map = true;
       
       // var style = this.STYLE();
-      var style = { color: this._GETCOLORRAW() }
+      // var style = { color: this._GETCOLORRAW() }
 
       let uri =
         this.config.mode == "T"
           ? "http://localhost:8000/spokane-fake.json"
-          : "http://localhost:3030/geocode/" + this.query;
+          : "http://milleria.org:3030/geocode/" + this.query;
       $.get(uri, data => {
         this.project.loadings.map = false;
-this.JKGROUP.clearLayers();
 
-  console.log("(type):",(typeof data));
-  console.log("DATA:",data);
+this.JKGROUP.clearLayers();
+this.JKGROUPSI.clearLayers();
+
+  // console.log("(type):",(typeof data));
+  // console.log("DATA:",data);
 let data2=null;
 if(Array.isArray(data)){
-  data2=this.$_.map(data,(dx,i,l)=>{
+  data2=this.$_.map(this.$_.first(data,3),(dx,i,l)=>{
   let dy = dx;
   dy.properties.temp_id=i;
   dy.properties.name=this.$_.first(dx.properties.name.split(", "),2).join(", ")
@@ -522,21 +573,68 @@ if(Array.isArray(data)){
 
 this.candidates=data2
 
-        L.geoJSON(data2, {
-          style: style
-        })
-          .bindPopup(layer => {
-            return "<div>name: " + layer.feature.properties.name + "</div>";
+let style = { fillColor: "#859cbf",color:"#fff",opacity:.9 }
+let styleSimple = { fillColor: "#44c40b",color:"#fff",opacity:.9 }
+
+// let simples = this.$_.map(data2,(dox)=>{
+//   let doo = dox;
+//   doo.geometry = this.$TURFSIMPLE(dox.geometry,{tolerance: .5, highQuality: true,mutate:true})
+// console.log("dox.geometry.length", doo.geometry.coordinates.length);
+//   return doo
+// })//map
+
+// console.log("simples.geometry.length", simples);
+
+L.geoJSON(data2,{style:styleSimple})
+.bindPopup(layer => {
+            return "<div class='has-text-weight-bold'>" + layer.feature.properties.name + "</div>";
           })
           .on("popupopen", layer => {
-            this.active = layer.layer.feature;
+            // console.log("ln:",layer.layer.feature.geometry.coordinates.length)
+            
+            // this.active = layer.layer.feature;
+// console.log('flntprev:',this.$_.flatten(layer.layer.feature.geometry.coordinates).length)
+// console.log("layer.layer.feature", layer.layer.feature);
+
+this.active={
+  geometry:this.$TURFMETA.geomReduce(this.$TURFCLEAN(this.$TURFSIMPLE(layer.layer.feature.geometry,{tolerance: .2, highQuality: true,mutate:true})))
+  ,properties:layer.layer.feature.properties
+  ,type:layer.layer.feature.type
+}
+
+// console.log('lfattndlength:',this.$_.flatten(this.active.geometry.coordinates).length)
+//             this.active = this.$_.map(layer,(lay)=>{
+//               console.log("lay", lay);
+//   let foot = lay;
+//   foot.geometry = this.$TURFSIMPLE(lay.geometry,{tolerance: .5, highQuality: true,mutate:true})
+//   return foot
+// })//map
+
+
           })
-          .addTo(this.JKGROUP);
-        this.MAP.fitBounds(this.JKGROUP.getBounds());
+.addTo(this.JKGROUPSI)
+
+        this.MAP.fitBounds(this.JKGROUPSI.getBounds());
+
+//         L.geoJSON(data2, {
+//           style: style
+//         })
+//           .bindPopup(layer => {
+//             return "<div>name: " + layer.feature.properties.name + "</div>";
+//           })
+          // .on("popupopen", layer => {
+          //   this.active = layer.layer.feature;
+          // })
+//           .addTo(this.JKGROUP);
+//         this.MAP.fitBounds(this.JKGROUP.getBounds());
+      
+this.$refs.topProgress.done()
+
       }); //.get
-      // top hit goes to active
-      // rest go to candidates
-    }
+      
+      
+
+    }//geocode
   }
 };
 </script>
@@ -546,6 +644,10 @@ this.candidates=data2
 $mjk-primary: #8e0009;
 $mjk-secondary:#c700fe;
 $mjk-bg:rgb(255,255,255);
+
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
 #map{
   position:absolute;top:20%;height:80%;width:100%;z-index:0;
@@ -568,9 +670,24 @@ $mjk-bg:rgb(255,255,255);
   // padding-top:1em;
   padding-left:1em;
 }
+
+.button{
+  &:active{color:white;}
+}
+
 #mjk-query{
   font-weight:900;font-family: 'Titillium Web', sans-serif;
   &:focus{border:1px solid white;}
   width:35vw;
+}
+
+.j-btn{
+  &:hover{
+  text-shadow: 0px 0px 5px rgba(55,55,55,.8);
+  cursor:pointer;
+}
+&:active{
+  color:white;
+}
 }
 </style>

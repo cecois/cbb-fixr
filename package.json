@@ -13,6 +13,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@turf/clean-coords": "^6.0.1",
+    "@turf/meta": "^6.0.2",
+    "@turf/simplify": "^5.1.5",
     "epic-spinners": "^1.1.0",
     "jquery": "^3.2.1",
     "moment": "^2.24.0",
@@ -20,6 +23,7 @@
     "vue": "^2.5.2",
     "vue-headful": "^2.0.1",
     "vue-router": "^3.0.1",
+    "vue-top-progress": "^0.7.0",
     "vue-underscore": "^0.1.4"
   },
   "devDependencies": {
