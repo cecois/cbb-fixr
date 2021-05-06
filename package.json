@@ -19,7 +19,7 @@
     "epic-spinners": "^1.1.0",
     "jquery": "^3.2.1",
     "moment": "^2.24.0",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "vue": "^2.5.2",
     "vue-headful": "^2.0.1",
     "vue-router": "^3.0.1",
